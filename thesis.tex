@@ -1,14 +1,23 @@
 \documentclass[a4paper, 12pt, oneside]{article}
 \usepackage[hidelinks]{hyperref}
 \usepackage{graphicx}
+\usepackage{csquotes}
+\usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage{polski}
+\usepackage[polish]{babel}
+%\usepackage{polski}
 \usepackage{listings}
-\usepackage[backend=biber, style=numeric-comp, alldates=iso, seconds=true, sorting=none]{biblatex}
-\addbibresource{9-references.bib}
+\usepackage[backend=biber,
+            style=vancouver,
+            citestyle=numeric,
+            maxcitenames=1,
+            block=none,
+            alldates=iso,
+            seconds=true,
+            sorting=none]{biblatex}
+\addbibresource{7-bibliografia.bib}
 %\bibliographystyle{unsrt}
 \usepackage{xcolor}
-\usepackage{csquotes}
 \usepackage{multirow}
 %\usepackage{indentfirst}
 \usepackage{url}
@@ -56,6 +65,9 @@
     tabsize=2
 }
 
+\renewcommand{\thesection}{\Roman{section}} 
+\renewcommand{\thesubsection}{\arabic{subsection}.}
+
 \lstset{style=mystyle}
 
 %\setabbreviationstyle{long-short}
@@ -69,20 +81,20 @@
 \newgeometry{margin=3cm}
 \maketitle
 
-% \include{abstract}
+\include{wstep}
 
 % \newgeometry{tmargin=1.7cm}
-%{\small\tableofcontents}
+{\small\tableofcontents}
 % \restoregeometry
 
 %\newgeometry{margin=3cm}
-% \include{1-introduction}
-% \include{2-theoretical-foundations}
-% \include{3-literature-review}
-% \include{4-tools}
-% \include{5-data-preparation}
-% \include{6-model-training-evaluation}
-% \include{7-conclusions}
+
+\include{1-przeglad}
+\include{2-cel-i-zakres}
+\include{3-metody}
+\include{4-wyniki}
+\include{5-dyskusja}
+\include{6-wnioski}
 
 \clearpage
 
@@ -91,6 +103,6 @@
 \clearpage
 
 \emergencystretch=1em
-%\printbibliography[heading=bibintoc, title={References}]
+\printbibliography[heading=bibintoc, title={Bibliografia}]
 
 \end{document}
