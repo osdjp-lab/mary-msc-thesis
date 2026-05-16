@@ -65,7 +65,13 @@
     tabsize=2
 }
 
-\renewcommand{\thesection}{\Roman{section}} 
+\usepackage{tocloft}          % load in the preamble
+% Width of the box that holds the section number
+\setlength{\cftsecnumwidth}{2.5em}
+% Optional: shift the whole block a little to the right
+\setlength{\cftsecindent}{0pt}
+
+\renewcommand{\thesection}{\Roman{section}.} 
 \renewcommand{\thesubsection}{\arabic{subsection}.}
 
 \lstset{style=mystyle}
