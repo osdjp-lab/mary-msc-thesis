@@ -1,27 +1,28 @@
-1 - Grupowanie - Płeć
-2 - Grupowanie - Wiek
-3 - Grupowanie - Kierunek studiów
-4 - Grupowanie - Rok studiów
-5 - Grupowanie - Aktywność fizyczna
-6 - Stan - Suplementacja
-7 - Stan - Częstość
-8 - Stan - Czas trwania
-9  - Stan - Rodzaje
-10 - Stan - Dawka
-11 - Stan - Kumulacja
-12 - Stan - Badania
-13 - Stan - Konsultacja
-14 - Stan - Powód
-15 - Stan - Źródła
-16 - Samoocena - Suplementy
-17 - Samoocena - Bezpieczeństwo
-18 - Samoocena - Interakcje
-19 - Wiedza - Definicja
-20 - Wiedza - Regulacja
-21 - Wiedza - D3
-22 - Wiedza - Bezpieczeństwo
-23 - Wiedza - Interakcje
-24 - Wiedza - Dawkowanie
-25 - Preferencje - Nauka
-26 - Preferencje - Źródło
-27 - Preferencje - Motywacja
+1 - Timestamp
+2 - Grupowanie - Płeć
+3 - Grupowanie - Wiek
+4 - Grupowanie - Kierunek studiów
+5 - Grupowanie - Rok studiów
+6 - Grupowanie - Aktywność fizyczna
+7 - Stan - Suplementacja
+8 - Stan - Częstość
+9 - Stan - Czas trwania
+10 - Stan - Rodzaje
+11 - Stan - Dawka
+12 - Stan - Kumulacja
+13 - Stan - Badania
+14 - Stan - Konsultacja
+15 - Stan - Powód
+16 - Stan - Źródła
+17 - Samoocena - Suplementy
+18 - Samoocena - Bezpieczeństwo
+19 - Samoocena - Interakcje
+20 - Wiedza - Definicja
+21 - Wiedza - Regulacja
+22 - Wiedza - D3
+23 - Wiedza - Bezpieczeństwo
+24 - Wiedza - Interakcje
+25 - Wiedza - Dawkowanie
+26 - Preferencje - Nauka
+27 - Preferencje - Źródło
+28 - Preferencje - Motywacja

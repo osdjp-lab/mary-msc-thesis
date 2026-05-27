@@ -1,28 +1,28 @@
-1 - Płeć
-2 - Wiek
-3 - Kierunek studiów
-4 - Rok studiów
-5 - Jak często uprawiasz aktywność fizyczną?
-6 - Czy aktualnie stosujesz suplementy diety?
-7 - Jak często stosujesz suplementy?
-8 - Od jak dawna stosujesz suplementy?
-9  - Jakie suplementy stosujesz? (możesz wybrać więcej odpowiedzi)
-10 - Czy zdarza Ci się przyjmować większą dawkę suplementu niż ta zalecana przez producenta na opakowaniu (np. dwie tabletki zamiast jednej)?
-11 - Jeśli stosujesz więcej niż jeden preparat jednocześnie czy sprawdzasz czy ich składniki się nie powielają (np. czy witamina D nie znajduje się zarówno w multiwitaminie jak i w osobnym preparacie)?
-12 - Czy decyzję o suplementacji konkretnego składnika (np. żelaza witaminy D magnezu) poprzedziłeś/aś wykonaniem badań krwi w celu stwierdzenia niedoboru?
-13 - Czy konsultujesz suplementację ze specjalistą?
-14 - Dlaczego stosujesz suplementy? (możesz wybrać więcej odpowiedzi)
-15 - Skąd czerpiesz informacje o suplementach?
-16 - Jak oceniasz swoją ogólną wiedzę o suplementach diety? Skala 1–5 (1 – bardzo niska 5 – bardzo wysoka)"
-17 - Jak oceniasz swoją wiedzę na temat bezpieczeństwa suplementacji? Skala 1–5
-18 - Jak oceniasz swoją wiedzę na temat interakcji suplementów z lekami?
-19 - Suplement diety to:
-20 - Czy suplementy muszą przechodzić badania kliniczne przed wprowadzeniem na rynek?
-21 - Nadmierne spożycie witaminy D może prowadzić do:
-22 - Kto odpowiada za bezpieczeństwo suplementów diety?
-23 - Czy suplementy mogą wchodzić w interakcje z lekami?
-24 - Czy suplementy mogą zawierać składniki w ilościach przekraczających zapotrzebowanie?
-25 - W jakiej formie najchętniej zdobywał(a)byś rzetelną wiedzę o suplementach?
-26 - Które źródło uznał(a)byś za najbardziej wiarygodne?
-27 Co mogłoby zachęcić Cię do zdobywania wiedzy o suplementach?
- -
+1 - Timestamp
+2 - Płeć
+3 - Wiek
+4 - Kierunek studiów
+5 - Rok studiów
+6 - Jak często uprawiasz aktywność fizyczną?
+7 - Czy aktualnie stosujesz suplementy diety?
+8 - Jak często stosujesz suplementy?
+9 - Od jak dawna stosujesz suplementy?
+10 - Jakie suplementy stosujesz? (możesz wybrać więcej odpowiedzi)
+11 - Czy zdarza Ci się przyjmować większą dawkę suplementu niż ta zalecana przez producenta na opakowaniu (np. dwie tabletki zamiast jednej)?
+12 - Jeśli stosujesz więcej niż jeden preparat jednocześnie czy sprawdzasz czy ich składniki się nie powielają (np. czy witamina D nie znajduje się zarówno w multiwitaminie jak i w osobnym preparacie)?
+13 - Czy decyzję o suplementacji konkretnego składnika (np. żelaza witaminy D magnezu) poprzedziłeś/aś wykonaniem badań krwi w celu stwierdzenia niedoboru?
+14 - Czy konsultujesz suplementację ze specjalistą?
+15 - Dlaczego stosujesz suplementy? (możesz wybrać więcej odpowiedzi)
+16 - Skąd czerpiesz informacje o suplementach?
+17 - Jak oceniasz swoją ogólną wiedzę o suplementach diety? Skala 1–5 (1 – bardzo niska 5 – bardzo wysoka)"
+18 - Jak oceniasz swoją wiedzę na temat bezpieczeństwa suplementacji? Skala 1–5
+19 - Jak oceniasz swoją wiedzę na temat interakcji suplementów z lekami?
+20 - Suplement diety to:
+21 - Czy suplementy muszą przechodzić badania kliniczne przed wprowadzeniem na rynek?
+22 - Nadmierne spożycie witaminy D może prowadzić do:
+23 - Kto odpowiada za bezpieczeństwo suplementów diety?
+24 - Czy suplementy mogą wchodzić w interakcje z lekami?
+25 - Czy suplementy mogą zawierać składniki w ilościach przekraczających zapotrzebowanie?
+26 - W jakiej formie najchętniej zdobywał(a)byś rzetelną wiedzę o suplementach?
+27 - Które źródło uznał(a)byś za najbardziej wiarygodne?
+28 - Co mogłoby zachęcić Cię do zdobywania wiedzy o suplementach?
