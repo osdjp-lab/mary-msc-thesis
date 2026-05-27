@@ -1,4 +1,4 @@
-Codziennie
-Kilka razy w miesiącu
-Kilka razy w tygodniu
-Sporadycznie
+"Codziennie"
+"Kilka razy w miesiącu"
+"Kilka razy w tygodniu"
+"Sporadycznie"

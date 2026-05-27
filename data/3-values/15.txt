@@ -1,57 +1,57 @@
-Poprawa koncentracji
-Poprawa wyglądu (skóra, włosy, paznokcie)
-Poprawa wyglądu (skóra, włosy, paznokcie);Poprawa samopoczucia
-Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
-Poprawa wyników sportowych i regeneracji 
-Poprawa zdrowia
-Poprawa zdrowia, zlecone przez lekarza
-Poprawa zdrowia;Poprawa wyglądu (skóra, włosy, paznokcie)
-Poprawa zdrowia;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
-Poprawa zdrowia;Wzmocnienie odporności
-Poprawa zdrowia;Wzmocnienie odporności;Poprawa koncentracji
-Poprawa zdrowia;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii
-Poprawa zdrowia;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji
-Poprawa zdrowia;Wzmocnienie odporności;Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
-Poprawa zdrowia;Zapobieganie niedoborom
-Poprawa zdrowia;Zapobieganie niedoborom;Choroba 
-Poprawa zdrowia;Zapobieganie niedoborom;Poprawa samopoczucia
-Poprawa zdrowia;Zapobieganie niedoborom;Poprawa samopoczucia;Karmię piersią a mam ograniczoną dietę przez alergie i problemy jelitowe
-Poprawa zdrowia;Zapobieganie niedoborom;Poprawa wyglądu (skóra, włosy, paznokcie)
-Poprawa zdrowia;Zapobieganie niedoborom;Poprawa wyglądu (skóra, włosy, paznokcie);Poprawa koncentracji
-Poprawa zdrowia;Zapobieganie niedoborom;Poprawa wyglądu (skóra, włosy, paznokcie);Poprawa koncentracji;Poprawa samopoczucia
-Poprawa zdrowia;Zapobieganie niedoborom;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii
-Poprawa zdrowia;Zapobieganie niedoborom;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji
-Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności
-Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa koncentracji;Poprawa samopoczucia
-Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa samopoczucia
-Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie)
-Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Poprawa samopoczucia
-Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
-Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Zwiększenie energii
-Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Zwiększenie energii;Poprawa koncentracji
-Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
-Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Zwiększenie energii;Poprawa samopoczucia
-Poprawa zdrowia;Zapobieganie niedoborom;Zwiększenie energii;Poprawa koncentracji
-Poprawa zdrowia;Zapobieganie niedoborom;Zwiększenie energii;Poprawa samopoczucia
-Poprawa zdrowia;Zwiększenie energii
-Poprawa zdrowia;Zwiększenie energii;Poprawa koncentracji
-Poprawa zdrowia;Zwiększenie energii;Poprawa samopoczucia
-Wzmocnienie odporności
-Wzmocnienie odporności;Poprawa koncentracji
-Wzmocnienie odporności;Poprawa samopoczucia
-Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie)
-Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
-Wzmocnienie odporności;Zwiększenie energii;Poprawa koncentracji
-Wzmocnienie odporności;Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
-Zapobieganie niedoborom
-Zapobieganie niedoborom;Wzmocnienie odporności
-Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa koncentracji;Poprawa samopoczucia
-Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa samopoczucia
-Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii
-Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa samopoczucia
-Zapobieganie niedoborom;Wzmocnienie odporności;Zwiększenie energii;Poprawa koncentracji
-Zapobieganie niedoborom;Wzmocnienie odporności;Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
-Zapobieganie niedoborom;Wzmocnienie odporności;Zwiększenie energii;Poprawa samopoczucia
-Zapobieganie niedoborom;Zwiększenie energii
-Zwiększenie energii
-obniżony poziom vit D
+"Poprawa koncentracji"
+"Poprawa wyglądu (skóra, włosy, paznokcie)"
+"Poprawa wyglądu (skóra, włosy, paznokcie),Poprawa samopoczucia"
+"Poprawa wyglądu (skóra, włosy, paznokcie),Zwiększenie energii,Poprawa koncentracji,Poprawa samopoczucia"
+"Poprawa wyników sportowych i regeneracji "
+"Poprawa zdrowia"
+"Poprawa zdrowia, zlecone przez lekarza"
+"Poprawa zdrowia,Poprawa wyglądu (skóra, włosy, paznokcie)"
+"Poprawa zdrowia,Poprawa wyglądu (skóra, włosy, paznokcie),Zwiększenie energii,Poprawa koncentracji,Poprawa samopoczucia"
+"Poprawa zdrowia,Wzmocnienie odporności"
+"Poprawa zdrowia,Wzmocnienie odporności,Poprawa koncentracji"
+"Poprawa zdrowia,Wzmocnienie odporności,Poprawa wyglądu (skóra, włosy, paznokcie),Zwiększenie energii"
+"Poprawa zdrowia,Wzmocnienie odporności,Poprawa wyglądu (skóra, włosy, paznokcie),Zwiększenie energii,Poprawa koncentracji"
+"Poprawa zdrowia,Wzmocnienie odporności,Zwiększenie energii,Poprawa koncentracji,Poprawa samopoczucia"
+"Poprawa zdrowia,Zapobieganie niedoborom"
+"Poprawa zdrowia,Zapobieganie niedoborom,Choroba "
+"Poprawa zdrowia,Zapobieganie niedoborom,Poprawa samopoczucia"
+"Poprawa zdrowia,Zapobieganie niedoborom,Poprawa samopoczucia,Karmię piersią a mam ograniczoną dietę przez alergie i problemy jelitowe"
+"Poprawa zdrowia,Zapobieganie niedoborom,Poprawa wyglądu (skóra, włosy, paznokcie)"
+"Poprawa zdrowia,Zapobieganie niedoborom,Poprawa wyglądu (skóra, włosy, paznokcie),Poprawa koncentracji"
+"Poprawa zdrowia,Zapobieganie niedoborom,Poprawa wyglądu (skóra, włosy, paznokcie),Poprawa koncentracji,Poprawa samopoczucia"
+"Poprawa zdrowia,Zapobieganie niedoborom,Poprawa wyglądu (skóra, włosy, paznokcie),Zwiększenie energii"
+"Poprawa zdrowia,Zapobieganie niedoborom,Poprawa wyglądu (skóra, włosy, paznokcie),Zwiększenie energii,Poprawa koncentracji"
+"Poprawa zdrowia,Zapobieganie niedoborom,Wzmocnienie odporności"
+"Poprawa zdrowia,Zapobieganie niedoborom,Wzmocnienie odporności,Poprawa koncentracji,Poprawa samopoczucia"
+"Poprawa zdrowia,Zapobieganie niedoborom,Wzmocnienie odporności,Poprawa samopoczucia"
+"Poprawa zdrowia,Zapobieganie niedoborom,Wzmocnienie odporności,Poprawa wyglądu (skóra, włosy, paznokcie)"
+"Poprawa zdrowia,Zapobieganie niedoborom,Wzmocnienie odporności,Poprawa wyglądu (skóra, włosy, paznokcie),Poprawa samopoczucia"
+"Poprawa zdrowia,Zapobieganie niedoborom,Wzmocnienie odporności,Poprawa wyglądu (skóra, włosy, paznokcie),Zwiększenie energii,Poprawa koncentracji,Poprawa samopoczucia"
+"Poprawa zdrowia,Zapobieganie niedoborom,Wzmocnienie odporności,Zwiększenie energii"
+"Poprawa zdrowia,Zapobieganie niedoborom,Wzmocnienie odporności,Zwiększenie energii,Poprawa koncentracji"
+"Poprawa zdrowia,Zapobieganie niedoborom,Wzmocnienie odporności,Zwiększenie energii,Poprawa koncentracji,Poprawa samopoczucia"
+"Poprawa zdrowia,Zapobieganie niedoborom,Wzmocnienie odporności,Zwiększenie energii,Poprawa samopoczucia"
+"Poprawa zdrowia,Zapobieganie niedoborom,Zwiększenie energii,Poprawa koncentracji"
+"Poprawa zdrowia,Zapobieganie niedoborom,Zwiększenie energii,Poprawa samopoczucia"
+"Poprawa zdrowia,Zwiększenie energii"
+"Poprawa zdrowia,Zwiększenie energii,Poprawa koncentracji"
+"Poprawa zdrowia,Zwiększenie energii,Poprawa samopoczucia"
+"Wzmocnienie odporności"
+"Wzmocnienie odporności,Poprawa koncentracji"
+"Wzmocnienie odporności,Poprawa samopoczucia"
+"Wzmocnienie odporności,Poprawa wyglądu (skóra, włosy, paznokcie)"
+"Wzmocnienie odporności,Poprawa wyglądu (skóra, włosy, paznokcie),Zwiększenie energii,Poprawa koncentracji,Poprawa samopoczucia"
+"Wzmocnienie odporności,Zwiększenie energii,Poprawa koncentracji"
+"Wzmocnienie odporności,Zwiększenie energii,Poprawa koncentracji,Poprawa samopoczucia"
+"Zapobieganie niedoborom"
+"Zapobieganie niedoborom,Wzmocnienie odporności"
+"Zapobieganie niedoborom,Wzmocnienie odporności,Poprawa koncentracji,Poprawa samopoczucia"
+"Zapobieganie niedoborom,Wzmocnienie odporności,Poprawa samopoczucia"
+"Zapobieganie niedoborom,Wzmocnienie odporności,Poprawa wyglądu (skóra, włosy, paznokcie),Zwiększenie energii"
+"Zapobieganie niedoborom,Wzmocnienie odporności,Poprawa wyglądu (skóra, włosy, paznokcie),Zwiększenie energii,Poprawa samopoczucia"
+"Zapobieganie niedoborom,Wzmocnienie odporności,Zwiększenie energii,Poprawa koncentracji"
+"Zapobieganie niedoborom,Wzmocnienie odporności,Zwiększenie energii,Poprawa koncentracji,Poprawa samopoczucia"
+"Zapobieganie niedoborom,Wzmocnienie odporności,Zwiększenie energii,Poprawa samopoczucia"
+"Zapobieganie niedoborom,Zwiększenie energii"
+"Zwiększenie energii"
+"obniżony poziom vit D"

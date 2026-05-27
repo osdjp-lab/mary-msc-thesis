@@ -1,4 +1,4 @@
-Nie
-Nie wiem
-Tak
-Tylko minerały
+"Nie wiem"
+"Nie"
+"Tak"
+"Tylko minerały"

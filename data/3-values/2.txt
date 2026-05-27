@@ -1,2 +1,2 @@
-Kobieta
-Mężczyzna
+"Kobieta"
+"Mężczyzna"

@@ -1,5 +1,5 @@
-1–2 razy w tygodniu
-3–4 razy w tygodniu
-5 lub więcej razy w tygodniu
-Nigdy
-Rzadziej niż raz w tygodniu
+"1–2 razy w tygodniu"
+"3–4 razy w tygodniu"
+"5 lub więcej razy w tygodniu"
+"Nigdy"
+"Rzadziej niż raz w tygodniu"

@@ -1,2 +1,2 @@
-Nie
-Tak
+"Nie"
+"Tak"

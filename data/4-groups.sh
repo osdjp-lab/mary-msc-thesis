@@ -4,19 +4,19 @@ INPUT_DIR="$1"
 OUTPUT_DIR="$2"
 
 # Grupowanie
-paste -d ';' $(for i in $(seq 1 5); do echo $INPUT_DIR/$i.txt; done) > $OUTPUT_DIR/grupowanie.csv
+paste -d ';' $(for i in $(seq 2 6); do echo $INPUT_DIR/$i.txt; done) > $OUTPUT_DIR/grupowanie.csv
 
 # Stan
-paste -d ';' $(for i in $(seq 6 15); do echo $INPUT_DIR/$i.txt; done) > $OUTPUT_DIR/stan.csv
+paste -d ';' $(for i in $(seq 7 16); do echo $INPUT_DIR/$i.txt; done) > $OUTPUT_DIR/stan.csv
 
 # Samoocena
-paste -d ';' $(for i in $(seq 16 18); do echo $INPUT_DIR/$i.txt; done) > $OUTPUT_DIR/samoocena.csv
+paste -d ';' $(for i in $(seq 17 19); do echo $INPUT_DIR/$i.txt; done) > $OUTPUT_DIR/samoocena.csv
 
 # Wiedza
-paste -d ';' $(for i in $(seq 19 24); do echo $INPUT_DIR/$i.txt; done) > $OUTPUT_DIR/wiedza.csv
+paste -d ';' $(for i in $(seq 20 25); do echo $INPUT_DIR/$i.txt; done) > $OUTPUT_DIR/wiedza.csv
 
 # Preferencje
-paste -d ';' $(for i in $(seq 25 27); do echo $INPUT_DIR/$i.txt; done) > $OUTPUT_DIR/preferencje.csv
+paste -d ';' $(for i in $(seq 26 28); do echo $INPUT_DIR/$i.txt; done) > $OUTPUT_DIR/preferencje.csv
 
 #################
 

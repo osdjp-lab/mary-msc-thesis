@@ -1,22 +1,22 @@
-Administracja 
-Behawiorystyka i psychologia zwierząt 
-Bezpieczeństwo wewnętrzne 
-Business
-Dietetyka
-Dietetyka kliniczna
-Dietetyka sportowa
-Filologia
-Filologia angielska
-Finanse i rachunkowość 
-Fizjoterapia
-Informatyka
-Kryminologia i kryminalistyka 
-Lekarski
-Logistyka
-Mediacja sztuki 
-Medycyna
-Prawo
-Psychologia
-Psychologia kliniczna 
-Psychologia kliniczna i psychoterapia
-Psychologia, Prawo
+"Administracja "
+"Behawiorystyka i psychologia zwierząt "
+"Bezpieczeństwo wewnętrzne "
+"Business"
+"Dietetyka kliniczna"
+"Dietetyka sportowa"
+"Dietetyka"
+"Filologia angielska"
+"Filologia"
+"Finanse i rachunkowość "
+"Fizjoterapia"
+"Informatyka"
+"Kryminologia i kryminalistyka "
+"Lekarski"
+"Logistyka"
+"Mediacja sztuki "
+"Medycyna"
+"Prawo"
+"Psychologia kliniczna "
+"Psychologia kliniczna i psychoterapia"
+"Psychologia"
+"Psychologia, Prawo"
