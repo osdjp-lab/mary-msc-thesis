@@ -3,20 +3,20 @@
 INPUT_DIR="$1"
 OUTPUT_DIR="$2"
 
-# Grupowanie
-paste -d ';' $(for i in $(seq 2 6); do echo $INPUT_DIR/$i.txt; done) > $OUTPUT_DIR/grupowanie.csv
+# 1-Grupowanie
+paste -d ';' $(for i in $(seq 2 6); do echo $INPUT_DIR/$i.txt; done) > $OUTPUT_DIR/1-grupowanie.csv
 
-# Stan
-paste -d ';' $(for i in $(seq 7 16); do echo $INPUT_DIR/$i.txt; done) > $OUTPUT_DIR/stan.csv
+# 2-Stan
+paste -d ';' $(for i in $(seq 7 16); do echo $INPUT_DIR/$i.txt; done) > $OUTPUT_DIR/2-stan.csv
 
-# Samoocena
-paste -d ';' $(for i in $(seq 17 19); do echo $INPUT_DIR/$i.txt; done) > $OUTPUT_DIR/samoocena.csv
+# 3-Samoocena
+paste -d ';' $(for i in $(seq 17 19); do echo $INPUT_DIR/$i.txt; done) > $OUTPUT_DIR/3-samoocena.csv
 
-# Wiedza
-paste -d ';' $(for i in $(seq 20 25); do echo $INPUT_DIR/$i.txt; done) > $OUTPUT_DIR/wiedza.csv
+# 4-Wiedza
+paste -d ';' $(for i in $(seq 20 25); do echo $INPUT_DIR/$i.txt; done) > $OUTPUT_DIR/4-wiedza.csv
 
-# Preferencje
-paste -d ';' $(for i in $(seq 26 28); do echo $INPUT_DIR/$i.txt; done) > $OUTPUT_DIR/preferencje.csv
+# 5-Preferencje
+paste -d ';' $(for i in $(seq 26 28); do echo $INPUT_DIR/$i.txt; done) > $OUTPUT_DIR/5-preferencje.csv
 
 #################
 
