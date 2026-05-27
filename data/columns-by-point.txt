@@ -1,0 +1,50 @@
+Ogólne
+    2 - Grupowanie - Płeć
+    3 - Grupowanie - Wiek
+    4 - Grupowanie - Kierunek studiów
+    5 - Grupowanie - Rok studiów
+    6 - Grupowanie - Aktywność fizyczna
+
+Określenie częstości stosowania suplementów diety wśród studentów.
+    8 - Stan - Częstość
+
+Identyfikacja najczęściej stosowanych suplementów.
+    10 - Stan - Rodzaje
+
+Analiza powodów suplementacji.
+    15 - Stan - Powód
+
+Określenie głównych źródeł informacji.
+    16 - Stan - Źródła
+
+Ocena poziomu wiedzy studentów na temat suplementów.
+    17 - Samoocena - Suplementy
+    18 - Samoocena - Bezpieczeństwo
+    19 - Samoocena - Interakcje
+    20 - Wiedza - Definicja
+    21 - Wiedza - Regulacja
+    22 - Wiedza - D3
+    23 - Wiedza - Bezpieczeństwo
+    24 - Wiedza - Interakcje
+    25 - Wiedza - Dawkowanie
+
+Analiza zależności między poziomem wiedzy a praktyką suplementacyjną.
+    7 - Stan - Suplementacja
+    9 - Stan - Czas trwania
+    11 - Stan - Dawka
+    12 - Stan - Kumulacja
+    13 - Stan - Badania
+    14 - Stan - Konsultacja
+    16 - Stan - Źródła
+    20 - Wiedza - Definicja
+    21 - Wiedza - Regulacja
+    22 - Wiedza - D3
+    23 - Wiedza - Bezpieczeństwo
+    24 - Wiedza - Interakcje
+    25 - Wiedza - Dawkowanie
+
+Ukierunkowanie edukacjyno-rozwojowe.
+    26 - Preferencje - Nauka
+    27 - Preferencje - Źródło
+    28 - Preferencje - Motywacja
+ 
