@@ -1,0 +1,108 @@
+Jakie suplementy stosujesz? (możesz wybrać więcej odpowiedzi)
+Witamina D;Witamina C
+Witamina D;Magnez;Witamina C;Kreatyna;Białko
+Witamina D
+Witamina D;Magnez;Multiwitaminy
+Witamina D;Witamina C;Multiwitaminy
+Multiwitaminy;Kwasy omega-3;Probiotyki
+Witamina D;Multiwitaminy;Kwasy omega-3;Probiotyki;żelazo
+Witamina D;Kwasy omega-3;Probiotyki;Białko;Adaptogeny (np. ashwagandha)
+Witamina D
+Witamina D;Kwasy omega-3;Kreatyna;Białko;Kolagen
+Witamina D;Magnez;Kreatyna
+Witamina D;Magnez;Kwasy omega-3
+Witamina D;Magnez;Kwasy omega-3
+Witamina D;Magnez;Witamina C;Multiwitaminy;Kwasy omega-3;Probiotyki;Białko
+Witamina D;Multiwitaminy;Kwasy omega-3;Probiotyki;Białko
+Witamina D;Magnez;Witamina C;Kwasy omega-3;Probiotyki;Białko
+Witamina D;Magnez;Kwasy omega-3;Białko
+Witamina D;Kwasy omega-3;Probiotyki
+Witamina D;Magnez;Multiwitaminy;Kwasy omega-3;Probiotyki
+Multiwitaminy;Kwasy omega-3;Probiotyki
+Witamina D;Magnez;Kwasy omega-3;Kreatyna;Białko;Cytrulina, beta alanina
+Witamina D;Magnez;Multiwitaminy;Kwasy omega-3;Probiotyki;Białko
+Witamina D;Witamina C;Kwasy omega-3;Probiotyki;Witamina A, E, K, B6, B12, Cynk, Kwas foliowy
+Witamina D;Kreatyna
+Witamina D;Magnez;Witamina C;Kwasy omega-3
+Witamina D;Kwasy omega-3
+Witamina D;Kwasy omega-3;Kreatyna;complex B, laktoferyna + szczep L. plantarum (problemy z żelazem i niską ferrytyna)
+Witamina D;Magnez;Kwasy omega-3;Probiotyki;Kreatyna
+Witamina D;Magnez;Witamina C;Kwasy omega-3
+Witamina D;Probiotyki
+Witamina D;Magnez;Witamina C;Kwasy omega-3;Probiotyki
+Witamina D;Kreatyna;Białko;Żelazo
+Witamina D;Magnez;Witamina C;Kwasy omega-3;Probiotyki
+Witamina D
+Magnez;Kwasy omega-3;Probiotyki;Adaptogeny (np. ashwagandha)
+Multiwitaminy
+Witamina D;Kwasy omega-3;Witamina E
+Witamina D;Magnez;Witamina C
+Witamina D;Multiwitaminy;Kwasy omega-3;Probiotyki;Białko;Adaptogeny (np. ashwagandha)
+Witamina D;Magnez;Multiwitaminy;Kwasy omega-3;Probiotyki
+Witamina D;Witamina C;Multiwitaminy
+Białko
+Magnez;Multiwitaminy;Kwasy omega-3;Probiotyki
+Witamina C;Multiwitaminy;Probiotyki
+Witamina D;Magnez;Witamina C;Multiwitaminy;Kwasy omega-3;Probiotyki;Białko
+Witamina D;Probiotyki
+Witamina D;Witamina C;Kwasy omega-3
+Witamina D;Magnez;Witamina C;Glutation liposomalny
+Witamina D;Probiotyki;Magnesium citrate
+Multiwitaminy;Kwasy omega-3;Probiotyki
+Witamina D;Witamina C;Multiwitaminy;Kwasy omega-3;Probiotyki;Białko
+Witamina D;Witamina C
+Magnez;Witamina C;Probiotyki
+Witamina C;Multiwitaminy
+Witamina D;Magnez;Probiotyki;Białko
+Witamina D;Kwasy omega-3;Kwas foliowy
+Witamina D;Magnez;Witamina C;Kwasy omega-3;Kreatyna
+Witamina D;Multiwitaminy
+Witamina D;Magnez;Witamina C;Multiwitaminy;Kwasy omega-3
+Witamina D;Magnez;Kwasy omega-3;Probiotyki;Kreatyna;Adaptogeny (np. ashwagandha)
+Witamina D;Witamina C;Kwasy omega-3;Probiotyki;Maślan sodu, kompleks witamin b, laktoferyna 
+Witamina D
+Multiwitaminy
+Witamina D;Multiwitaminy;Białko
+Kreatyna;Białko
+Multiwitaminy
+Probiotyki;Adaptogeny (np. ashwagandha)
+Witamina D;Magnez;Kwasy omega-3;Witamina B
+Witamina D;Magnez;Multiwitaminy;Kwasy omega-3
+Multiwitaminy;Kwasy omega-3
+Witamina D
+Witamina D;Magnez;Wit z grupy B
+Witamina D;Magnez;Witamina C;Multiwitaminy;Kwasy omega-3
+Multiwitaminy
+Witamina D;Magnez;Witamina C;Multiwitaminy;Kwasy omega-3;Jod, wapń, karnozyna cynkowa
+Witamina D;Magnez;Witamina C;Kwasy omega-3
+Witamina D;Magnez
+Probiotyki;Kolagen
+Witamina D;Magnez;Witamina C;Probiotyki
+Witamina D;Magnez;Kwasy omega-3
+Witamina D;Magnez;Kwasy omega-3;Probiotyki;Kreatyna;Białko;Adaptogeny (np. ashwagandha)
+Witamina D;Magnez;Kwasy omega-3;Białko;Adaptogeny (np. ashwagandha)
+Witamina D;Magnez;Kwasy omega-3;Kreatyna;Białko
+Witamina C;Białko;Adaptogeny (np. ashwagandha)
+Witamina D
+Witamina D;Magnez
+Witamina D;Magnez;Witamina C;Kwasy omega-3;Probiotyki
+Witamina D;Magnez;Witamina C;Kwasy omega-3;Probiotyki;Kreatyna;Białko
+Witamina D;Magnez;Kwasy omega-3
+Witamina D;Magnez;Kwasy omega-3;Białko;Adaptogeny (np. ashwagandha)
+Witamina D;Magnez;Witamina C;Kwasy omega-3;Probiotyki;Jod, cynk, Wit B complex, likopen, bromelia, olej z czarnuszki
+Witamina D;Magnez;Multiwitaminy;Kwasy omega-3;Probiotyki;Kreatyna;Białko
+Witamina D;Magnez;Kwasy omega-3;Adaptogeny (np. ashwagandha)
+Witamina D;Kwasy omega-3
+Witamina D;Witamina C;Kwasy omega-3;Probiotyki
+Witamina D;Żelazo i Merz Spezial 
+Witamina D;Kwasy omega-3
+Witamina D
+Witamina D;Probiotyki
+Witamina D;Magnez
+Witamina D;Magnez;Witamina C;Multiwitaminy;Kwasy omega-3
+Witamina D;Magnez;Witamina C;Kwasy omega-3
+Witamina D;Witamina C;Kwasy omega-3
+Witamina D;Żelazo, ale jest to zarejestrowane jako lek, nie suplement (Ascofer), oraz ,,Merz Spezial”
+Witamina D;Witamina C;Kwasy omega-3;Adaptogeny (np. ashwagandha)
+Witamina D;Magnez;Witamina C;Multiwitaminy;Kwasy omega-3;Probiotyki
+Witamina D;Maślan sodu, kompleks witamin z grupy B

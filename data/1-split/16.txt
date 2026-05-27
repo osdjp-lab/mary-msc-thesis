@@ -1,0 +1,108 @@
+Skąd czerpiesz informacje o suplementach?
+Internet (artykuły, blogi);Lekarz;Dietetyk
+Internet (artykuły, blogi);Znajomi/rodzina
+Internet (artykuły, blogi);Lekarz
+Reklamy;Znajomi/rodzina
+Media społecznościowe;Dietetyk;Farmaceuta
+Dietetyk;Znajomi/rodzina
+Internet (artykuły, blogi);Lekarz;Dietetyk;Znajomi/rodzina
+Internet (artykuły, blogi);Lekarz;Dietetyk;książki
+Internet (artykuły, blogi);Lekarz
+Internet (artykuły, blogi);Media społecznościowe
+Dietetyk
+Lekarz;Dietetyk;Badania naukowe
+Internet (artykuły, blogi);Dietetyk;Badania naukowe 
+Internet (artykuły, blogi);Media społecznościowe;Dietetyk
+Internet (artykuły, blogi);Dietetyk
+Dietetyk;Farmaceuta;Znajomi/rodzina
+Dietetyk
+Internet (artykuły, blogi);Lekarz;Dietetyk;Znajomi/rodzina
+Internet (artykuły, blogi);Dietetyk;Znajomi/rodzina
+Internet (artykuły, blogi);Reklamy;Dietetyk
+Dietetyk
+Internet (artykuły, blogi);Media społecznościowe;Reklamy;Dietetyk
+Lekarz
+Internet (artykuły, blogi)
+Internet (artykuły, blogi)
+Dietetyk;PubMed
+Dietetyk;badania naukowe, studia 
+Internet (artykuły, blogi)
+Internet (artykuły, blogi);Media społecznościowe;Dietetyk
+Lekarz
+Lekarz;Książki 
+Internet (artykuły, blogi);Media społecznościowe;Lekarz;Dietetyk
+Internet (artykuły, blogi);Media społecznościowe;Dietetyk;Znajomi/rodzina
+Internet (artykuły, blogi)
+Internet (artykuły, blogi);Lekarz
+Farmaceuta
+Media społecznościowe
+Internet (artykuły, blogi);Lekarz
+Internet (artykuły, blogi);Lekarz;Dietetyk;Farmaceuta
+Internet (artykuły, blogi);Reklamy;Dietetyk;Farmaceuta
+Internet (artykuły, blogi);Media społecznościowe;Znajomi/rodzina
+Internet (artykuły, blogi);Lekarz;Dietetyk;Farmaceuta
+Internet (artykuły, blogi);Znajomi/rodzina
+Media społecznościowe;Farmaceuta;Znajomi/rodzina
+Internet (artykuły, blogi);Dietetyk;Farmaceuta;Znajomi/rodzina
+Internet (artykuły, blogi);Media społecznościowe;Lekarz;Dietetyk
+Media społecznościowe;Znajomi/rodzina
+Lekarz;Dietetyk
+Internet (artykuły, blogi);Farmaceuta;Znajomi/rodzina
+Internet (artykuły, blogi);Farmaceuta
+Internet (artykuły, blogi);Media społecznościowe;Farmaceuta;Znajomi/rodzina
+Znajomi/rodzina
+Internet (artykuły, blogi);Media społecznościowe;Reklamy;Lekarz
+Internet (artykuły, blogi);Media społecznościowe;Reklamy
+Dietetyk;Interesuję się ziołami i jestem członkiem grupy stosującej nutraceutyki Arbonne
+Media społecznościowe;Znajomi/rodzina
+Internet (artykuły, blogi);Lekarz;Farmaceuta;Znajomi/rodzina
+Internet (artykuły, blogi)
+Media społecznościowe;Znajomi/rodzina
+Internet (artykuły, blogi);Media społecznościowe;Lekarz
+Internet (artykuły, blogi);Media społecznościowe;Lekarz
+Lekarz
+Znajomi/rodzina
+Media społecznościowe;Reklamy;Lekarz;Znajomi/rodzina
+Dietetyk
+Internet (artykuły, blogi);Reklamy
+Internet (artykuły, blogi);Media społecznościowe;Farmaceuta;Znajomi/rodzina
+Internet (artykuły, blogi);Lekarz;Farmaceuta;Znajomi/rodzina
+Internet (artykuły, blogi);Media społecznościowe
+Internet (artykuły, blogi);Media społecznościowe;Reklamy;Znajomi/rodzina
+Internet (artykuły, blogi);Media społecznościowe;Lekarz;Farmaceuta
+Farmaceuta;Rzetelne zrodla w internecie 
+Internet (artykuły, blogi);Lekarz;Dietetyk;Farmaceuta
+Internet (artykuły, blogi);Media społecznościowe;Reklamy
+Internet (artykuły, blogi);Media społecznościowe;Lekarz;Dietetyk
+Internet (artykuły, blogi);Lekarz;Farmaceuta
+Internet (artykuły, blogi);Media społecznościowe
+Internet (artykuły, blogi);Media społecznościowe;Lekarz;Dietetyk;Farmaceuta
+Znajomi/rodzina
+Internet (artykuły, blogi)
+Lekarz;Farmaceuta
+Internet (artykuły, blogi);Media społecznościowe;Farmaceuta;Znajomi/rodzina
+Internet (artykuły, blogi);Lekarz;Dietetyk;Znajomi/rodzina
+Internet (artykuły, blogi);Znajomi/rodzina
+Internet (artykuły, blogi);Lekarz
+Lekarz;Dietetyk;Farmaceuta
+Internet (artykuły, blogi);Lekarz;Dietetyk
+Internet (artykuły, blogi);Farmaceuta
+Internet (artykuły, blogi);Media społecznościowe;Lekarz;Farmaceuta
+Internet (artykuły, blogi);Media społecznościowe
+Internet (artykuły, blogi);Lekarz;Dietetyk
+Internet (artykuły, blogi)
+Internet (artykuły, blogi)
+Internet (artykuły, blogi)
+Internet (artykuły, blogi)
+Internet (artykuły, blogi);Media społecznościowe
+Internet (artykuły, blogi);Lekarz;Dietetyk;Farmaceuta
+Lekarz
+Lekarz;Znajomi/rodzina
+Internet (artykuły, blogi)
+Internet (artykuły, blogi);Media społecznościowe;Lekarz;Farmaceuta;Znajomi/rodzina
+Internet (artykuły, blogi);Farmaceuta
+Lekarz
+Internet (artykuły, blogi);Lekarz
+Internet (artykuły, blogi);Media społecznościowe;Lekarz;Dietetyk
+Internet (artykuły, blogi);Lekarz;Znajomi/rodzina
+Internet (artykuły, blogi);Lekarz;Farmaceuta;Literatura

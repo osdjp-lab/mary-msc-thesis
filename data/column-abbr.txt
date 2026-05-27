@@ -1,0 +1,27 @@
+1 - Grupowanie - Płeć
+2 - Grupowanie - Wiek
+3 - Grupowanie - Kierunek studiów
+4 - Grupowanie - Rok studiów
+5 - Grupowanie - Aktywność fizyczna
+6 - Stan - Suplementacja
+7 - Stan - Częstość
+8 - Stan - Czas trwania
+9  - Stan - Rodzaje
+10 - Stan - Dawka
+11 - Stan - Kumulacja
+12 - Stan - Badania
+13 - Stan - Konsultacja
+14 - Stan - Powód
+15 - Stan - Źródła
+16 - Samoocena - Suplementy
+17 - Samoocena - Bezpieczeństwo
+18 - Samoocena - Interakcje
+19 - Wiedza - Definicja
+20 - Wiedza - Regulacja
+21 - Wiedza - D3
+22 - Wiedza - Bezpieczeństwo
+23 - Wiedza - Interakcje
+24 - Wiedza - Dawkowanie
+25 - Preferencje - Nauka
+26 - Preferencje - Źródło
+27 - Preferencje - Motywacja
