@@ -6,4 +6,4 @@
 "Lekarze medycyny funkcjonalnej"
 "Naukowe portale internetowe"
 "Portale zbierające wyniki badań lub też oponie specjalistów, ale wielu, żeby mozna było porównać podejścia, nie ufam jednemu lekarzowi, dietetykowi itp. ponieważ każdy mówi co innego"
-"Takie, którego polecenia nie wynikają z profitów jakie otrzymują "
+"Takie, którego polecenia nie wynikają z profitów jakie otrzymują"

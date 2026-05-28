@@ -93,7 +93,7 @@
 "Tak, z lekarzem"
 "Nie, nie konsultuję"
 "Nie, nie konsultuję"
-"Tak, specjalista medycyny funkcjonalnej "
+"Tak, specjalista medycyny funkcjonalnej"
 "Tak, z lekarzem"
 "Tak, z dietetykiem"
 "Tak, z lekarzem"

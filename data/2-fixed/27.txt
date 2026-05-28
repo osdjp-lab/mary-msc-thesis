@@ -53,7 +53,7 @@
 "Farmaceuta"
 "Lekarz"
 "Naukowe portale internetowe"
-"Takie, którego polecenia nie wynikają z profitów jakie otrzymują "
+"Takie, którego polecenia nie wynikają z profitów jakie otrzymują"
 "Dietetyk"
 "Lekarz"
 "Instytucje zdrowia publicznego"
