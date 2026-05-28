@@ -1,50 +1,58 @@
 Ogólne
+
     2 - Grupowanie - Płeć
     3 - Grupowanie - Wiek
     4 - Grupowanie - Kierunek studiów
     5 - Grupowanie - Rok studiów
     6 - Grupowanie - Aktywność fizyczna
 
-Określenie częstości stosowania suplementów diety wśród studentów.
-    8 - Stan - Częstość
+Określenie częstości stosowania suplementów diety wśród studentów
 
-Identyfikacja najczęściej stosowanych suplementów.
-    10 - Stan - Rodzaje
+    8 - Stan - Częstość                 [po odpowiedzi]
 
-Analiza powodów suplementacji.
-    15 - Stan - Powód
+Identyfikacja najczęściej stosowanych suplementów
 
-Określenie głównych źródeł informacji.
-    16 - Stan - Źródła
+    10 - Stan - Rodzaje                 [po liczbie i odpowiedzi]
 
-Ocena poziomu wiedzy studentów na temat suplementów.
-    17 - Samoocena - Suplementy
-    18 - Samoocena - Bezpieczeństwo
-    19 - Samoocena - Interakcje
-    20 - Wiedza - Definicja
-    21 - Wiedza - Regulacja
-    22 - Wiedza - D3
-    23 - Wiedza - Bezpieczeństwo
-    24 - Wiedza - Interakcje
-    25 - Wiedza - Dawkowanie
+Analiza powodów suplementacji
 
-Analiza zależności między poziomem wiedzy a praktyką suplementacyjną.
-    7 - Stan - Suplementacja
-    9 - Stan - Czas trwania
-    11 - Stan - Dawka
-    12 - Stan - Kumulacja
-    13 - Stan - Badania
-    14 - Stan - Konsultacja
-    16 - Stan - Źródła
-    20 - Wiedza - Definicja
-    21 - Wiedza - Regulacja
-    22 - Wiedza - D3
-    23 - Wiedza - Bezpieczeństwo
-    24 - Wiedza - Interakcje
-    25 - Wiedza - Dawkowanie
+    15 - Stan - Powód                   [po liczbie i odpowiedzi]
 
-Ukierunkowanie edukacjyno-rozwojowe.
-    26 - Preferencje - Nauka
-    27 - Preferencje - Źródło
-    28 - Preferencje - Motywacja
+Określenie głównych źródeł informacji
+
+    16 - Stan - Źródła                  [po liczbie i odpowiedzi]
+
+Ocena poziomu wiedzy studentów na temat suplementów
+
+    17 - Samoocena - Suplementy         [po wartości]
+    18 - Samoocena - Bezpieczeństwo     [po wartości]
+    19 - Samoocena - Interakcje         [po wartości]
+    20 - Wiedza - Definicja             [po odpowiedzi]
+    21 - Wiedza - Regulacja             [po odpowiedzi]
+    22 - Wiedza - D3                    [po odpowiedzi]
+    23 - Wiedza - Bezpieczeństwo        [po odpowiedzi]
+    24 - Wiedza - Interakcje            [po odpowiedzi]
+    25 - Wiedza - Dawkowanie            [po odpowiedzi]
+
+Analiza zależności między poziomem wiedzy a praktyką suplementacyjną
+
+    7 - Stan - Suplementacja            [po odpowiedzi]
+    9 - Stan - Czas trwania             [po odpowiedzi]
+    11 - Stan - Dawka				    [po odpowiedzi]
+    12 - Stan - Kumulacja				[po odpowiedzi]
+    13 - Stan - Badania				    [po odpowiedzi]
+    14 - Stan - Konsultacja				[po odpowiedzi]
+    16 - Stan - Źródła                  [po liczbie i odpowiedzi]
+    20 - Wiedza - Definicja				[po odpowiedzi]
+    21 - Wiedza - Regulacja				[po odpowiedzi]
+    22 - Wiedza - D3				    [po odpowiedzi]
+    23 - Wiedza - Bezpieczeństwo		[po odpowiedzi]
+    24 - Wiedza - Interakcje			[po odpowiedzi]
+    25 - Wiedza - Dawkowanie			[po odpowiedzi]
+
+Ukierunkowanie edukacjyno-rozwojowe
+
+    26 - Preferencje - Nauka            [po liczbie i odpowiedzi]
+    27 - Preferencje - Źródło			[po odpowiedzi]
+    28 - Preferencje - Motywacja		[po odpowiedzi]
  
