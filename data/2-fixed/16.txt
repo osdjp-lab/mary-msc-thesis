@@ -70,7 +70,7 @@
 "Internet (artykuły blogi),Media społecznościowe"
 "Internet (artykuły blogi),Media społecznościowe,Reklamy,Znajomi/rodzina"
 "Internet (artykuły blogi),Media społecznościowe,Lekarz,Farmaceuta"
-"Farmaceuta,Internet (artykuły blogi"
+"Farmaceuta,Internet (artykuły blogi)"
 "Internet (artykuły blogi),Lekarz,Dietetyk,Farmaceuta"
 "Internet (artykuły blogi),Media społecznościowe,Reklamy"
 "Internet (artykuły blogi),Media społecznościowe,Lekarz,Dietetyk"

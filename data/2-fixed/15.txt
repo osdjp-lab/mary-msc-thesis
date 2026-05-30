@@ -73,7 +73,7 @@
 "Poprawa zdrowia,Zapobieganie niedoborom,Choroba"
 "Poprawa zdrowia,Zapobieganie niedoborom,Zwiększenie energii,Poprawa samopoczucia"
 "Poprawa zdrowia,Zapobieganie niedoborom,Poprawa samopoczucia"
-"Poprawa zdrowia,Zapobieganie niedoborom,Poprawa samopoczucia,Karmię piersią a mam ograniczoną dietę przez alergie i problemy jelitowe"
+"Poprawa zdrowia,Zapobieganie niedoborom,Poprawa samopoczucia,Poprawa zdrowia"
 "Poprawa zdrowia,Zapobieganie niedoborom,Wzmocnienie odporności,Poprawa wyglądu (skóra włosy paznokcie),Zwiększenie energii,Poprawa koncentracji,Poprawa samopoczucia"
 "Zapobieganie niedoborom,Wzmocnienie odporności,Zwiększenie energii,Poprawa koncentracji,Poprawa samopoczucia"
 "Poprawa zdrowia,Zapobieganie niedoborom,Wzmocnienie odporności,Poprawa wyglądu (skóra włosy paznokcie),Zwiększenie energii,Poprawa koncentracji,Poprawa samopoczucia"

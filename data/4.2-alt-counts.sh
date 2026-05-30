@@ -9,7 +9,6 @@
 #
 # Split file by comma's
 # Get list of all unique values
-# Create table of 0/1 for each unique value for each row
 #
 
 # Version 1

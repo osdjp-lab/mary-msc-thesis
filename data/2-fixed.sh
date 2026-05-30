@@ -53,17 +53,21 @@ sed -i -e "s/ oraz ,,Merz Spezial'/, Merz Spezial/" \
        -e "s/beta alanina/Beta-alanina/g" \
        -e "s/complex B/B kompleks/g" \
        -e "s/kompleks witamin b/B kompleks/g" \
+       -e "s/kompleks witamin z grupy B/B kompleks/g" \
        -e "s/Wit z grupy B/B kompleks/g" \
        -e "s/Wit B complex/B kompleks/g" \
        -e "s/Magnesium citrate/Cytrynian magnezu/g" \
        -e "s/wapń/Wapń/g" \
        -e "s/karnozyna cynkowa/Karnozyna cynkowa/g" \
-       -e "s/cynk/Cynk/g" \
+       -e "s/\(,\s*\)cynk\(\s*,\)/\1Cynk\2/g" \
        -e "s/likopen/Likopen/g" \
        -e "s/bromelia/Bromelia/g" \
        -e "s/olej z czarnuszki/Olej z czarnuszki/g" \
        -e "s/Laktoferyna + szczep L. plantarum/Laktoferyna/g" \
+       -e "s/żelazo/Żelazo/g" \
        -e "s/\s*,\s*/,/g" \
+       -e "s/,E,/,Witamina E,/g" \
+       -e "s/,K,/,Witamina K,/g" \
        "${OUTPUT_DIR}/10.txt"
 
 # 15
@@ -71,6 +75,7 @@ sed -i -e "s/ oraz ,,Merz Spezial'/, Merz Spezial/" \
 sed -i -e "s/ zlecone przez lekarza/Zlecone przez lekarza/g" \
        -e "s/skóra, włosy, paznokcie/skóra włosy paznokcie/g" \
        -e "s/obniżony poziom vit D/Obniżony poziom witaminy D/g" \
+       -e "s/Karmię piersią a mam ograniczoną dietę przez alergie i problemy jelitowe/Poprawa zdrowia/" \
        -e "s/\s*,\s*/,/g" \
        "${OUTPUT_DIR}/15.txt"
 
@@ -83,7 +88,7 @@ sed -i -e "s/artykuły, blogi/artykuły blogi/g" \
        -e "s/książki/Książki/g" \
        -e "s/Literatura/Badania naukowe/g" \
        -e "s/PubMed/Badania naukowe/g" \
-       -e "s/Rzetelne zrodla w internecie/Internet (artykuły blogi/g" \
+       -e "s/Rzetelne zrodla w internecie/Internet (artykuły blogi)/g" \
        -e "s/\s*,\s*/,/g" \
        "${OUTPUT_DIR}/16.txt"
 
@@ -297,6 +302,12 @@ sed -i -e 's/Lekarz/Opinia pojedynczego specjalisty/g' \
        -e 's?Portale zbierające wyniki badań lub też oponie specjalistów, ale wielu, żeby mozna było porównać podejścia, nie ufam jednemu lekarzowi, dietetykowi itp. ponieważ każdy mówi co innego?Opinia zespołu lub instytutu?g' \
        -e 's/Takie, którego polecenia nie wynikają z profitów jakie otrzymują/Inne/g' \
        "${OUTPUT_DIR}/27.txt"
+
+# Strip leading and trailing spaces from fields and add delimiting quotes
+
+sed -i -e 's/^\s*//g'    \
+       -e 's/\s*$//g'    \
+       $(find $OUTPUT_DIR -type f)
 
 # Add field delimiting quotes
 
