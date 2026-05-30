@@ -1,0 +1,4 @@
+"Codziennie";"65"
+"Kilka razy w miesiącu";"3"
+"Kilka razy w tygodniu";"21"
+"Sporadycznie";"18"

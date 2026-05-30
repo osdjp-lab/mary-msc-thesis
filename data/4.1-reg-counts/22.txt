@@ -1,0 +1,4 @@
+"Brak skutków ubocznych";"6"
+"Niedokrwistości";"8"
+"Nie wiem";"24"
+"Uszkodzenia nerek";"69"

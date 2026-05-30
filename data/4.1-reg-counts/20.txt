@@ -1,0 +1,4 @@
+"Nie wiem";"1"
+"Preparat o udowodnionym działaniu terapeutycznym";"5"
+"Produkt leczniczy";"7"
+"Środek spożywczy uzupełniający dietę";"94"

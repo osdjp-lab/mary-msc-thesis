@@ -1,0 +1,4 @@
+"Nie";"1"
+"Nie wiem";"7"
+"Tak";"98"
+"Tylko witaminy";"1"

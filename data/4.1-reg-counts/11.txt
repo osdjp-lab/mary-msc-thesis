@@ -1,0 +1,4 @@
+"Często – uważam, że standardowe dawki są zbyt niskie.";"12"
+"Nie czytam zaleceń dotyczących dawkowania na opakowaniu.";"6"
+"Nigdy – stosuję się ściśle do zaleceń.";"59"
+"Sporadycznie (np. gdy czuję, że 'bierze mnie przeziębienie').";"30"

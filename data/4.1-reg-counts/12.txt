@@ -1,0 +1,4 @@
+"Czasami zwracam na to uwagę";"19"
+"Nie, nie sprawdzam tego.";"16"
+"Stosuję tylko jeden preparat.";"11"
+"Tak, zawsze analizuję składy pod kątem powtarzających się substancji.";"61"

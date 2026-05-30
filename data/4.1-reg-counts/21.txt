@@ -1,0 +1,4 @@
+"Nie";"52"
+"Nie wiem";"14"
+"Tak";"30"
+"Tylko niektóre";"11"

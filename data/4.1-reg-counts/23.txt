@@ -1,0 +1,4 @@
+"Ministerstwo Zdrowia";"9"
+"Nie wiem";"18"
+"Producent";"69"
+"Sanepid bada każdy produkt przed sprzedażą";"11"

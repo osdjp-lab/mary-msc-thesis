@@ -1,0 +1,4 @@
+"Nie, stosuję suplementy bez wykonywania wcześniejszych badań.";"24"
+"Suplementy dobieram na podstawie własnych obserwacji (np. gorsze samopoczucie, wypadanie włosów).";"17"
+"Tak, każdą suplementację konsultuję z wynikami badań";"30"
+"Zrobiłem/am badania tylko w przypadku niektórych preparatów.";"36"

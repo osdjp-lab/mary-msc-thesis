@@ -1,0 +1,4 @@
+"Nie";"9"
+"Nie wiem";"15"
+"Tak";"80"
+"Tylko minerały";"3"

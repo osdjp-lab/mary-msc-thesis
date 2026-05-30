@@ -1,0 +1,6 @@
+"I";"11"
+"II";"11"
+"III";"15"
+"IV";"40"
+"Studia magisterskie uzupełniające";"18"
+"V";"12"

@@ -1,0 +1,5 @@
+"1–2 razy w tygodniu";"28"
+"3–4 razy w tygodniu";"25"
+"5 lub więcej razy w tygodniu";"14"
+"Nigdy";"4"
+"Rzadziej niż raz w tygodniu";"36"
