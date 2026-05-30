@@ -11,16 +11,18 @@
 # Get list of all unique values
 #
 
-set -x
-
 INPUT_DIR=$1
 REF_DIR=$2
 OUTPUT_DIR=$3
 
-# Version 1
+# Create the output directory if it doesn't exist
+mkdir -p "$OUTPUT_DIR"
+
+# Part 1
 # 
 # Count number of answers per question
 #
+printf "Part 1\n"
 
 for i in ${INPUT_DIR}/10.txt \
          ${INPUT_DIR}/15.txt \
@@ -28,25 +30,42 @@ for i in ${INPUT_DIR}/10.txt \
          ${INPUT_DIR}/26.txt; do
     name="$(basename "$i" | sed 's/\.txt/-1.txt/')"
     : > ${OUTPUT_DIR}/${name}
-    echo "$OUTPUT_DIR/${name}"
+    printf "$OUTPUT_DIR/${name}\n"
     tail -n +2 "$i" | while IFS= read -r line; do
         count=$(printf "%s" "$line" | grep -o "," | wc -l | sed 's/$/+1/' | bc)
         printf '%s;"%s"\n' "$line" "$count" >> "$OUTPUT_DIR/${name}"
       done
 done
 
-# Version 2
+# Part 2
 #
-# Count number of instances of regular and irregular answers per question
+# Count number of instances of different answers per question
 #
 
-# for i in ${INPUT_DIR}/{10,15,16,26}.txt; do
-#     name_1="$(basename "$i" | sed 's/\.txt/-1.txt/')"
-#     echo "$OUTPUT_DIR/${name_1}"
-#     tail -n +2 "$i" | sort -u > "$OUTPUT_DIR/${name_1}"
-#     name_2="$(basename "$i" | sed 's/\.txt/-2.txt/')"
-#     echo "$OUTPUT_DIR/${name_2}"
-#     tail -n +2 "$i" | sed -e 's/"//g' \
-#         -e 's/,/\n/g' | sort -u > "$OUTPUT_DIR/${name_2}"
-# done
+printf "Part 2\n"
+
+for ref_file in ${REF_DIR}/10-2.txt \
+                ${REF_DIR}/15-2.txt \
+                ${REF_DIR}/16-2.txt \
+                ${REF_DIR}/26-2.txt; do
+    : > ${OUTPUT_DIR}/$(basename $ref_file)
+    printf "$OUTPUT_DIR/$(basename $ref_file)\n"
+    
+    name="$(basename "$ref_file" | sed 's/-2\.txt/.txt/')"
+    base_file="$INPUT_DIR/${name}"
+
+    # Prepare the output file (same basename in OUTPUT_DIR)
+    out_file="$OUTPUT_DIR/$(basename $ref_file)"
+    # Truncate any previous contents
+    : > "$out_file"
+
+    # Read the reference file line by line
+    while IFS= read -r ref_line; do
+        # Count occurrences of the exact line in the base file
+        # The leading/trailing spaces are preserved by using grep -F -x
+        count=$(grep -F -c -- "$ref_line" "$base_file")
+        # Append the line and its count (semicolon‑separated) to the output file
+        printf '%s;"%s"\n' "$ref_line" "$count" >> "$out_file"
+    done < "$ref_file"
+done
 
