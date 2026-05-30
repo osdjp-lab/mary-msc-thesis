@@ -13,3 +13,4 @@
 "Medycyna"
 "Prawo"
 "Psychologia"
+"Psychologia i psychoterapia"

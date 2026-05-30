@@ -1,3 +1,5 @@
 "Inne"
+"Naukowe portale internetowe"
 "Opinia pojedynczego specjalisty"
+"Opinia pojedynczego specjalistye medycyny funkcjonalnej"
 "Opinia zespołu lub instytutu"
