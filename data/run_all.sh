@@ -3,7 +3,7 @@
 # Run all scripts in order
 
 cd 1-split
-awk -f ../1-split.awk ../0-raw/0-results.csv
+awk -f ../1-split.awk ../0-raw/results.csv
 cd -
 ./2-fixed.sh 1-split 2-fixed
 ./3.1-values.sh 2-fixed 3.1-values
