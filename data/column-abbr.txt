@@ -1,28 +1,28 @@
 1 - Timestamp
-2 - Grupowanie - Płeć
-3 - Grupowanie - Wiek
-4 - Grupowanie - Kierunek studiów
-5 - Grupowanie - Rok studiów
-6 - Grupowanie - Aktywność fizyczna
-7 - Stan - Suplementacja
-8 - Stan - Częstość
-9 - Stan - Czas trwania
-10 - Stan - Rodzaje
-11 - Stan - Dawka
-12 - Stan - Kumulacja
-13 - Stan - Badania
-14 - Stan - Konsultacja
-15 - Stan - Powód
-16 - Stan - Źródła
-17 - Samoocena - Suplementy
-18 - Samoocena - Bezpieczeństwo
-19 - Samoocena - Interakcje
+2 - Dane socjodemograficzne - Płeć
+3 - Dane socjodemograficzne - Wiek
+4 - Dane socjodemograficzne - Kierunek studiów
+5 - Dane socjodemograficzne - Rok studiów
+6 - Dane socjodemograficzne - Aktywność fizyczna
+7 - Praktyki suplementacyjne - Suplementacja
+8 - Praktyki suplementacyjne - Częstość
+9 - Praktyki suplementacyjne - Czas trwania
+10 - Praktyki suplementacyjne - Rodzaje
+11 - Praktyki suplementacyjne - Dawka
+12 - Praktyki suplementacyjne - Kumulacja
+13 - Praktyki suplementacyjne - Badania
+14 - Praktyki suplementacyjne - Konsultacja
+15 - Praktyki suplementacyjne - Powód
+16 - Źródła informacji - Źródła
+17 - Wiedza (samoocena) - Suplementy
+18 - Wiedza (samoocena) - Bezpieczeństwo
+19 - Wiedza (samoocena) - Interakcje
 20 - Wiedza - Definicja
 21 - Wiedza - Regulacja
 22 - Wiedza - D3
 23 - Wiedza - Bezpieczeństwo
 24 - Wiedza - Interakcje
 25 - Wiedza - Dawkowanie
-26 - Preferencje - Nauka
-27 - Preferencje - Źródło
-28 - Preferencje - Motywacja
+26 - Źródła informacji - Nauka
+27 - Źródła informacji - Rzetelne źródło
+28 - Źródła informacji - Motywacja

@@ -6,6 +6,7 @@ all: build
 
 build:
 	latexmk -pdf -pdflatex="pdflatex -file-line-error -interaction=errorstopmode" -verbose -use-make $(PROJECT).tex
+	latexmk -pdf -pdflatex="pdflatex -file-line-error -interaction=errorstopmode" -verbose -use-make ankieta.tex
 
 clean:
 	latexmk -CA
