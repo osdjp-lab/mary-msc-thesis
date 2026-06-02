@@ -1,6 +1,6 @@
 \section{Wyniki badań i ich omówienie}\label{Wyniki badań i ich omówienie}
 
-\subsection{Charakterystyka badanej grupy}
+\subsection{Charakterystyka badanej grupy} % cbg
 
 % Należy przedstawić:
 %   + liczbę respondentów,
@@ -10,21 +10,172 @@
 %   + rok studiów,
 %   + aktywność fizyczną.
 
-% Tabela 1. Charakterystyka badanej grupy
-% Proponowane kolumny:
-% Zmienna, Kategoria, n, %
-% W tabeli należy umieścić:
-%   + płeć: kobieta, mężczyzna,
-%   + wiek: <20, 20–22, 23–25, >25,
-%   + rok studiów,
-%   + najczęstsze kierunki studiów,
-%   + aktywność fizyczną.
+\begin{table}[h!]
+    \centering
+    \caption{Płęć badanych}
+    \label{tab:plec-badanych}
+    \begin{tabular}{|l|l|l|}
+        \hline
+        Płeć & n & \% \\
+        \hline
+        \hline
+        Kobieta & 90 & 84.1\% \\
+        \hline
+        Mężczyzna & 17 &  15.9\%\\
+        \hline
+    \end{tabular}
+\end{table}
+
+\begin{table}[h!]
+    \centering
+    \caption{Wiek badanych}
+    \label{tab:wiek}
+    \begin{tabular}{|l|l|l|}
+        \hline
+        Wiek & n & \% \\
+        \hline
+        \hline
+        < 20 & 10 & 9.3 \\
+        \hline
+        20–22 & 14 & 13.1 \\
+        \hline
+        23–25 & 24 & 22.4 \\
+        \hline
+        >25 & 59 & 55.1 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\begin{table}[h!]
+    \centering
+    \caption{Rok studiów}
+    \label{tab:rok-studiow}
+    \begin{tabular}{|l|l|l|}
+        \hline
+        Rok studiów	& n & \% \\
+        \hline
+        \hline
+        I & 11 & 10.3 \\
+        \hline
+        II & 11 & 10.3 \\
+        \hline
+        III & 15 & 14 \\
+        \hline
+        IV & 40 & 37.4 \\
+        \hline
+        V & 12 & 11.2 \\
+        \hline
+        Studia magisterskie uzupełniające & 18 & 16.8 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\begin{table}[h!]
+    \centering
+    \caption{Kierunki studiów}
+    \label{tab:kierunki-studiow}
+    \begin{tabular}{|l|l|l|}
+        \hline
+        Kierunek studiów & n & \% \\
+        \hline
+        \hline
+        Psychologia & 51 & 47.2\% \\
+        \hline
+        Dietetyka & 27 & 25\% \\
+        \hline
+        Informatyka & 4 & 3.7\% \\
+        \hline
+        Filologia & 3 & 2.7\% \\
+        \hline
+        Finanse i rachunkowość & 3 & 2.7\% \\
+        \hline
+        Fizjoterapia & 3 & 2.7\% \\
+        \hline
+        Logistyka & 3 & 2.7\% \\
+        \hline
+        Business & 2 & 1.8\%\\
+        \hline
+        Kryminologia i kryminalistyka & 2 & 1.8\% \\
+        \hline
+        Medycyna & 2 & 1.8\% \\
+        \hline
+        Prawo & 2 & 1.8\% \\
+        \hline
+        Psychologia i psychoterapia & 2 & 1.8\% \\
+        \hline
+        Administracja & 1 & 0.9\% \\
+        \hline
+        Behawiorystyka i psychologia zwierząt & 1 & 0.9\% \\
+        \hline
+        Bezpieczeństwo wewnętrzne & 1 & 0.9\% \\
+        \hline
+        Mediacja sztuki & 1 & 0.9\% \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\begin{table}[h!]
+    \centering
+    \caption{Aktywność fizyczna}
+    \label{tab:aktywnosc fizyczna}
+    \begin{tabular}{|l|l|l|}
+        \hline
+        Aktywność fizyczna & n & \% \\
+        \hline
+        \hline
+        Nigdy & 4 & 3.7\% \\
+        \hline
+        Rzadziej niż raz w tygodniu & 36 & 33.6\% \\
+        \hline
+        1–2 razy w tygodniu	& 28 & 26.2\% \\
+        \hline
+        3–4 razy w tygodniu & 25 & 23.4\% \\
+        \hline
+        5 lub więcej razy w tygodniu & 14 & 13.1\% \\
+        \hline
+    \end{tabular}
+\end{table}
 
 % Wykresy
 % Przykładowe, do wykorzystania:
 %   + wykres słupkowy dla płci,
 %   + wykres słupkowy dla wieku,
 %   + wykres słupkowy dla aktywności fizycznej.
+
+\begin{figure}
+    \includegraphics[width=\textwidth]{plots/4-cbg/plec_badanych.png}
+    \centering
+    \caption{Wykres słupkowy pokazujący płęć respondentów.}
+    \label{fig:plec}
+\end{figure}
+
+\begin{figure}
+    \includegraphics[width=\textwidth]{plots/4-cbg/wiek_badanych.png}
+    \centering
+    \caption{Wykres słupkowy pokazujący liczbę respondentów w poszczególnych grupach wiekowych.}
+    \label{fig:wiek}
+\end{figure}
+
+\begin{figure}
+    \includegraphics[width=\textwidth]{plots/4-cbg/rok_studiow.png}
+    \centering
+    \caption{Wykres słupkowy pokazujący rok studiów respondentów. Zastosowane skróty: SMU - Studia magisterskie uzupełniające.}
+    \label{fig:rok-studiow}
+\end{figure}
+
+\begin{figure}
+    \includegraphics[width=\textwidth]{plots/4-cbg/kierunki_studiow.png}
+    \centering
+    \caption{Wykres słupkowy pokazujący kierunki studiów respondentów. Zastosowane skróty: PSY - Psychologia, DIET - Dietetyka, INF - Informatyka, FILO - Filologia, FiR - Finanse i rachunkowość, FIZ - Fizjoterapia, LOGI - Logistyka, BUSI - Business, KiK - Kryminologia i kryminalistyka, MED - Medycyna, PRAWO - Prawo, PiP - Psychologia i psychoterapia, ADMIN - Administracja, BiP - Behawiorystyka i psychologia zwierząt, BEZW - Bezpieczeństwo wewnętrzne, MSZT - Mediacja sztuki).}
+    \label{fig:kierunki-studiow}
+\end{figure}
+
+\begin{figure}
+    \includegraphics[width=\textwidth]{plots/4-cbg/aktywnosc_fizyczna.png}
+    \centering
+    \caption{Wykres słupkowy pokazujący częstość wykonywania aktywności fizycznej wśród respondentów.}
+    \label{fig:aktywnosc-fizyczna}
+\end{figure}
 
 % Statystyka
 % Na tym etapie wystarczy statystyka opisowa:
@@ -284,11 +435,12 @@
 %    + maksimum.
 % Ponieważ indeks ma zakres 0–6, w dalszych analizach najlepiej traktować go jako zmienną porządkową i stosować testy nieparametryczne.
 
+
 \subsection{Analiza zależności}
 
 \subsubsection{Czy stosowanie suplementów zależy od płci?}
 
-\subsubection{Czy stosowanie suplementów zależy od wieku?}
+\subsubsection{Czy stosowanie suplementów zależy od wieku?}
 
 \subsubsection{Czy stosowanie suplementów zależy od aktywności fizycznej?}
 
