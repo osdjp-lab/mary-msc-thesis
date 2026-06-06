@@ -1,0 +1,2 @@
+"Kobieta";"80"
+"Mężczyzna";"17"

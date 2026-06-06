@@ -1,0 +1,98 @@
+Suplement diety to:
+Internet (artykuły, blogi);Znajomi/rodzina
+Znajomi/rodzina
+Media społecznościowe
+Dietetyk
+Internet (artykuły, blogi);Lekarz;Dietetyk;Znajomi/rodzina
+Zapobieganie niedoborom
+5
+Internet (artykuły, blogi);Media społecznościowe
+4
+Lekarz
+Internet (artykuły, blogi);Dietetyk;Badania naukowe 
+Tak, z dietetykiem
+Internet (artykuły, blogi);Dietetyk
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
+4
+5
+Internet (artykuły, blogi);Dietetyk;Znajomi/rodzina
+2
+Środek spożywczy uzupełniający dietę
+Poprawa zdrowia
+Środek spożywczy uzupełniający dietę
+5
+Wzmocnienie odporności
+Poprawa samopoczucia
+Poprawa samopoczucia
+Internet (artykuły, blogi)
+5
+Zapobieganie niedoborom
+4
+Internet (artykuły, blogi);Media społecznościowe;Dietetyk;Znajomi/rodzina
+Środek spożywczy uzupełniający dietę
+3
+Środek spożywczy uzupełniający dietę
+4
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
+Internet (artykuły, blogi);Reklamy;Dietetyk;Farmaceuta
+1
+2
+Poprawa koncentracji
+Znajomi/rodzina
+Tak, z dietetykiem
+3
+Dietetyk
+3
+2
+Poprawa zdrowia
+Internet (artykuły, blogi);Media społecznościowe;Reklamy;Lekarz
+1
+Interesuję się ziołami i jestem członkiem grupy stosującej nutraceutyki Arbonne
+Poprawa samopoczucia
+Internet (artykuły, blogi);Lekarz;Farmaceuta;Znajomi/rodzina
+3
+Wzmocnienie odporności
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
+Produkt leczniczy
+Środek spożywczy uzupełniający dietę
+Środek spożywczy uzupełniający dietę
+Poprawa samopoczucia
+5
+Środek spożywczy uzupełniający dietę
+2
+Poprawa samopoczucia
+4
+2
+Farmaceuta
+Zapobieganie niedoborom
+2
+4
+4
+Poprawa samopoczucia
+5
+Zwiększenie energii
+Poprawa koncentracji
+Tak, z farmaceutą
+Internet (artykuły, blogi);Media społecznościowe;Farmaceuta;Znajomi/rodzina
+Internet (artykuły, blogi);Lekarz;Dietetyk;Znajomi/rodzina
+3
+Farmaceuta
+Wzmocnienie odporności
+Nie, nie konsultuję
+4
+Internet (artykuły, blogi);Media społecznościowe
+Środek spożywczy uzupełniający dietę
+Tak, z lekarzem
+Poprawa koncentracji
+1
+Wzmocnienie odporności
+5
+4
+1
+5
+Zapobieganie niedoborom
+Poprawa samopoczucia
+Środek spożywczy uzupełniający dietę
+2
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
+Środek spożywczy uzupełniający dietę
