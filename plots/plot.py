@@ -174,6 +174,7 @@ plot_bar(df_aktualne,
          rotate_xticks=False,
          x_label='Odpowiedź',
          y_label='Liczba respondentów (n)',
+
          bar_color='steelblue')
 
 
@@ -185,8 +186,8 @@ df_czestosc = pd.DataFrame({
                              'Kilka razy w tygodniu',
                              'Kilka razy w miesiącu',
                              'Sporadycznie'],
-    'n'                  : [65, 21, 3, 18],
-    'procent'            : [60.7, 19.6, 2.8, 16.8]
+    'n'                  : [63, 21, 3, 10],
+    'procent'            : [64.95, 21.65, 3.1, 10.3]
 })
 plot_bar(df_czestosc,
          'Częstość stosowania',
@@ -195,6 +196,7 @@ plot_bar(df_czestosc,
          title='Częstość stosowania suplementów',
          filename='czestosc-suplementow.png',
          rotate_xticks=True,
+
          x_label='Częstość',
          y_label='Liczba respondentów (n)',
          bar_color='mediumseagreen')
@@ -205,8 +207,8 @@ plot_bar(df_czestosc,
 # ----------------------------------------------------------------------
 df_czas = pd.DataFrame({
     'Czas stosowania' : ['< 3 miesięcy', '3–12 miesięcy', '1–3 lata', '>3 lat'],
-    'n'               : [20, 23, 24, 40],
-    'procent'         : [18.7, 21.5, 22.4, 37.4]
+    'n'               : [15, 23, 22, 37],
+    'procent'         : [15.46, 23.71, 22.68, 38.15]
 })
 plot_bar(df_czas,
          'Czas stosowania',
@@ -224,11 +226,13 @@ plot_bar(df_czas,
 # 9. Rodzaje stosowanych suplementów
 # ----------------------------------------------------------------------
 df_rodzaje = pd.DataFrame({
-    'Rodzaj suplementu' : ['WITD', 'KO3', 'MAG', 'PROB', 'WITC', 'MWIT', 'BIAŁ', 'INNE', 'KREA', 'ADAP'],
-    # 'Rodzaj suplementu' : ['Witamina D', 'Kwasy omega-3', 'Magnez', 'Probiotyki', 'Witamina C',
-    #                        'Multiwitaminy', 'Białko','Inne odpowiedzi', 'Kreatyna', 'Adaptogeny (np. ashwagandha)']
-    'n'                : [89, 62, 51, 40, 37, 32, 24, 19, 15, 11],
-    'procent'          : [83.2, 57.9, 47.7, 37.4, 34.6, 29.9, 22.4, 17.8, 14.0, 10.3]
+    'Rodzaj suplementu' : ['WITD', 'KO3', 'MAG', 'PROB', 'INNE',
+                           'MWIT', 'WITC', 'BIAŁ', 'KREA', 'ADAP'],
+    # 'Rodzaj suplementu' : ['Witamina D', 'Kwasy omega-3', 'Magnez', 'Probiotyki',
+    #                        'Inne odpowiedzi', 'Witamina C', 'Multiwitaminy',
+    #                        'Białko', 'Kreatyna', 'Adaptogeny (np. ashwagandha)']
+    'n'                : [79, 59, 48, 40, 39, 32, 31, 24, 15, 11],
+    'procent'          : [81.4, 60.8, 49.4, 41.2, 40.2, 32.9, 31.9, 24.7, 15.4, 11.3]
 })
 plot_bar(df_rodzaje,
          'Rodzaj suplementu',
@@ -246,17 +250,18 @@ plot_bar(df_rodzaje,
 # 10. Powody suplementacji
 # ----------------------------------------------------------------------
 df_powody = pd.DataFrame({
-    'Powód stosowania' : ['POP-ZDR', 'WZM-ODP', 'ZAP-NIE', 'ZWI-ENE', 'POP-SAM', 'POP-KON', 'POP-WYG', 'INNE'],
+    'Powód stosowania' : ['POP-ZDR', 'WZM-ODP', 'ZAP-NIE', 'POP-SAM',
+                          'ZWI-ENE', 'POP-WYG', 'POP-KON', 'INNE'],
     # 'Powód stosowania'               : ['Poprawa zdrowia',
-    #                                     'Zapobieganie niedoborom',
     #                                     'Wzmocnienie odporności',
-    #                                     'Poprawa wyglądu (skóra, włosy, paznokcie)',
-    #                                     'Zwiększenie energii',
-    #                                     'Poprawa koncentracji',
+    #                                     'Zapobieganie niedoborom',
     #                                     'Poprawa samopoczucia',
+    #                                     'Zwiększenie energii',
+    #                                     'Poprawa wyglądu (skóra, włosy, paznokcie)',
+    #                                     'Poprawa koncentracji',
     #                                     'Inne odpowiedzi'],
-    'n'                              : [73, 73, 71, 54, 53, 49, 48, 5],
-    'procent'                        : [68.2, 68.2, 66.4, 50.5, 49.5, 45.8, 44.9, 4.7]
+    'n'                              : [68, 66, 65, 50, 49, 46, 44, 4],
+    'procent'                        : [70.1, 68.04, 67.01, 51.55, 50.52, 47.42, 45.36, 4.12]
 })
 plot_bar(df_powody,
          'Powód stosowania',
