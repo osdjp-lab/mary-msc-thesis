@@ -1,0 +1,8 @@
+"Internet (artykuły blogi)"
+"Internet (artykuły blogi),Lekarz"
+"Internet (artykuły blogi),Lekarz,Dietetyk"
+"Internet (artykuły blogi),Media społecznościowe,Dietetyk"
+"Internet (artykuły blogi),Media społecznościowe,Lekarz,Farmaceuta"
+"Lekarz"
+"Media społecznościowe,Znajomi/rodzina"
+"Znajomi/rodzina"

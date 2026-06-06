@@ -1,0 +1,7 @@
+Poprawa koncentracji;"5"
+Poprawa samopoczucia;"3"
+Poprawa wyglądu (skóra włosy paznokcie);"2"
+Poprawa zdrowia;"6"
+Wzmocnienie odporności;"7"
+Zapobieganie niedoborom;"6"
+Zwiększenie energii;"5"

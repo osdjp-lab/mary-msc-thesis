@@ -1,0 +1,6 @@
+"I";"1"
+"II";"1"
+"III";"1"
+"IV";"3"
+"Studia magisterskie uzupełniające";"3"
+"V";"1"

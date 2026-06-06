@@ -1,0 +1,2 @@
+"Nigdy – stosuję się ściśle do zaleceń.";"6"
+"Sporadycznie (np. gdy czuję, że 'bierze mnie przeziębienie').";"4"

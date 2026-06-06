@@ -1,0 +1,2 @@
+"Codziennie";"2"
+"Sporadycznie";"8"

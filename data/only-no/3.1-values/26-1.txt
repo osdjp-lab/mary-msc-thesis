@@ -1,0 +1,7 @@
+"Artykuły naukowe lub popularnonaukowe"
+"Materiały lub nagrania"
+"Materiały lub nagrania,Materiały lub nagrania"
+"Materiały lub nagrania,Materiały lub nagrania,Posty na Instagramie/TikToku"
+"Materiały lub nagrania,Posty na Instagramie/TikToku"
+"Materiały lub nagrania,Szkolenia,Konsultacja ze specjalistą"
+"Materiały lub nagrania,Szkolenia,Posty na Instagramie/TikToku,Artykuły naukowe lub popularnonaukowe"

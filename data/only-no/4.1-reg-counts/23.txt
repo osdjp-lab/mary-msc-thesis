@@ -1,0 +1,3 @@
+"Nie wiem";"3"
+"Producent";"6"
+"Sanepid bada każdy produkt przed sprzedażą";"1"

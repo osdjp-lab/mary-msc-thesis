@@ -1,0 +1,4 @@
+Kwasy omega-3;"3"
+Magnez;"3"
+Witamina C;"6"
+Witamina D;"10"

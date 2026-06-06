@@ -1,98 +1,98 @@
 Dlaczego stosujesz suplementy? (możesz wybrać więcej odpowiedzi)
-Często – uważam, że standardowe dawki są zbyt niskie.
-Nie, stosuję suplementy bez wykonywania wcześniejszych badań.
-Zrobiłem/am badania tylko w przypadku niektórych preparatów.
-Suplementy dobieram na podstawie własnych obserwacji (np. gorsze samopoczucie, wypadanie włosów).
-Nigdy – stosuję się ściśle do zaleceń.
-Nigdy – stosuję się ściśle do zaleceń.
-Poprawa zdrowia
-Sporadycznie (np. gdy czuję, że „bierze mnie przeziębienie”).
-Suplementy dobieram na podstawie własnych obserwacji (np. gorsze samopoczucie, wypadanie włosów).
-Tak, każdą suplementację konsultuję z wynikami badań
-Tak, każdą suplementację konsultuję z wynikami badań
-Probiotyki
-Sporadycznie (np. gdy czuję, że „bierze mnie przeziębienie”).
-Białko
-Tak, zawsze analizuję składy pod kątem powtarzających się substancji.
-Tak, każdą suplementację konsultuję z wynikami badań
-Nigdy – stosuję się ściśle do zaleceń.
-Nie, stosuję suplementy bez wykonywania wcześniejszych badań.
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
+Wzmocnienie odporności;Poprawa samopoczucia
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności
+Wzmocnienie odporności;Zwiększenie energii;Poprawa koncentracji
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
+Poprawa zdrowia;Zapobieganie niedoborom;Poprawa samopoczucia
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Zwiększenie energii
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
+Zapobieganie niedoborom;Zwiększenie energii
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
+Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii
+Poprawa zdrowia, zlecone przez lekarza
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
+Poprawa zdrowia;Wzmocnienie odporności
 Poprawa wyników sportowych i regeneracji 
-Białko
+Poprawa zdrowia;Wzmocnienie odporności;Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
 Poprawa zdrowia
-Nie, nie konsultuję
-Tak, zawsze analizuję składy pod kątem powtarzających się substancji.
-Na podstawie własnej wiedzy
-Poprawa zdrowia
-Sporadycznie (np. gdy czuję, że „bierze mnie przeziębienie”).
-Tak, z lekarzem
-Sporadycznie (np. gdy czuję, że „bierze mnie przeziębienie”).
-Nie, nie sprawdzam tego.
-Nigdy – stosuję się ściśle do zaleceń.
+Zwiększenie energii
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Zwiększenie energii
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa koncentracji;Poprawa samopoczucia
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
 Wzmocnienie odporności
-Stosuję tylko jeden preparat.
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
+Poprawa zdrowia;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji
+Wzmocnienie odporności
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Poprawa samopoczucia
 Poprawa wyglądu (skóra, włosy, paznokcie)
-Zrobiłem/am badania tylko w przypadku niektórych preparatów.
-Adaptogeny (np. ashwagandha)
-Nigdy – stosuję się ściśle do zaleceń.
-Nie, stosuję suplementy bez wykonywania wcześniejszych badań.
+Poprawa zdrowia;Zapobieganie niedoborom;Poprawa wyglądu (skóra, włosy, paznokcie);Poprawa koncentracji;Poprawa samopoczucia
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
+Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
+Poprawa zdrowia;Poprawa wyglądu (skóra, włosy, paznokcie)
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa samopoczucia
+Wzmocnienie odporności;Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie)
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Zwiększenie energii;Poprawa samopoczucia
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie)
+Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa samopoczucia
+Poprawa zdrowia;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
+Poprawa zdrowia;Wzmocnienie odporności
+Poprawa zdrowia;Zwiększenie energii;Poprawa koncentracji
+Wzmocnienie odporności;Zwiększenie energii;Poprawa koncentracji
 Poprawa zdrowia
-Czasami zwracam na to uwagę
-Zrobiłem/am badania tylko w przypadku niektórych preparatów.
-Probiotyki
-Tak, z lekarzem
-Tak, zawsze analizuję składy pod kątem powtarzających się substancji.
-Zrobiłem/am badania tylko w przypadku niektórych preparatów.
-Nie, stosuję suplementy bez wykonywania wcześniejszych badań.
-Białko
-Zrobiłem/am badania tylko w przypadku niektórych preparatów.
-Nie, nie konsultuję
-Tak, zawsze analizuję składy pod kątem powtarzających się substancji.
-Zrobiłem/am badania tylko w przypadku niektórych preparatów.
-Często – uważam, że standardowe dawki są zbyt niskie.
-Nie, nie konsultuję
-Nigdy – stosuję się ściśle do zaleceń.
-Adaptogeny (np. ashwagandha)
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa samopoczucia
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
+Poprawa zdrowia;Zapobieganie niedoborom;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji
+Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa samopoczucia
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
 Poprawa zdrowia;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
 obniżony poziom vit D
 Wzmocnienie odporności
-Suplementy dobieram na podstawie własnych obserwacji (np. gorsze samopoczucie, wypadanie włosów).
-Nie, nie konsultuję
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa samopoczucia
+Poprawa koncentracji
 Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie)
-Nie, nie konsultuję
-Czasami zwracam na to uwagę
-Czasami zwracam na to uwagę
-Nie, nie konsultuję
-Tak, każdą suplementację konsultuję z wynikami badań
-Sporadycznie (np. gdy czuję, że „bierze mnie przeziębienie”).
-Poprawa zdrowia
-Poprawa zdrowia
-Czasami zwracam na to uwagę
-Nie, nie konsultuję
-Nie, nie konsultuję
-Tak, zawsze analizuję składy pod kątem powtarzających się substancji.
-Suplementy dobieram na podstawie własnych obserwacji (np. gorsze samopoczucie, wypadanie włosów).
-Białko
-Nigdy – stosuję się ściśle do zaleceń.
-Często – uważam, że standardowe dawki są zbyt niskie.
-Suplementy dobieram na podstawie własnych obserwacji (np. gorsze samopoczucie, wypadanie włosów).
-Tak, z lekarzem
-Sporadycznie (np. gdy czuję, że „bierze mnie przeziębienie”).
-Kreatyna
-Nie, stosuję suplementy bez wykonywania wcześniejszych badań.
-Nigdy – stosuję się ściśle do zaleceń.
+Poprawa wyglądu (skóra, włosy, paznokcie)
+Poprawa zdrowia;Zwiększenie energii;Poprawa samopoczucia
+Poprawa zdrowia;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii
+Poprawa wyglądu (skóra, włosy, paznokcie);Poprawa samopoczucia
+Poprawa zdrowia;Zapobieganie niedoborom;Choroba 
+Poprawa zdrowia;Zapobieganie niedoborom;Zwiększenie energii;Poprawa samopoczucia
+Poprawa zdrowia;Zapobieganie niedoborom;Poprawa samopoczucia
+Poprawa zdrowia;Zapobieganie niedoborom;Poprawa samopoczucia;Karmię piersią a mam ograniczoną dietę przez alergie i problemy jelitowe
 Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
-Kreatyna
-Tak, zawsze analizuję składy pod kątem powtarzających się substancji.
-Nie, nie konsultuję
-Tak, zawsze analizuję składy pod kątem powtarzających się substancji.
-Tak, z lekarzem
-Tak, z dietetykiem
-Poprawa zdrowia
-Nie, nie konsultuję
-Nigdy – stosuję się ściśle do zaleceń.
-Stosuję tylko jeden preparat.
+Zapobieganie niedoborom;Wzmocnienie odporności;Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
+Zapobieganie niedoborom;Wzmocnienie odporności;Zwiększenie energii;Poprawa koncentracji
+Zapobieganie niedoborom;Wzmocnienie odporności;Zwiększenie energii;Poprawa koncentracji
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Zwiększenie energii;Poprawa koncentracji
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
+Poprawa zdrowia;Zapobieganie niedoborom;Poprawa wyglądu (skóra, włosy, paznokcie);Poprawa koncentracji
+Poprawa zdrowia;Zapobieganie niedoborom
+Poprawa zdrowia;Wzmocnienie odporności
+Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
+Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie)
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
+Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa koncentracji;Poprawa samopoczucia
+Zapobieganie niedoborom
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Poprawa samopoczucia
 Poprawa zdrowia;Zapobieganie niedoborom;Poprawa wyglądu (skóra, włosy, paznokcie)
-Tak, zawsze analizuję składy pod kątem powtarzających się substancji.
-Probiotyki
+Poprawa zdrowia;Zapobieganie niedoborom
+Zapobieganie niedoborom;Wzmocnienie odporności
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa koncentracji;Poprawa samopoczucia
+Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa samopoczucia
+Poprawa zdrowia;Zapobieganie niedoborom;Poprawa wyglądu (skóra, włosy, paznokcie)
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
+Poprawa zdrowia;Zapobieganie niedoborom;Wzmocnienie odporności;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii;Poprawa koncentracji;Poprawa samopoczucia
 Poprawa zdrowia;Zapobieganie niedoborom;Poprawa wyglądu (skóra, włosy, paznokcie);Zwiększenie energii

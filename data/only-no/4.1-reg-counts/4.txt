@@ -1,0 +1,7 @@
+"Administracja";"1"
+"Bezpieczeństwo wewnętrzne";"1"
+"Dietetyka";"1"
+"Finanse i rachunkowość";"1"
+"Kryminologia i kryminalistyka";"1"
+"Mediacja sztuki";"1"
+"Psychologia";"4"

@@ -1,0 +1,11 @@
+Skąd czerpiesz informacje o suplementach?
+Internet (artykuły, blogi);Lekarz;Dietetyk
+Internet (artykuły, blogi);Lekarz
+Internet (artykuły, blogi);Media społecznościowe;Dietetyk
+Internet (artykuły, blogi);Lekarz
+Media społecznościowe;Znajomi/rodzina
+Znajomi/rodzina
+Internet (artykuły, blogi);Media społecznościowe;Lekarz;Farmaceuta
+Internet (artykuły, blogi);Lekarz
+Internet (artykuły, blogi)
+Lekarz

@@ -1,0 +1,6 @@
+Dietetyk;"2"
+Farmaceuta;"1"
+Internet (artykuły blogi);"7"
+Lekarz;"6"
+Media społecznościowe;"3"
+Znajomi/rodzina;"2"
