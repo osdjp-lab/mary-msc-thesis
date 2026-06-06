@@ -1,14 +1,4 @@
 #!/usr/bin/env python3
-"""
-Bar charts for the six survey tables:
-1. Gender (Płeć)
-2. Age (Wiek)
-3. Year of study (Rok studiów)
-4. Study fields (Kierunki studiów)
-5. Physical activity (Aktywność fizyczna)
-
-All charts are saved as PNG files and also displayed on screen.
-"""
 
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -61,7 +51,7 @@ def plot_bar(df, category_col, count_col, percent_col,
 
     plt.tight_layout()
     plt.savefig(filename, dpi=300)
-    plt.show()
+    #plt.show()
 
 # ----------------------------------------------------------------------
 # 1. Płeć badanych
@@ -73,7 +63,7 @@ df_gender = pd.DataFrame({
 })
 plot_bar(df_gender, 'Płeć', 'n', 'procent',
          title='Płeć badanych',
-         filename='plec_badanych.png',
+         filename='plec-badanych.png',
          x_label='Płeć',
          y_label='Liczba respondentów (n)')
 
@@ -87,7 +77,7 @@ df_age = pd.DataFrame({
 })
 plot_bar(df_age, 'Wiek', 'n', 'procent',
          title='Wiek badanych',
-         filename='wiek_badanych.png',
+         filename='wiek-badanych.png',
          x_label='Grupa wiekowa',
          y_label='Liczba respondentów (n)')
 
@@ -104,7 +94,7 @@ df_year = pd.DataFrame({
 })
 plot_bar(df_year, 'Rok studiów', 'n', 'procent',
          title='Rok studiów',
-         filename='rok_studiow.png',
+         filename='rok-studiow.png',
          rotate_xticks=True,
          x_label='Rok studiów',
          y_label='Liczba respondentów (n)')
@@ -131,7 +121,7 @@ df_fields = pd.DataFrame({
 })
 plot_bar(df_fields, 'Kierunek', 'n', 'procent',
          title='Kierunki studiów',
-         filename='kierunki_studiow.png',
+         filename='kierunki-studiow.png',
          rotate_xticks=True,
          x_label='Kierunek studiów',
          y_label='Liczba respondentów (n)',
@@ -160,9 +150,122 @@ df_activity = pd.DataFrame({
 })
 plot_bar(df_activity, 'Aktywność fizyczna', 'n', 'procent',
          title='Aktywność fizyczna',
-         filename='aktywnosc_fizyczna.png',
+         filename='aktywnosc-fizyczna.png',
          rotate_xticks=True,
          x_label='Częstotliwość',
          y_label='Liczba respondentów (n)',
          bar_color='seagreen')
+
+
+# ----------------------------------------------------------------------
+# 6. Aktualne stosowanie suplementów
+# ----------------------------------------------------------------------
+df_aktualne = pd.DataFrame({
+    'Aktualne stosowanie suplementów': ['Tak', 'Nie'],
+    'n'                               : [97, 10],
+    'procent'                         : [90.7, 9.3]
+})
+plot_bar(df_aktualne,
+         'Aktualne stosowanie suplementów',
+         'n',
+         'procent',
+         title='Aktualne stosowanie suplementów',
+         filename='aktualne-suplementy.png',
+         rotate_xticks=False,
+         x_label='Odpowiedź',
+         y_label='Liczba respondentów (n)',
+         bar_color='steelblue')
+
+
+# ----------------------------------------------------------------------
+# 7. Częstość stosowania suplementów
+# ----------------------------------------------------------------------
+df_czestosc = pd.DataFrame({
+    'Częstość stosowania' : ['Codziennie',
+                             'Kilka razy w tygodniu',
+                             'Kilka razy w miesiącu',
+                             'Sporadycznie'],
+    'n'                  : [65, 21, 3, 18],
+    'procent'            : [60.7, 19.6, 2.8, 16.8]
+})
+plot_bar(df_czestosc,
+         'Częstość stosowania',
+         'n',
+         'procent',
+         title='Częstość stosowania suplementów',
+         filename='czestosc-suplementow.png',
+         rotate_xticks=True,
+         x_label='Częstość',
+         y_label='Liczba respondentów (n)',
+         bar_color='mediumseagreen')
+
+
+# ----------------------------------------------------------------------
+# 8. Czas stosowania suplementów
+# ----------------------------------------------------------------------
+df_czas = pd.DataFrame({
+    'Czas stosowania' : ['< 3 miesięcy', '3–12 miesięcy', '1–3 lata', '>3 lat'],
+    'n'               : [20, 23, 24, 40],
+    'procent'         : [18.7, 21.5, 22.4, 37.4]
+})
+plot_bar(df_czas,
+         'Czas stosowania',
+         'n',
+         'procent',
+         title='Czas stosowania suplementów',
+         filename='czas-suplementow.png',
+         rotate_xticks=True,
+         x_label='Czas',
+         y_label='Liczba respondentów (n)',
+         bar_color='coral')
+
+
+# ----------------------------------------------------------------------
+# 9. Rodzaje stosowanych suplementów
+# ----------------------------------------------------------------------
+df_rodzaje = pd.DataFrame({
+    'Rodzaj suplementu' : ['WITD', 'KO3', 'MAG', 'PROB', 'WITC', 'MWIT', 'BIAŁ', 'INNE', 'KREA', 'ADAP'],
+    # 'Rodzaj suplementu' : ['Witamina D', 'Kwasy omega-3', 'Magnez', 'Probiotyki', 'Witamina C',
+    #                        'Multiwitaminy', 'Białko','Inne odpowiedzi', 'Kreatyna', 'Adaptogeny (np. ashwagandha)']
+    'n'                : [89, 62, 51, 40, 37, 32, 24, 19, 15, 11],
+    'procent'          : [83.2, 57.9, 47.7, 37.4, 34.6, 29.9, 22.4, 17.8, 14.0, 10.3]
+})
+plot_bar(df_rodzaje,
+         'Rodzaj suplementu',
+         'n',
+         'procent',
+         title='Rodzaje stosowanych suplementów',
+         filename='rodzaje-suplementow.png',
+         rotate_xticks=True,
+         x_label='Suplement',
+         y_label='Liczba respondentów (n)',
+         bar_color='slateblue')
+
+
+# ----------------------------------------------------------------------
+# 10. Powody suplementacji
+# ----------------------------------------------------------------------
+df_powody = pd.DataFrame({
+    'Powód stosowania' : ['POP-ZDR', 'WZM-ODP', 'ZAP-NIE', 'ZWI-ENE', 'POP-SAM', 'POP-KON', 'POP-WYG', 'INNE'],
+    # 'Powód stosowania'               : ['Poprawa zdrowia',
+    #                                     'Zapobieganie niedoborom',
+    #                                     'Wzmocnienie odporności',
+    #                                     'Poprawa wyglądu (skóra, włosy, paznokcie)',
+    #                                     'Zwiększenie energii',
+    #                                     'Poprawa koncentracji',
+    #                                     'Poprawa samopoczucia',
+    #                                     'Inne odpowiedzi'],
+    'n'                              : [73, 73, 71, 54, 53, 49, 48, 5],
+    'procent'                        : [68.2, 68.2, 66.4, 50.5, 49.5, 45.8, 44.9, 4.7]
+})
+plot_bar(df_powody,
+         'Powód stosowania',
+         'n',
+         'procent',
+         title='Powody suplementacji',
+         filename='powody-suplementacji.png',
+         rotate_xticks=True,
+         x_label='Powód',
+         y_label='Liczba respondentów (n)',
+         bar_color='goldenrod')
 
