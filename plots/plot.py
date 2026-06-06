@@ -54,7 +54,7 @@ def plot_bar(df, category_col, count_col, percent_col,
     #plt.show()
 
 # ----------------------------------------------------------------------
-# 1. Płeć badanych
+# 1. Płeć badanych - 2
 # ----------------------------------------------------------------------
 df_gender = pd.DataFrame({
     'Płeć': ['Kobieta', 'Mężczyzna'],
@@ -68,7 +68,7 @@ plot_bar(df_gender, 'Płeć', 'n', 'procent',
          y_label='Liczba respondentów (n)')
 
 # ----------------------------------------------------------------------
-# 2. Wiek badanych
+# 2. Wiek badanych - 3
 # ----------------------------------------------------------------------
 df_age = pd.DataFrame({
     'Wiek': ['< 20', '20–22', '23–25', '> 25'],
@@ -82,7 +82,7 @@ plot_bar(df_age, 'Wiek', 'n', 'procent',
          y_label='Liczba respondentów (n)')
 
 # ----------------------------------------------------------------------
-# 3. Rok studiów
+# 3. Rok studiów - 5
 # ----------------------------------------------------------------------
 
 # SMU (Studia magisterskie uzupełniające)
@@ -100,7 +100,7 @@ plot_bar(df_year, 'Rok studiów', 'n', 'procent',
          y_label='Liczba respondentów (n)')
 
 # ----------------------------------------------------------------------
-# 4. Kierunki studiów
+# 4. Kierunki studiów - 4
 # ----------------------------------------------------------------------
 df_fields = pd.DataFrame({
     'Kierunek': [
@@ -128,7 +128,7 @@ plot_bar(df_fields, 'Kierunek', 'n', 'procent',
          bar_color='darkorange')
 
 # ----------------------------------------------------------------------
-# 5. Aktywność fizyczna
+# 5. Aktywność fizyczna - 6
 # ----------------------------------------------------------------------
 df_activity = pd.DataFrame({
     'Aktywność fizyczna': [
@@ -158,7 +158,7 @@ plot_bar(df_activity, 'Aktywność fizyczna', 'n', 'procent',
 
 
 # ----------------------------------------------------------------------
-# 6. Aktualne stosowanie suplementów
+# 6. Aktualne stosowanie suplementów - 7
 # ----------------------------------------------------------------------
 df_aktualne = pd.DataFrame({
     'Aktualne stosowanie suplementów': ['Tak', 'Nie'],
@@ -179,7 +179,7 @@ plot_bar(df_aktualne,
 
 
 # ----------------------------------------------------------------------
-# 7. Częstość stosowania suplementów
+# 7. Częstość stosowania suplementów - 8
 # ----------------------------------------------------------------------
 df_czestosc = pd.DataFrame({
     'Częstość stosowania' : ['Codziennie',
@@ -203,7 +203,7 @@ plot_bar(df_czestosc,
 
 
 # ----------------------------------------------------------------------
-# 8. Czas stosowania suplementów
+# 8. Czas stosowania suplementów - 9
 # ----------------------------------------------------------------------
 df_czas = pd.DataFrame({
     'Czas stosowania' : ['< 3 miesięcy', '3–12 miesięcy', '1–3 lata', '>3 lat'],
@@ -223,7 +223,7 @@ plot_bar(df_czas,
 
 
 # ----------------------------------------------------------------------
-# 9. Rodzaje stosowanych suplementów
+# 9. Rodzaje stosowanych suplementów - 10
 # ----------------------------------------------------------------------
 df_rodzaje = pd.DataFrame({
     'Rodzaj suplementu' : ['WITD', 'KO3', 'MAG', 'PROB', 'INNE',
@@ -247,7 +247,7 @@ plot_bar(df_rodzaje,
 
 
 # ----------------------------------------------------------------------
-# 10. Powody suplementacji
+# 10. Powody suplementacji - 15
 # ----------------------------------------------------------------------
 df_powody = pd.DataFrame({
     'Powód stosowania' : ['POP-ZDR', 'WZM-ODP', 'ZAP-NIE', 'POP-SAM',
@@ -271,6 +271,186 @@ plot_bar(df_powody,
          filename='powody-suplementacji.png',
          rotate_xticks=True,
          x_label='Powód',
+         y_label='Liczba respondentów (n)',
+         bar_color='goldenrod')
+
+
+# ----------------------------------------------------------------------
+# 11. Źródła informacji o suplementach - 16
+# ----------------------------------------------------------------------
+df_zrodla = pd.DataFrame({
+    'Źródło' : ['INT', 'LEK', 'DIET', 'MED-SPO', 'ZNA-ROD', 'FARM', 'REK', 'INNE'],
+    # 'Źródło'               : ['Internet (artykuły, blogi)',
+    #                           'Media społecznościowe',
+    #                           'Reklamy',
+    #                           'Lekarz',
+    #                           'Dietetyk',
+    #                           'Farmaceuta',
+    #                           'Znajomi/rodzina',
+    #                           'Inne odpowiedzi'],
+    'n'                              : [67, 39, 37, 31, 29, 27, 10, 10],
+    'procent'                        : [69.07, 40.21, 38.14, 31.96, 29.9, 27.84, 10.31, 10.31]
+})
+plot_bar(df_zrodla,
+         'Źródło',
+         'n',
+         'procent',
+         title='Źródła informacji',
+         filename='zrodla-informacji.png',
+         rotate_xticks=True,
+         x_label='Źródło informacji',
+         y_label='Liczba respondentów (n)',
+         bar_color='goldenrod')
+
+
+# ----------------------------------------------------------------------
+# 12. Najbardziej wiarygodne źródła - 27
+# ----------------------------------------------------------------------
+df_wiarygodne = pd.DataFrame({
+    'Źródło' : ['LEK', 'NAUK', 'INST', 'DIET', 'FARM', 'BAD', 'PROF', 'FUNK', 'ZBR'],
+    # 'Źródła'               : ['Lekarz',
+    #                           'Naukowe portale internetowe',
+    #                           'Instytucje zdrowia publicznego',
+    #                           'Dietetyk',
+    #                           'Farmaceuta',
+    #                           'Badania naukowe',
+    #                           'Takie, którego polecenia nie wynikają z profitów jakie otrzymują',
+    #                           'Lekarze medycyny funkcjonalnej',
+    #                           'Portale zbierające wyniki badań lub też oponie specjalistów, ale wielu, żeby mozna było porównać podejścia, nie ufam jednemu lekarzowi, dietetykowi itp. ponieważ każdy mówi co innego'],
+    'n'                              : [27, 21, 18, 17, 10, 1, 1, 1, 1],
+    'procent'                        : [27.84, 21.65, 18.56, 17.53, 10.31, 1.03, 1.03, 1.03, 1.03]
+})
+plot_bar(df_wiarygodne,
+         'Źródło',
+         'n',
+         'procent',
+         title='Wiarygodne źródła',
+         filename='wiarygodne-zrodla.png',
+         rotate_xticks=True,
+         x_label='Źródło informacji',
+         y_label='Liczba respondentów (n)',
+         bar_color='goldenrod')
+
+
+# ----------------------------------------------------------------------
+# 12. Preferowane formy edukacji - 26
+# ----------------------------------------------------------------------
+df_preferowane = pd.DataFrame({
+    'Źródło' : ['KFE', 'ART', 'WAR', 'INF', 'KON', 'POS', 'POD', 'INNE'],
+    # 'Źródła'               : ['Krótkie filmy edukacyjne',
+    #                           'Infografiki',
+    #                           'Podcasty',
+    #                           'Warsztaty na uczelni',
+    #                           'Konsultacje z farmaceutą',
+    #                           'Posty na Instagramie/TikToku',
+    #                           'Artykuły popularnonaukowe',
+    #                           'Inne odpowiedzi'],
+    'n'         : [53, 45, 39, 32, 32, 32, 29, 5],
+    'procent'   : [54.64, 46.39, 40.21, 32.99, 32.99, 32.99, 29.9, 5.15]
+})
+plot_bar(df_preferowane,
+         'Źródło',
+         'n',
+         'procent',
+         title='Preferowane źródła',
+         filename='preferowane-zrodla.png',
+         rotate_xticks=True,
+         x_label='Źródło informacji',
+         y_label='Liczba respondentów (n)',
+         bar_color='goldenrod')
+
+# ----------------------------------------------------------------------
+# Przekraczanie zalecanych dawek - 11
+# ----------------------------------------------------------------------
+
+df_dawka= pd.DataFrame({
+    'odp' : ['NIDGY', 'SPRD', 'CZST', 'BRAK'],
+    # 'odp' : ['Nigdy – stosuję się ściśle do zaleceń.',
+    #          'Sporadycznie (np. gdy czuję, że "bierze mnie przeziębienie").'
+    #          'Często – uważam, że standardowe dawki są zbyt niskie.',
+    #          'Nie czytam zaleceń dotyczących dawkowania na opakowaniu.'],
+    'n'         : [53, 26, 12, 6],
+    'procent'   : [54.64, 26.8, 12.37, 6.19]
+})
+plot_bar(df_dawka,
+         'odp',
+         'n',
+         'procent',
+         title='Przekraczanie dawki',
+         filename='dawka.png',
+         rotate_xticks=True,
+         x_label='Przekraczanie dawki',
+         y_label='Liczba respondentów (n)',
+         bar_color='goldenrod')
+
+
+# ----------------------------------------------------------------------
+# Sprawdzanie powielania składników - 12
+# ----------------------------------------------------------------------
+
+df_skladniki= pd.DataFrame({
+    'Skład' : ['TAK', 'CZASAMI', 'NIE', 'JEDEN'],
+    # 'Skład'               : ['Tak, zawsze analizuję składy pod kątem powtarzających się substancji.',
+    #                          'Czasami zwracam na to uwagę',
+    #                          'Nie, nie sprawdzam tego.',
+    #                          'Stosuję tylko jeden preparat.'],
+    'n'         : [58, 17, 13, 9],
+    'procent'   : [59.79, 17.53, 13.4, 9.28]
+})
+plot_bar(df_skladniki,
+         'Skład',
+         'n',
+         'procent',
+         title='Składniki',
+         filename='skladniki.png',
+         rotate_xticks=True,
+         x_label='Sprawdzanie składników',
+         y_label='Liczba respondentów (n)',
+         bar_color='goldenrod')
+
+
+# ----------------------------------------------------------------------
+# Badania krwi przed suplementacją - 13
+# ----------------------------------------------------------------------
+
+df_badania= pd.DataFrame({
+    'odp' : ['NIE', 'OBS', 'TAK', 'NKT'],
+    # 'odp' : ['Nie, stosuję suplementy bez wykonywania wcześniejszych badań.',
+    #          'Suplementy dobieram na podstawie własnych obserwacji (np. gorsze samopoczucie, wypadanie włosów).',
+    #          'Tak, każdą suplementację konsultuję z wynikami badań',
+    #          'Zrobiłem/am badania tylko w przypadku niektórych preparatów.'],
+    'n'         : [23, 16, 24, 34],
+    'procent'   : [23.71, 16.5, 24.74, 35.05]
+})
+plot_bar(df_badania,
+         'odp',
+         'n',
+         'procent',
+         title='Badania',
+         filename='badania.png',
+         rotate_xticks=True,
+         x_label='Badania',
+         y_label='Liczba respondentów (n)',
+         bar_color='goldenrod')
+
+
+# ----------------------------------------------------------------------
+# Konsultacja ze specjalistą -  14
+# ----------------------------------------------------------------------
+
+df_konsultacja= pd.DataFrame({
+    'odp' : ['TAK', 'NIE'],
+    'n'         : [50, 47],
+    'procent'   : [51.55, 48.45]
+})
+plot_bar(df_konsultacja,
+         'odp',
+         'n',
+         'procent',
+         title='Konsultacja',
+         filename='konsultuja.png',
+         rotate_xticks=True,
+         x_label='Konsultuje',
          y_label='Liczba respondentów (n)',
          bar_color='goldenrod')
 
