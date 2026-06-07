@@ -53,6 +53,48 @@ def plot_bar(df, category_col, count_col, percent_col,
     plt.savefig(filename, dpi=300)
     #plt.show()
 
+def plot_barh(df, category_col, count_col, percent_col,
+              title, filename, rotate_yticks=False,
+              y_label='Kategoria', x_label='Liczba respondentów (n)',
+              bar_color='steelblue'):
+    """
+    Creates a **horizontal** bar plot using the same styling as `plot_bar`.
+
+    Parameters
+    ----------
+    df : pandas.DataFrame
+    category_col : str – column with category names (y‑axis)
+    count_col    : str – raw counts (n)
+    percent_col : str – percentages (shown at the end of each bar)
+    title, filename : str
+    rotate_yticks : bool – rotate y‑tick labels 90° (useful for long names)
+    y_label, x_label : str – Polish axis labels (note the swapped order)
+    bar_color : str – colour of the bars
+    """
+    fig, ax = plt.subplots(figsize=(12, 7))
+
+    # horizontal bars
+    bars = ax.barh(df[category_col], df[count_col], color=bar_color)
+
+    ax.set_ylabel(y_label, labelpad=15)
+    ax.set_xlabel(x_label, labelpad=15)
+
+    if rotate_yticks:
+        ax.tick_params(axis='y', rotation=90)
+
+    # write percentages at the end of each bar
+    # for rect, pct in zip(bars, df[percent_col]):
+    #     ax.text(rect.get_width() + max(df[count_col])*0.01,   # small offset
+    #             rect.get_y() + rect.get_height()/2,
+    #             f'{pct:.1f}%',
+    #             ha='left', va='center',
+    #             fontsize=12)
+
+    # plt.title(title, pad=20)
+    plt.tight_layout()
+    plt.savefig(filename, dpi=300)
+    # plt.show()
+
 # ----------------------------------------------------------------------
 # 1. Płeć badanych - 2
 # ----------------------------------------------------------------------
@@ -264,15 +306,15 @@ df_powody = pd.DataFrame({
     'procent'                        : [70.1, 68.04, 67.01, 51.55, 50.52, 47.42, 45.36, 4.12]
 })
 plot_bar(df_powody,
-         'Powód stosowania',
-         'n',
-         'procent',
-         title='Powody suplementacji',
-         filename='powody-suplementacji.png',
-         rotate_xticks=True,
-         x_label='Powód',
-         y_label='Liczba respondentów (n)',
-         bar_color='goldenrod')
+          'Powód stosowania',
+          'n',
+          'procent',
+          title='Powody suplementacji',
+          filename='powody-suplementacji.png',
+          rotate_xticks=True,
+          x_label='Powód',
+          y_label='Liczba respondentów (n)',
+          bar_color='goldenrod')
 
 
 # ----------------------------------------------------------------------
@@ -288,19 +330,19 @@ df_zrodla = pd.DataFrame({
     #                           'Farmaceuta',
     #                           'Reklamy',
     #                           'Inne odpowiedzi'],
-    'n'                              : [67, 39, 37, 31, 29, 27, 10, 10],
-    'procent'                        : [69.07, 40.21, 38.14, 31.96, 29.9, 27.84, 10.31, 10.31]
+    'n' : [67, 39, 37, 31, 29, 27, 10, 10],
+    'procent' : [69.07, 40.21, 38.14, 31.96, 29.9, 27.84, 10.31, 10.31]
 })
 plot_bar(df_zrodla,
-         'Źródło',
-         'n',
-         'procent',
-         title='Źródła informacji',
-         filename='zrodla-informacji.png',
-         rotate_xticks=True,
-         x_label='Źródło informacji',
-         y_label='Liczba respondentów (n)',
-         bar_color='goldenrod')
+          'Źródło',
+          'n',
+          'procent',
+          title='Źródła informacji',
+          filename='zrodla-informacji.png',
+          rotate_xticks=True,
+          x_label='Źródło informacji',
+          y_label='Liczba respondentów (n)',
+          bar_color='olive')
 
 
 # ----------------------------------------------------------------------
@@ -329,7 +371,7 @@ plot_bar(df_wiarygodne,
          rotate_xticks=True,
          x_label='Źródło informacji',
          y_label='Liczba respondentów (n)',
-         bar_color='goldenrod')
+         bar_color='orange')
 
 
 # ----------------------------------------------------------------------
@@ -357,7 +399,7 @@ plot_bar(df_preferowane,
          rotate_xticks=True,
          x_label='Forma',
          y_label='Liczba respondentów (n)',
-         bar_color='goldenrod')
+         bar_color='blue')
 
 # ----------------------------------------------------------------------
 # Przekraczanie zalecanych dawek - 11
@@ -381,7 +423,7 @@ plot_bar(df_dawka,
          rotate_xticks=True,
          x_label='Przekraczanie dawki',
          y_label='Liczba respondentów (n)',
-         bar_color='goldenrod')
+         bar_color='purple')
 
 
 # ----------------------------------------------------------------------
@@ -406,7 +448,7 @@ plot_bar(df_skladniki,
          rotate_xticks=True,
          x_label='Sprawdzanie składników',
          y_label='Liczba respondentów (n)',
-         bar_color='goldenrod')
+         bar_color='orange')
 
 
 # ----------------------------------------------------------------------
@@ -414,13 +456,13 @@ plot_bar(df_skladniki,
 # ----------------------------------------------------------------------
 
 df_badania= pd.DataFrame({
-    'odp' : ['NIE', 'OBS', 'TAK', 'NKT'],
-    # 'odp' : ['Nie, stosuję suplementy bez wykonywania wcześniejszych badań.',
-    #          'Suplementy dobieram na podstawie własnych obserwacji (np. gorsze samopoczucie, wypadanie włosów).',
+    'odp' : ['NKT', 'TAK', 'NIE', 'OBS'],
+    # 'odp' : ['Zrobiłem/am badania tylko w przypadku niektórych preparatów.',
     #          'Tak, każdą suplementację konsultuję z wynikami badań',
-    #          'Zrobiłem/am badania tylko w przypadku niektórych preparatów.'],
-    'n'         : [23, 16, 24, 34],
-    'procent'   : [23.71, 16.5, 24.74, 35.05]
+    #          'Nie, stosuję suplementy bez wykonywania wcześniejszych badań.',
+    #          'Suplementy dobieram na podstawie własnych obserwacji (np. gorsze samopoczucie, wypadanie włosów).'],
+    'n'         : [34, 24, 23, 16],
+    'procent'   : [35.05, 24.74, 23.71, 16.5]
 })
 plot_bar(df_badania,
          'odp',
@@ -431,7 +473,7 @@ plot_bar(df_badania,
          rotate_xticks=True,
          x_label='Badania',
          y_label='Liczba respondentów (n)',
-         bar_color='goldenrod')
+         bar_color='red')
 
 
 # ----------------------------------------------------------------------
@@ -439,9 +481,10 @@ plot_bar(df_badania,
 # ----------------------------------------------------------------------
 
 df_konsultacja= pd.DataFrame({
-    'odp' : ['TAK', 'NIE'],
-    'n'         : [50, 47],
-    'procent'   : [51.55, 48.45]
+    'odp' : ['NIE', 'DIET', 'FARM', 'LEK', 'INNE'],
+    # 'odp' : ['Nie, nie konsultuję', 'Tak, z dietetykiem', 'Tak, z farmaceutą', 'Tak, z lekarzem', 'Inne'],
+    'n'         : [46, 24, 15, 6, 6],
+    'procent'   : [47.42, 24.74, 15.46, 6.19, 6.19]
 })
 plot_bar(df_konsultacja,
          'odp',
@@ -452,5 +495,5 @@ plot_bar(df_konsultacja,
          rotate_xticks=True,
          x_label='Konsultuje',
          y_label='Liczba respondentów (n)',
-         bar_color='goldenrod')
+         bar_color='brown')
 
