@@ -1,2 +1,2 @@
-"Konsultuje";"3"
-"Nie konsultuje";"7"
+"Nie, nie konsultuję";"7"
+"Tak, z lekarzem";"3"

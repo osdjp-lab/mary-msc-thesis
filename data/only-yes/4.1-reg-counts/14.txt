@@ -1,2 +1,5 @@
-"Konsultuje";"50"
-"Nie konsultuje";"47"
+"Inne";"6"
+"Nie, nie konsultuję";"46"
+"Tak, z dietetykiem";"15"
+"Tak, z farmaceutą";"6"
+"Tak, z lekarzem";"24"

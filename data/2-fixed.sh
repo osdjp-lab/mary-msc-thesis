@@ -266,16 +266,24 @@ sed -i -e 's/Dietetyka kliniczna/Dietetyka/g' \
 # - Nie, nie konsultuję;53
 #
 
-sed -i -e 's/Dostałam zalecenie od lekarza specjalisty/Konsultuje/g' \
-       -e 's/Tak, specjalista medycyny funkcjonalnej/Konsultuje/g' \
-       -e 's/Tak, z lekarzem/Konsultuje/g' \
-       -e 's/z lekarzem, ale sporo czytam na ten temat/Konsultuje/g' \
-       -e 's/Głównie sama decyduje, ale częśxiowo też na zalecenie lekarza i dietetyka/Konsultuje/g' \
-       -e 's/Tak, z dietetykiem/Konsultuje/g' \
-       -e 's/Tak, z farmaceutą/Konsultuje/g' \
-       -e 's/Z trenerem/Konsultuje/g' \
-       -e 's/Na podstawie własnej wiedzy/Nie konsultuje/g' \
-       -e 's/Nie, nie konsultuję/Nie konsultuje/g' \
+# sed -i -e 's/Dostałam zalecenie od lekarza specjalisty/Konsultuje/g' \
+#        -e 's/Tak, specjalista medycyny funkcjonalnej/Konsultuje/g' \
+#        -e 's/Tak, z lekarzem/Konsultuje/g' \
+#        -e 's/z lekarzem, ale sporo czytam na ten temat/Konsultuje/g' \
+#        -e 's/Głównie sama decyduje, ale częśxiowo też na zalecenie lekarza i dietetyka/Konsultuje/g' \
+#        -e 's/Tak, z dietetykiem/Konsultuje/g' \
+#        -e 's/Tak, z farmaceutą/Konsultuje/g' \
+#        -e 's/Z trenerem/Konsultuje/g' \
+#        -e 's/Na podstawie własnej wiedzy/Nie konsultuje/g' \
+#        -e 's/Nie, nie konsultuję/Nie konsultuje/g' \
+#        ${OUTPUT_DIR}/14.txt
+
+sed -i -e 's/Dostałam zalecenie od lekarza specjalisty/Inne/g' \
+       -e 's/Tak, specjalista medycyny funkcjonalnej/Inne/g' \
+       -e 's/z lekarzem, ale sporo czytam na ten temat/Inne/g' \
+       -e 's/Głównie sama decyduje, ale częśxiowo też na zalecenie lekarza i dietetyka/Inne/g' \
+       -e 's/Z trenerem/Inne/g' \
+       -e 's/Na podstawie własnej wiedzy/Inne/g' \
        ${OUTPUT_DIR}/14.txt
 
 # 27)

@@ -1,2 +1,5 @@
-"Konsultuje"
-"Nie konsultuje"
+"Inne"
+"Nie, nie konsultuję"
+"Tak, z dietetykiem"
+"Tak, z farmaceutą"
+"Tak, z lekarzem"

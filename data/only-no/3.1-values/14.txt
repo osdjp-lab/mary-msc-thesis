@@ -1,2 +1,2 @@
-"Konsultuje"
-"Nie konsultuje"
+"Nie, nie konsultuję"
+"Tak, z lekarzem"
