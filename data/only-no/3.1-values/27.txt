@@ -1,2 +1,3 @@
+"Farmaceuta"
+"Lekarz"
 "Naukowe portale internetowe"
-"Opinia pojedynczego specjalisty"

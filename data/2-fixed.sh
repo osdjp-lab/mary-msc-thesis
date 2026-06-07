@@ -81,32 +81,34 @@ sed -i -e "s/ zlecone przez lekarza/Zlecone przez lekarza/g" \
 
 # 16
 
+       # -e "s?Interesuję się ziołami i jestem członkiem grupy stosującej nutraceutyki Arbonne?\Znajomi/rodzina?g" \
+       # -e "s/Literatura/Badania naukowe/g" \
+       # -e "s/PubMed/Badania naukowe/g" \
+       # -e "s/Rzetelne zrodla w internecie/Internet (artykuły blogi)/g" \
+
 sed -i -e "s/artykuły, blogi/artykuły blogi/g" \
        -e "s/badania naukowe/Badania naukowe/g" \
        -e "s/studia/Studia/g" \
-       -e "s?Interesuję się ziołami i jestem członkiem grupy stosującej nutraceutyki Arbonne?\Znajomi/rodzina?g" \
        -e "s/książki/Książki/g" \
-       -e "s/Literatura/Badania naukowe/g" \
-       -e "s/PubMed/Badania naukowe/g" \
-       -e "s/Rzetelne zrodla w internecie/Internet (artykuły blogi)/g" \
        -e "s/\s*,\s*/,/g" \
        "${OUTPUT_DIR}/16.txt"
 
 # 26
 
+       # -e "s/Konsultacje z farmaceutą/Konsultacja ze specjalistą/g" \
+       # -e "s/Dietetyk/Konsultacja ze specjalistą/g" \
+       # -e "s/Od lekarza/Konsultacja ze specjalistą/g" \
+       # -e "s/Artykuły naukowe/Artykuły naukowe lub popularnonaukowe/g" \
+       # -e "s/Artykuły popularnonaukowe/Artykuły naukowe lub popularnonaukowe/g" \
+       # -e "s/Webinary edukacyjne/Szkolenia/g" \
+       # -e "s/Warsztaty na uczelni/Szkolenia/g" \
+       # -e "s/Specjalistyczne szkolenia/Szkolenia/g" \
+       # -e "s/Infografiki/Materiały lub nagrania/g" \
+       # -e "s/Krótkie filmy edukacyjne/Materiały lub nagrania/g" \
+       # -e "s/Podcasty/Materiały lub nagrania/g" \
+
 sed -i -e "s/specjalistyczne szkolenia/Specjalistyczne szkolenia/g" \
        -e "s/webinary edukacyjne/Webinary edukacyjne/g" \
-       -e "s/Konsultacje z farmaceutą/Konsultacja ze specjalistą/g" \
-       -e "s/Dietetyk/Konsultacja ze specjalistą/g" \
-       -e "s/Od lekarza/Konsultacja ze specjalistą/g" \
-       -e "s/Artykuły naukowe/Artykuły naukowe lub popularnonaukowe/g" \
-       -e "s/Artykuły popularnonaukowe/Artykuły naukowe lub popularnonaukowe/g" \
-       -e "s/Webinary edukacyjne/Szkolenia/g" \
-       -e "s/Warsztaty na uczelni/Szkolenia/g" \
-       -e "s/Specjalistyczne szkolenia/Szkolenia/g" \
-       -e "s/Infografiki/Materiały lub nagrania/g" \
-       -e "s/Krótkie filmy edukacyjne/Materiały lub nagrania/g" \
-       -e "s/Podcasty/Materiały lub nagrania/g" \
        -e "s/\s*,\s*/,/g" \
        "${OUTPUT_DIR}/26.txt"
 
@@ -293,15 +295,15 @@ sed -i -e 's/Dostałam zalecenie od lekarza specjalisty/Konsultuje/g' \
 # - Naukowe portale internetowe;23
 # - Takie, którego polecenia nie wynikają z profitów jakie otrzymują;1
 
-sed -i -e 's/Lekarz/Opinia pojedynczego specjalisty/g' \
-       -e 's/Lekarze medycyny funkcjonalnej/Opinia pojedynczego specjalisty/g' \
-       -e 's/Dietetyk/Opinia pojedynczego specjalisty/g' \
-       -e 's/Farmaceuta/Opinia pojedynczego specjalisty/g' \
-       -e 's?Badania naukowe?Opinia zespołu lub instytutu?g' \
-       -e 's?Instytucje zdrowia publicznego?Opinia zespołu lub instytutu?g' \
-       -e 's?Portale zbierające wyniki badań lub też oponie specjalistów, ale wielu, żeby mozna było porównać podejścia, nie ufam jednemu lekarzowi, dietetykowi itp. ponieważ każdy mówi co innego?Opinia zespołu lub instytutu?g' \
-       -e 's/Takie, którego polecenia nie wynikają z profitów jakie otrzymują/Inne/g' \
-       "${OUTPUT_DIR}/27.txt"
+# sed -i -e 's/Lekarz/Opinia pojedynczego specjalisty/g' \
+#        -e 's/Lekarze medycyny funkcjonalnej/Opinia pojedynczego specjalisty/g' \
+#        -e 's/Dietetyk/Opinia pojedynczego specjalisty/g' \
+#        -e 's/Farmaceuta/Opinia pojedynczego specjalisty/g' \
+#        -e 's?Badania naukowe?Opinia zespołu lub instytutu?g' \
+#        -e 's?Instytucje zdrowia publicznego?Opinia zespołu lub instytutu?g' \
+#        -e 's?Portale zbierające wyniki badań lub też oponie specjalistów, ale wielu, żeby mozna było porównać podejścia, nie ufam jednemu lekarzowi, dietetykowi itp. ponieważ każdy mówi co innego?Opinia zespołu lub instytutu?g' \
+#        -e 's/Takie, którego polecenia nie wynikają z profitów jakie otrzymują/Inne/g' \
+#        "${OUTPUT_DIR}/27.txt"
 
 # Strip leading and trailing spaces from fields and add delimiting quotes
 
