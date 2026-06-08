@@ -331,23 +331,23 @@ sed -i -e 's/^/"/g'    \
 paste -d ';' $(for i in $(seq 11 14); do echo $OUTPUT_DIR/$i.txt; done) > $OUTPUT_DIR/tmp.csv
 
 sed -i -e '1s/.*/Indeks prawidłowych praktyk suplementacyjnych/' \
-       -e 's/"Często – uważam, że standardowe dawki są zbyt niskie."/0/g' \
-       -e 's/"Nie czytam zaleceń dotyczących dawkowania na opakowaniu."/0/g' \
-       -e 's/"Nigdy – stosuję się ściśle do zaleceń."/1/g' \
-       -e 's/"Sporadycznie (np. gdy czuję, że \'bierze mnie przeziębienie\')."/0/g' \
-       -e 's/"Czasami zwracam na to uwagę"/0/g' \
-       -e 's/"Nie, nie sprawdzam tego."/0/g' \
-       -e 's/"Stosuję tylko jeden preparat."/0/g' \
-       -e 's/"Tak, zawsze analizuję składy pod kątem powtarzających się substancji."/1/g' \
-       -e 's/"Nie, stosuję suplementy bez wykonywania wcześniejszych badań."/0/g' \
-       -e 's/"Suplementy dobieram na podstawie własnych obserwacji (np. gorsze samopoczucie, wypadanie włosów)."/0/g' \
-       -e 's/"Tak, każdą suplementację konsultuję z wynikami badań"/1/g' \
-       -e 's/"Zrobiłem/am badania tylko w przypadku niektórych preparatów."/0/g' \
-       -e 's/"Inne"/0/g' \
-       -e 's/"Nie, nie konsultuję"/0/g' \
-       -e 's/"Tak, z dietetykiem"/1/g' \
-       -e 's/"Tak, z farmaceutą"/1/g' \
-       -e 's/"Tak, z lekarzem"/1/g' \
+       -e 's/.Często – uważam, że standardowe dawki są zbyt niskie../0/g' \
+       -e 's/.Nie czytam zaleceń dotyczących dawkowania na opakowaniu../0/g' \
+       -e 's/.Nigdy – stosuję się ściśle do zaleceń../1/g' \
+       -e 's/.Sporadycznie .np. gdy czuję, że .bierze mnie przeziębienie..../0/g' \
+       -e 's/.Czasami zwracam na to uwagę./0/g' \
+       -e 's/.Nie, nie sprawdzam tego../0/g' \
+       -e 's/.Stosuję tylko jeden preparat../0/g' \
+       -e 's/.Tak, zawsze analizuję składy pod kątem powtarzających się substancji../1/g' \
+       -e 's/.Nie, stosuję suplementy bez wykonywania wcześniejszych badań../0/g' \
+       -e 's/.Suplementy dobieram na podstawie własnych obserwacji .np. gorsze samopoczucie, wypadanie włosów.../0/g' \
+       -e 's/.Tak, każdą suplementację konsultuję z wynikami badań./1/g' \
+       -e 's/.Zrobiłem\/am badania tylko w przypadku niektórych preparatów../0/g' \
+       -e 's/.Inne./0/g' \
+       -e 's/.Nie, nie konsultuję./0/g' \
+       -e 's/.Tak, z dietetykiem./1/g' \
+       -e 's/.Tak, z farmaceutą./1/g' \
+       -e 's/.Tak, z lekarzem./1/g' \
        -e 's/;/+/g' \
        $OUTPUT_DIR/tmp.csv
 
@@ -365,5 +365,4 @@ tail -n +2 "$OUTPUT_DIR/tmp.csv" | while IFS= read -r line; do
     # Append the result to 29.txt
     echo "$result" >> "$OUTPUT_DIR/29.txt"
 done
-
 

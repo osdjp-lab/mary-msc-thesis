@@ -28,7 +28,7 @@ mkdir -p "$OUTPUT_DIR"
 for ref_file in $(seq -f "$REF_DIR/%g.txt" 2 9) \
                 $(seq -f "$REF_DIR/%g.txt" 11 14) \
                 $(seq -f "$REF_DIR/%g.txt" 17 25) \
-                $(seq -f "$REF_DIR/%g.txt" 27 28); do
+                $(seq -f "$REF_DIR/%g.txt" 27 29); do
     # Skip if not a regular file
     [ -f "$ref_file" ] || continue
 
