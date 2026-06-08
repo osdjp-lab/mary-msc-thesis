@@ -366,3 +366,5 @@ tail -n +2 "$OUTPUT_DIR/tmp.csv" | while IFS= read -r line; do
     echo "$result" >> "$OUTPUT_DIR/29.txt"
 done
 
+rm $OUTPUT_DIR/tmp.csv 
+

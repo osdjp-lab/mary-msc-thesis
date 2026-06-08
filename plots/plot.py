@@ -482,7 +482,8 @@ plot_bar(df_badania,
 
 df_konsultacja= pd.DataFrame({
     'odp' : ['NIE', 'DIET', 'FARM', 'LEK', 'INNE'],
-    # 'odp' : ['Nie, nie konsultuję', 'Tak, z dietetykiem', 'Tak, z farmaceutą', 'Tak, z lekarzem', 'Inne'],
+    # 'odp' : ['Nie, nie konsultuję', 'Tak, z dietetykiem',
+    #          'Tak, z farmaceutą', 'Tak, z lekarzem', 'Inne'],
     'n'         : [46, 24, 15, 6, 6],
     'procent'   : [47.42, 24.74, 15.46, 6.19, 6.19]
 })
@@ -496,4 +497,44 @@ plot_bar(df_konsultacja,
          x_label='Konsultuje',
          y_label='Liczba respondentów (n)',
          bar_color='brown')
+
+# ----------------------------------------------------------------------
+# Indeks prawidłowych praktyk suplementacyjnych
+# ----------------------------------------------------------------------
+
+df_indeks= pd.DataFrame({
+    'odp'     : [0, 1, 2, 3, 4],
+    'n'       : [9, 31, 30, 19, 8],
+    'procent' : [9.27, 31.96, 30.93, 19.59, 8.25],
+})
+plot_bar(df_indeks,
+         'odp',
+         'n',
+         'procent',
+         title='Indeks',
+         filename='indeks-praktyk.png',
+         rotate_xticks=True,
+         x_label='Indeks',
+         y_label='Liczba respondentów (n)',
+         bar_color='orange')
+
+# ----------------------------------------------------------------------
+# Kategorie praktyk
+# ----------------------------------------------------------------------
+
+df_kategorie= pd.DataFrame({
+    'odp'     : ['Niska prawidłowość', 'Umiarkowana prawidłowość', 'Wysoka prawidłowość'],
+    'n'       : [40, 30, 27],
+    'procent' : [41.24, 30.93, 27.84]
+})
+plot_bar(df_kategorie,
+         'odp',
+         'n',
+         'procent',
+         title='Kategorie',
+         filename='kategorie-praktyk.png',
+         rotate_xticks=True,
+         x_label='Kategoria',
+         y_label='Liczba respondentów (n)',
+         bar_color='orange')
 
