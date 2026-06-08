@@ -368,3 +368,9 @@ done
 
 rm $OUTPUT_DIR/tmp.csv 
 
+# Generate indeks obiektywnego poziomu wiedzy
+
+# Merge relevant files
+paste -d ';' $(for i in $(seq 20 25); do echo $OUTPUT_DIR/$i.txt; done) > $OUTPUT_DIR/tmp.csv
+
+
