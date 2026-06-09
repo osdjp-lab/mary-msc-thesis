@@ -368,9 +368,80 @@ done
 
 rm $OUTPUT_DIR/tmp.csv 
 
+# Generate indeks samooceny poziomu wiedzy
+
+# Merge relevant files
+paste -d ';' $(for i in $(seq 17 19); do echo $OUTPUT_DIR/$i.txt; done) > $OUTPUT_DIR/tmp.csv
+
+sed -i -e '1s/.*/Indeks samooceny poziomu wiedzy/' \
+       -e 's/"//g' \
+       -e 's/;/+/g' \
+       $OUTPUT_DIR/tmp.csv
+
+head -n 1 $OUTPUT_DIR/tmp.csv > $OUTPUT_DIR/30.txt
+
+tail -n +2 "$OUTPUT_DIR/tmp.csv" | while IFS= read -r line; do
+    # Feed the line (an arithmetic expression) to bc
+    # If the line contains commas or other separators, turn them
+    # into spaces so bc sees a plain expression.
+    expr=$(printf '%s' "$line" | tr ',' ' ')
+
+    # Run bc and capture its output
+    result=$(echo "$expr" | bc)
+
+    # Append the result to 29.txt
+    echo "$result" >> "$OUTPUT_DIR/30.txt"
+done
+
+rm $OUTPUT_DIR/tmp.csv 
+
 # Generate indeks obiektywnego poziomu wiedzy
 
 # Merge relevant files
 paste -d ';' $(for i in $(seq 20 25); do echo $OUTPUT_DIR/$i.txt; done) > $OUTPUT_DIR/tmp.csv
 
+sed -i -e '1s/.*/Indeks obiektywnego poziom wiedzy/' \
+       -e 's/"Nie wiem"/0/' \
+       -e 's/"Preparat o udowodnionym działaniu terapeutycznym"/0/' \
+       -e 's/"Produkt leczniczy"/0/' \
+       -e 's/"Środek spożywczy uzupełniający dietę"/1/' \
+       -e 's/"Nie"/1/' \
+       -e 's/"Nie wiem"/0/' \
+       -e 's/"Tak"/0/' \
+       -e 's/"Tylko niektóre"/0/' \
+       -e 's/"Brak skutków ubocznych"/0/' \
+       -e 's/"Niedokrwistości"/0/' \
+       -e 's/"Nie wiem"/0/' \
+       -e 's/"Uszkodzenia nerek"/1/' \
+       -e 's/"Ministerstwo Zdrowia"/0/' \
+       -e 's/"Nie wiem"/0/' \
+       -e 's/"Producent"/1/' \
+       -e 's/"Sanepid bada każdy produkt przed sprzedażą"/0/' \
+       -e 's/"Nie"/0/' \
+       -e 's/"Nie wiem"/0/' \
+       -e 's/"Tak"/1/' \
+       -e 's/"Tylko witaminy"/0/' \
+       -e 's/"Nie"/0/' \
+       -e 's/"Nie wiem"/0/' \
+       -e 's/"Tak"/1/' \
+       -e 's/"Tylko minerały"/0/' \
+       -e 's/;/+/g' \
+       $OUTPUT_DIR/tmp.csv
+
+head -n 1 $OUTPUT_DIR/tmp.csv > $OUTPUT_DIR/31.txt
+
+tail -n +2 "$OUTPUT_DIR/tmp.csv" | while IFS= read -r line; do
+    # Feed the line (an arithmetic expression) to bc
+    # If the line contains commas or other separators, turn them
+    # into spaces so bc sees a plain expression.
+    expr=$(printf '%s' "$line" | tr ',' ' ')
+
+    # Run bc and capture its output
+    result=$(echo "$expr" | bc)
+
+    # Append the result to 29.txt
+    echo "$result" >> "$OUTPUT_DIR/31.txt"
+done
+
+rm $OUTPUT_DIR/tmp.csv 
 

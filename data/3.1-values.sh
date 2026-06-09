@@ -6,7 +6,7 @@ OUTPUT_DIR="$2"
 for i in $(seq -f "$INPUT_DIR/%g.txt" 1 9) \
          $(seq -f "$INPUT_DIR/%g.txt" 11 14) \
          $(seq -f "$INPUT_DIR/%g.txt" 17 25) \
-         $(seq -f "$INPUT_DIR/%g.txt" 27 29); do
+         $(seq -f "$INPUT_DIR/%g.txt" 27 31); do
     name=$(basename "$i")
     echo "$OUTPUT_DIR/${name}"
     tail -n +2 $i | sort -u > "$OUTPUT_DIR/${name}"
