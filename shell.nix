@@ -16,6 +16,7 @@ pkgs.mkShell {
       numpy
       pandas
       matplotlib
+      seaborn
     ]))
 
     # csvkit utilities
