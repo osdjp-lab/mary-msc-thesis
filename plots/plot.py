@@ -2,6 +2,7 @@
 
 import matplotlib.pyplot as plt
 import pandas as pd
+import seaborn as sns   # easier handling of box‑plots & jitter
 
 # ----------------------------------------------------------------------
 # Global style – larger base font
@@ -52,6 +53,7 @@ def plot_bar(df, category_col, count_col, percent_col,
     plt.tight_layout()
     plt.savefig(filename, dpi=300)
     #plt.show()
+    plt.close()
 
 def plot_barh(df, category_col, count_col, percent_col,
               title, filename, rotate_yticks=False,
@@ -94,6 +96,82 @@ def plot_barh(df, category_col, count_col, percent_col,
     plt.tight_layout()
     plt.savefig(filename, dpi=300)
     # plt.show()
+    plt.close()
+
+def plot_three_vars_box(df,
+                        vars_list,
+                        title,
+                        filename,
+                        rotate_xticks=False,
+                        x_label='Zmienna',
+                        y_label='Wartość (1‑5)',
+                        palette='Set2',
+                        show_points=True,
+                        point_alpha=0.6):
+    """
+    Creates a box‑plot with the three questionnaire items on the x‑axis
+    and the Likert ratings (1‑5) on the y‑axis.
+
+    Parameters
+    ----------
+    df          : pandas.DataFrame containing the raw columns.
+    vars_list   : list of three column names to plot (e.g. ['general','safety','interaction']).
+    title, filename : strings.
+    rotate_xticks : bool – rotate the variable labels 90° (useful if you add many items later).
+    x_label, y_label : axis titles.
+    palette     : seaborn colour palette.
+    show_points : overlay jittered raw observations.
+    point_alpha : transparency of the overlay points.
+    """
+    # ----------------------------------------------------------
+    # Reshape to long format  (variable, value)
+    # ----------------------------------------------------------
+    long_df = df[vars_list].melt(var_name='Zmienna', value_name='Wartość')
+    # Ensure the rating column is treated as numeric (it already is)
+    long_df['Wartość'] = pd.to_numeric(long_df['Wartość'])
+
+    # ----------------------------------------------------------
+    # Plot
+    # ----------------------------------------------------------
+    fig, ax = plt.subplots(figsize=(10, 6))
+
+    sns.boxplot(data=long_df,
+                x='Zmienna',
+                y='Wartość',
+                palette=palette,
+                width=0.6,
+                showfliers=False,
+                ax=ax)
+
+    if show_points:
+        # Jittered strip of the individual responses
+        sns.stripplot(data=long_df,
+                      x='Zmienna',
+                      y='Wartość',
+                      color='black',
+                      size=5,
+                      jitter=True,
+                      alpha=point_alpha,
+                      dodge=True,
+                      ax=ax)
+
+    # ----------------------------------------------------------
+    # Titles / labels / tick handling
+    # ----------------------------------------------------------
+    # ax.set_title(title, pad=20)
+    ax.set_xlabel(x_label, labelpad=15)
+    ax.set_ylabel(y_label, labelpad=15)
+
+    if rotate_xticks:
+        ax.tick_params(axis='x', rotation=90)
+
+    # Force the y‑axis to show the full Likert range
+    ax.set_ylim(0.5, 5.5)
+    ax.set_yticks([1, 2, 3, 4, 5])
+
+    plt.tight_layout()
+    plt.savefig(filename, dpi=300)
+    plt.close()
 
 # ----------------------------------------------------------------------
 # 1. Płeć badanych - 2
@@ -503,12 +581,12 @@ plot_bar(df_konsultacja,
 # ----------------------------------------------------------------------
 
 df_indeks= pd.DataFrame({
-    'odp'     : [0, 1, 2, 3, 4],
+    'indeks'     : [0, 1, 2, 3, 4],
     'n'       : [9, 31, 30, 19, 8],
     'procent' : [9.27, 31.96, 30.93, 19.59, 8.25],
 })
 plot_bar(df_indeks,
-         'odp',
+         'indeks',
          'n',
          'procent',
          title='Indeks',
@@ -523,18 +601,84 @@ plot_bar(df_indeks,
 # ----------------------------------------------------------------------
 
 df_kategorie= pd.DataFrame({
-    'odp'     : ['Niska prawidłowość', 'Umiarkowana prawidłowość', 'Wysoka prawidłowość'],
+    'kategoria'     : ['Niska prawidłowość', 'Umiarkowana prawidłowość', 'Wysoka prawidłowość'],
     'n'       : [40, 30, 27],
     'procent' : [41.24, 30.93, 27.84]
 })
 plot_bar(df_kategorie,
-         'odp',
+         'kategoria',
          'n',
          'procent',
          title='Kategorie',
          filename='kategorie-praktyk.png',
          rotate_xticks=True,
          x_label='Kategoria',
+         y_label='Liczba respondentów (n)',
+         bar_color='orange')
+
+# ----------------------------------------------------------------------
+# Wykres pudełkowy samoocena
+# ----------------------------------------------------------------------
+
+data = {
+    "Ogólna wiedza" : [4,2,3,4,4,4,5,5,4,4,3,5,4,4,4,4,5,2,5,4,5,5,3,4,4,5,5,4,4,3,1,3,2,4,4,3,1,2,2,3,4,3,5,3,2,2,2,2,4,3,4,2,4,3,4,3,2,2,4,2,3,4,4,3,4,4,2,4,4,3,4,4,5,4,4,4,3,4,4,4,4,4,3,4,3,1,5,4,4,2,5,3,3,3,2,3,3],
+    "Wiedza o bezpieczeństwie" : [4,1,2,4,4,4,5,5,4,3,2,5,3,5,4,5,5,3,5,4,5,5,3,4,5,5,5,4,4,3,1,2,2,4,3,4,1,2,3,2,3,4,5,3,2,2,3,2,4,3,4,2,3,3,4,3,1,2,5,1,4,3,4,2,4,3,2,4,4,3,4,4,5,4,2,4,3,3,4,4,4,4,3,3,3,1,5,5,4,3,4,3,3,4,4,2,3],
+    "Wiedza o interakcjach" : [4,1,2,4,4,4,5,5,4,3,3,5,3,4,4,5,5,4,5,4,5,5,3,3,4,5,5,4,3,3,1,3,1,4,3,4,1,1,4,1,3,3,5,3,2,2,4,1,3,2,3,3,2,3,4,2,2,2,5,2,2,3,3,2,4,4,2,2,3,2,5,4,5,3,2,5,3,3,4,3,4,4,3,3,4,1,5,5,4,1,4,3,3,5,2,1,4]
+}
+
+df = pd.DataFrame(data)
+
+# The three variables are all Likert‑scale (1‑5) → treat them as categories
+
+plot_three_vars_box(
+    df,
+    vars_list=['Ogólna wiedza', 'Wiedza o bezpieczeństwie', 'Wiedza o interakcjach'],
+    title='Rozkład odpowiedzi (skala 1‑5) dla trzech zmiennych',
+    filename='samoocena.png',
+    rotate_xticks=False,
+    x_label='Zmienna ankietowa',
+    y_label='Ocena (1‑5)',
+    palette='Set2',
+    show_points=True
+)
+
+# ----------------------------------------------------------------------
+# Indeks obiektywnej wiedzy
+# ----------------------------------------------------------------------
+
+df_indeks= pd.DataFrame({
+    'indeks'     : [0, 1, 2, 3, 4, 5, 6],
+    'n'       : [2, 6, 12, 11, 28.87, 39.18, 0],
+    'procent' : [2.06, 6.19, 12.37, 11.34, 28.87, 39.18, 0]
+})
+plot_bar(df_indeks,
+         'indeks',
+         'n',
+         'procent',
+         title='Indeks',
+         filename='indeks-wiedzy.png',
+         rotate_xticks=True,
+         x_label='Indeks',
+         y_label='Liczba respondentów (n)',
+         bar_color='orange')
+
+# ----------------------------------------------------------------------
+# Kategorie praktyk
+# ----------------------------------------------------------------------
+
+df_kategorie= pd.DataFrame({
+    'kategoria'     : ['Niski', 'Umiarkowany', 'Wysoki'],
+    'n'       : [20, 39, 38],
+    'procent' : [20.61, 40.21, 39.18]
+})
+plot_bar(df_kategorie,
+         'kategoria',
+         'n',
+         'procent',
+         title='Kategorie',
+         filename='kategorie-wiedzy.png',
+         rotate_xticks=True,
+         x_label='Poziom wiedzy',
          y_label='Liczba respondentów (n)',
          bar_color='orange')
 
