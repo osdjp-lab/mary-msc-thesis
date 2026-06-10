@@ -17,6 +17,8 @@ pkgs.mkShell {
       pandas
       matplotlib
       seaborn
+      scipy
+      statsmodels
     ]))
 
     # csvkit utilities

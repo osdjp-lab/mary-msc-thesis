@@ -1104,30 +1104,632 @@
 
 \subsubsection{Czy stosowanie suplementów zależy od płci?}
 
+% Analiza 1. Czy stosowanie suplementów zależy od płci?
+%
+% Zmienne
+%     • Płeć: kobieta / mężczyzna.
+%     • Aktualne stosowanie suplementów: tak / nie.
+% Tabela
+% Płeć & Stosuje suplementy n (%) & Nie stosuje n (%) & p
+% 
+% Test statystyczny
+%     • test chi-kwadrat niezależności,
+%     • jeżeli liczebności oczekiwane są mniejsze niż 5, należy zastosować dokładny test Fishera.
+% 
+% Uzasadnienie
+% Obie zmienne są jakościowe nominalne.
+%
+% Interpretacja
+% Jeśli p < 0,05, można stwierdzić istotną zależność między płcią a stosowaniem suplementów.
+
+Ze względu na to, że w jednej z komórek odnotowano liczbę obserwacji równą 0, warunek minimalnych oczekiwanych częstości ($\geq 5$) dla testu chi kwadrat nie został spełniony. W związku z tym zastosowano dokładny test Fishera.
+
+Test Fishera dał wartość p = 0,36. Przy przyjętym poziomie istotności $\alpha = 0,05$ nie odrzucamy hipotezy zerowej o braku zależności między płcią a stosowaniem suplementów.
+
+W analizowanej próbie nie wykazano statystycznie istotnej różnicy w odsetku osób przyjmujących suplementy diety w zależności od płci.
+
+\begin{table}[h!]
+    \centering
+    \caption{Stosowanie suplementów a płeć.}
+    \label{tab:supl-plec}
+    \begin{tabular}{|l|l|l|}
+        \hline
+        \textbf{Płeć} & \textbf{Stosuje suplementy n\%} & \textbf{Nie stosuje n\%} \\
+        \hline
+        \hline
+        % 17 - 0
+        Mężczyzna & 15.89 & 0 \\
+        \hline
+        % 80 - 10
+        Kobieta & 74.77 & 9.35 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+
 \subsubsection{Czy stosowanie suplementów zależy od wieku?}
+
+% Analiza 2. Czy stosowanie suplementów zależy od wieku?
+%
+% Zmienne
+%     • Wiek: <20, 20–22, 23–25, >25.
+%     • Stosowanie suplementów: tak / nie.
+%
+% Test statystyczny
+%     • chi-kwadrat,
+%     • przy małych liczebnościach: test Fishera-Freemana-Haltona.
+% Alternatywa
+% Jeżeli w niektórych kategoriach wieku jest bardzo mało osób, należy połączyć kategorie, np.:
+%     • ≤22 lata,
+%     • ≥23 lata.
+% Wtedy można zastosować test Fishera.
+
+Ze względu na małą liczebność jednej z komórek zastosowano dokładny test Fishera-Freemana-Haltona zamiast testu chi-kwadrat. Nie stwierdzono istotnej statystycznie zależności między wiekiem a stosowaniem suplementów diety; wynik testu Fishera-Freemana-Haltona nie był istotny statystycznie (p=0.54).
+
+\begin{table}[h!]
+    \centering
+    \caption{Stosowanie suplementów a wiek.}
+    \label{tab:supl-wiek}
+    \begin{tabular}{|l|l|l|}
+        \hline
+        \textbf{Wiek} & \textbf{Stosuje suplementy n\%} & \textbf{Nie stosuje n\%} \\
+        \hline
+        \hline
+        % 10 - 0
+        $<$ 20 & 9.35 & 0 \\
+        \hline
+        % 13 - 1
+        20-22 & 12.15 & 0.93 \\
+        \hline
+        % 20 - 4
+        23-25 & 18.69 & 3.74 \\
+        \hline
+        % 54 - 5
+        $>$ 25 & 50.47 & 4.67 \\
+        \hline
+    \end{tabular}
+\end{table}
+
 
 \subsubsection{Czy stosowanie suplementów zależy od aktywności fizycznej?}
 
+% Analiza 3. Czy stosowanie suplementów zależy od aktywności fizycznej?
+%
+% Zmienne
+%     • Aktywność fizyczna: pięć kategorii.
+%     • Stosowanie suplementów: tak / nie.
+%
+% Test statystyczny
+%     • chi-kwadrat,
+%     • przy małych liczebnościach: test Fishera-Freemana-Haltona.
+% Alternatywne kodowanie
+% Można uprościć aktywność fizyczną do dwóch kategorii:
+%     • niska aktywność: nigdy / rzadziej niż raz w tygodniu,
+%     • wyższa aktywność: minimum 1–2 razy w tygodniu.
+% Wtedy test:
+%     • chi-kwadrat lub Fisher.
+
+Ze względu na małe liczebności w części komórek test chi-kwadrat nie był w pełni adekwatny do oceny zależności, dlatego zastosowano dokładny test Fishera-Freemana-Haltona. Nie wykazał on istotnej statystycznie zależności między aktywnością fizyczną a stosowaniem suplementów diety (p=0,51).
+
+\begin{table}[h!]
+    \centering
+    \caption{Stosowanie suplementów a aktywność fizyczna.}
+    \label{tab:supl-akt}
+    \begin{tabular}{|l|l|l|}
+        \hline
+        \textbf{Stopień aktywności fizycznej} & \textbf{Stosuje suplementy n\%} & \textbf{Nie stosuje n\%} \\
+        \hline
+        \hline
+        % 4 - 0
+        Nigdy & 3.74 & 0 \\
+        \hline
+        % 30 - 6
+        Rzadziej niż raz w tygodniu & 28.04 & 5.61 \\
+        \hline
+        % 26 - 2
+        1–2 razy w tygodniu	& 24.3 & 1.87 \\
+        \hline
+        % 23 - 2
+        3–4 razy w tygodniu & 21.5 & 1.87 \\
+        \hline
+        % 14 - 0
+        5 lub więcej razy w tygodniu & 13.08 & 0 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+
 \subsubsection{Czy poziom wiedzy różni się między osobami stosującymi i niestosującymi suplementy?}
+
+% Analiza 4. Czy poziom wiedzy różni się między osobami stosującymi i niestosującymi suplementy?
+% 
+% Zmienne
+%     • Indeks wiedzy: 0–6 pkt.
+%     • Stosowanie suplementów: tak / nie.
+% 
+% Tabela
+% Grupa & Średnia ± SD & Mediana & Q1–Q3 & p
+% Stosują suplementy 
+% Nie stosują suplementów
+% 
+% Test statystyczny
+%     • test U Manna–Whitneya.
+% Uzasadnienie
+% Indeks wiedzy ma charakter punktowy/porządkowy, a porównywane są dwie niezależne grupy.
+
+Nie stwierdzono istotnej statystycznie zależności między poziomem wiedzy a stosowaniem suplementów diety. Test chi-kwadrat nie wykazał istotności ($\chi$2(5)=4,07; p=0,539)($\chi$2(5)=4,07; p=0,539), a ze względu na małe liczebności w części komórek zastosowano również dokładny test Fishera-Freemana-Haltona, który także nie potwierdził związku (p=0,432).
+
+\begin{table}[h!]
+    \centering
+    \caption{Wiedza a stosowanie suplementów.}
+    \label{tab:wiedza-a-supl}
+    \begin{tabular}{|l|l|l|}
+        \hline
+        \textbf{Grupa} & \textbf{Średnia $\pm$ SD} & \textbf{Mediana} & Q1 & Q2 & p \\
+        \hline
+        \hline
+        Stosują suplementy & 3 $\pm$ 1.56 & 4 & 3 & 5 & 3.35e-34 \\
+        \hline
+        Nie stosują suplementów & 3.3 $\pm$ 1.64 & 3.5 & 2 & 5 & - \\
+        \hline
+    \end{tabular}
+\end{table}
+
+
+% \begin{table}[h!]
+%     \centering
+%     \caption{Wiedza a stosowanie suplementów.}
+%     \label{tab:wiedza-a-supl}
+%     \begin{tabular}{|l|l|l|}
+%         \hline
+%         \textbf{Poziom wiedzy} & \textbf{Stosuje suplementy n\%} & \textbf{Nie stosuje n\%} \\
+%         \hline
+%         \hline
+%         % 2 - 1
+%         0 & 1.87 & 0.93 \\
+%         \hline
+%         % 6 - 0
+%         1 & 5.61 & 0 \\
+%         \hline
+%         % 12 - 2
+%         2 & 11.21 & 1.87 \\
+%         \hline
+%         % 11 - 2
+%         3 & 10.28 & 1.87 \\
+%         \hline
+%         % 28 - 2
+%         4 & 26.17 & 1.87 \\
+%         \hline
+%         % 38 - 3
+%         5 & 35.51 & 2.8 \\
+%         \hline
+%     \end{tabular}
+% \end{table}
+
 
 \subsubsection{Czy poziom wiedzy wiąże się z konsultowaniem suplementacji ze specjalistą?}
 
+% Analiza 5. Czy poziom wiedzy wiąże się z konsultowaniem suplementacji ze specjalistą?
+%
+% Zmienne
+%     • Indeks wiedzy: 0–6 pkt.
+%     • Konsultacja suplementacji:
+%         ◦ konsultuje,
+%         ◦ nie konsultuje.
+%
+% Kodowanie
+% Do grupy „konsultuje” zaliczyć odpowiedzi:
+%     • tak, z lekarzem,
+%     • tak, z dietetykiem,
+%     • tak, z farmaceutą.
+% Do grupy „nie konsultuje”:
+%     • nie, nie konsultuję.
+%
+% Test statystyczny
+%     • test U Manna–Whitneya.
+% Interpretacja
+% Jeżeli p < 0,05, można stwierdzić, że poziom wiedzy różni się istotnie między osobami konsultującymi i niekonsultującymi suplementacji.
+
+\begin{table}[h!]
+    \centering
+    \caption{Wiedza a konsultacja.}
+    \label{tab:wiedza-a-konsultacja}
+    \begin{tabular}{|l|l|l|}
+        \hline
+        \textbf{Grupa} & \textbf{Średnia $\pm$ SD} & \textbf{Mediana} & Q1 & Q2 & p \\
+        \hline
+        \hline
+        Konsultacje & 3.81 $\pm$ 1.32 & 4 & 3 & 5 & 8.49e-34 \\
+        \hline
+        Nie konsultuje & 3.64 $\pm$ 1.45 & 4 & 3 & 5 & - \\
+        \hline
+    \end{tabular}
+\end{table}
+
+% \begin{table}[h!]
+%     \centering
+%     \caption{Wiedza a konsultacja.}
+%     \label{tab:wiedza-a-konsultacja}
+%     \begin{tabular}{|l|l|l|}
+%         \hline
+%         \textbf{Poziom wiedzy} & \textbf{Konsultuje n\%} & \textbf{Nie konsultuje n\%} \\
+%         \hline
+%         \hline
+%         % 3 - 0
+%         0 & 2.8 & 0 \\
+%         \hline
+%         % 4 - 2
+%         1 & 3.74 & 1.87 \\
+%         \hline
+%         % 6 - 7
+%         2 & 5.61 & 6.54 \\
+%         \hline
+%         % 4 - 9
+%         3 & 3.74 & 8.41 \\
+%         \hline
+%         % 15 - 15
+%         4 & 14.02 & 14.02 \\
+%         \hline
+%         % 19 - 22
+%         5 & 17.76 & 1.87 \\
+%         \hline
+%     \end{tabular}
+% \end{table}
+
+
 \subsubsection{Czy poziom wiedzy wiąże się z wykonywaniem badań krwi przed suplementacją?}
+
+% Analiza 6. Czy poziom wiedzy wiąże się z wykonywaniem badań krwi przed suplementacją?
+% 
+% Zmienne
+%     • Indeks wiedzy: 0–6 pkt.
+%     • Badania krwi przed suplementacją.
+% 
+% Kodowanie
+% Najlepiej utworzyć dwie grupy:
+%     • wykonuje badania: „tak” lub „tak, w przypadku niektórych preparatów”,
+%     • nie wykonuje badań: „nie”.
+% Można też zastosować trzy grupy:
+%     • tak,
+%     • tylko niektóre preparaty,
+%     • nie.
+% 
+% Test statystyczny
+% Dla dwóch grup:
+%     • test U Manna–Whitneya.
+% Dla trzech grup:
+%     • test Kruskala–Wallisa.
+% Interpretacja
+% To jedna z najważniejszych analiz, bo pokazuje, czy wyższa wiedza przekłada się na bardziej racjonalną praktykę suplementacyjną.
+
+\begin{table}[h!]
+    \centering
+    \caption{Wiedza a wykonywanie badań przed suplementacją.}
+    \label{tab:wiedza-a-badania}
+    \begin{tabular}{|l|l|l|}
+        \hline
+        \textbf{Grupa} & \textbf{Średnia $\pm$ SD} & \textbf{Mediana} & Q1 & Q2 & p \\
+        \hline
+        \hline
+        Wykonuje badań & 3.88 $\pm$ 1.28 & 4 & 3 & 5 & 4.82e-33 \\
+        \hline
+        Nie wykonuje badania & 3.46 $\pm$ 1.52 & 4 & 2 & 5 & - \\
+        \hline
+    \end{tabular}
+\end{table}
+
+% \begin{table}[h!]
+%     \centering
+%     \caption{Wiedza a wykonywanie badań przed suplementacją.}
+%     \label{tab:wiedza-a-badania}
+%     \begin{tabular}{|l|l|l|}
+%         \hline
+%         \textbf{Poziom wiedzy} & \textbf{Wykonuje badania n\%} & \textbf{Nie wykonuje badań n\%} \\
+%         \hline
+%         \hline
+%         % 1 - 2
+%         0 & 0.93 & 1.87 \\
+%         \hline
+%         % 3 - 3
+%         1 & 2.8 & 2.8 \\
+%         \hline
+%         % 4 - 10
+%         2 & 7.47 & 5.61 \\
+%         \hline
+%         % 6 - 7
+%         3 & 5.61 & 6.54 \\
+%         \hline
+%         % 21 - 9
+%         4 & 19.63 & 8.41 \\
+%         \hline
+%         % 27 - 14
+%         5 & 25.23 & 13.08 \\
+%         \hline
+%     \end{tabular}
+% \end{table}
+
 
 \subsubsection{Czy poziom wiedzy wiąże się ze sprawdzaniem powielania składników?}
 
+% Analiza 7. Czy poziom wiedzy wiąże się ze sprawdzaniem powielania składników?
+%
+% Zmienne
+%     • Indeks wiedzy: 0–6 pkt.
+%     • Sprawdzanie powielania składników.
+%
+% Kodowanie
+% Możliwe dwie wersje.
+% Wersja prostsza
+%     • sprawdza: „tak”,
+%     • nie sprawdza lub tylko czasami: „nie/czasami”.
+% Test:
+%     • test U Manna–Whitneya.
+% Wersja dokładniejsza
+%     • tak,
+%     • czasami,
+%     • nie.
+% Test:
+%     • test Kruskala–Wallisa.
+
+\begin{table}[h!]
+    \centering
+    \caption{Wiedza a sprawdzanie powielania składników.}
+    \label{tab:wiedza-a-sklad}
+    \begin{tabular}{|l|l|l|}
+        \hline
+        \textbf{Grupa} & \textbf{Średnia $\pm$ SD} & \textbf{Mediana} & Q1 & Q2 & p \\
+        \hline
+        \hline
+        Sprawdza & 4.16 $\pm$ 1.14 & 5 & 4 & 5 & 3.56e-33 \\
+        \hline
+        Nie sprawdza & 3.13 $\pm$ 1.46 & 3.5 & 2 & 4 & - \\
+        \hline
+    \end{tabular}
+\end{table}
+
+
+% \begin{table}[h!]
+%     \centering
+%     \caption{Wiedza a sprawdzanie powielania składników.}
+%     \label{tab:wiedza-a-sklad}
+%     \begin{tabular}{|l|l|l|}
+%         \hline
+%         \textbf{Poziom wiedzy} & \textbf{Wykonuje badania n\%} & \textbf{Nie wykonuje badań n\%} \\
+%         \hline
+%         \hline
+%         % 1 - 2
+%         0 & 0.93 & 1.87 \\
+%         \hline
+%         % 1 - 5
+%         1 & 0.93 & 4.67 \\
+%         \hline
+%         % 8 - 6
+%         2 & 7.48 & 5.61 \\
+%         \hline
+%         % 7 - 6
+%         3 & 6.54 & 5.61 \\
+%         \hline
+%         % 16 - 14
+%         4 & 14.95 & 13.08 \\
+%         \hline
+%         % 32 - 9
+%         5 & 29.91 & 8.41 \\
+%         \hline
+%     \end{tabular}
+% \end{table}
+
+
 \subsubsection{Czy poziom wiedzy wiąże się z przekraczaniem zalecanych dawek?}
+
+% Analiza 8. Czy poziom wiedzy wiąże się z przekraczaniem zalecanych dawek?
+% 
+% Zmienne
+%     • Indeks wiedzy: 0–6 pkt.
+%     • Przekraczanie zalecanych dawek.
+%
+% Kodowanie
+% Najlepiej:
+%     • nie przekracza: „nigdy”,
+%     • przekracza: „czasami” lub „często”.
+% Test statystyczny
+%     • test U Manna–Whitneya.
+% Interpretacja
+% Jeżeli osoby nieprzekraczające dawek mają wyższy indeks wiedzy, można ostrożnie wnioskować, że wiedza sprzyja bezpieczniejszej suplementacji.
+
+Nie stwierdzono istotnej statystycznie zależności między poziomem wiedzy a przekraczaniem zalecanych dawek suplementów diety. Test chi-kwadrat nie wykazał istotności ($\chi$2(5)=6,57; p=0,255), co potwierdził dokładny test Fishera-Freemana-Haltona (p=0,288).
+
+\begin{table}[h!]
+    \centering
+    \caption{Wiedza a przekraczanie zalecanych dawek.}
+    \label{tab:wiedza-a-dawki}
+    \begin{tabular}{|l|l|l|}
+        \hline
+        \textbf{Grupa} & \textbf{Średnia $\pm$ SD} & \textbf{Mediana} & Q1 & Q2 & p \\
+        \hline
+        \hline
+        Przekracza & 4 $\pm$ 1.2 & 4 & 3 & 5 & 8.49e-34 \\
+        \hline
+        Nie przekracza & 3.49 $\pm$ 1.5 & 4 & 2 & 5 & - \\
+        \hline
+    \end{tabular}
+\end{table}
+
+
+% \begin{table}[h!]
+%     \centering
+%     \caption{Wiedza a przekraczanie zalecanych dawek.}
+%     \label{tab:wiedza-a-dawki}
+%     \begin{tabular}{|l|l|l|}
+%         \hline
+%         \textbf{Poziom wiedzy} & \textbf{Przekracza n\%} & \textbf{Nie przekracza n\%} \\
+%         \hline
+%         \hline
+%         % 0 - 3
+%         0 & 0 & 2.8 \\
+%         \hline
+%         % 2 - 4
+%         1 & 1.87 & 3.74 \\
+%         \hline
+%         % 5 - 9
+%         2 & 4.67 & 8.4 \\
+%         \hline
+%         % 7 - 6
+%         3 & 6.54 & 5.61 \\
+%         \hline
+%         % 11 - 19
+%         4 & 10.28 & 17.76 \\
+%         \hline
+%         % 23 - 18
+%         5 & 21.5 & 16.82 \\
+%         \hline
+%     \end{tabular}
+% \end{table}
 
 \subsubsection{Zależność między wiedzą deklarowaną a rzeczywistą}
 
+% Analiza 9. Zależność między wiedzą deklarowaną a rzeczywistą
+% To bardzo dobra analiza do pracy magisterskiej.
+% 
+% Zmienne
+%     • samoocena wiedzy ogólnej: 1–5,
+%     • samoocena wiedzy o bezpieczeństwie: 1–5,
+%     • samoocena wiedzy o interakcjach: 1–5,
+%     • indeks wiedzy rzeczywistej: 0–6.
+% 
+% Test statystyczny
+%     • korelacja rang Spearmana.
+% 
+% Tabela
+% Zmienna samooceny & rho Spearmana % p
+% Ogólna wiedza
+% Wiedza o bezpieczeństwie
+% Wiedza o interakcjach
+% 
+% Interpretacja
+% Jeśli korelacja jest dodatnia i istotna, oznacza to, że osoby wyżej oceniające swoją wiedzę faktycznie uzyskują wyższy wynik w pytaniach testowych.
+% Jeśli korelacja nie jest istotna, oznacza to rozbieżność między samooceną a rzeczywistym poziomem wiedzy.
+
+\begin{table}[h!]
+    \centering
+    \caption{Samoocena a wiedza rzeczywista}
+    \label{tab:wiedza-dekl-rzecz}
+    \begin{tabular}{|l|l|l|}
+        \hline
+        \textbf{Zmienna samooceny} & \textbf{rho Spearmann'a} & \textbf{p} \\
+        \hline
+        \hline
+        Ogólna wiedza & 0.472 & 2.9e-7 \\
+        \hline
+        Wiedza o bezpieczeństwie & 0.4 & 2e-5 \\
+        \hline
+        Wiedza o interakcjach & 0.54 & 2.8e-9 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+
 \subsubsection{Czy osoby korzystające z profesjonalnych źródeł informacji mają wyższy poziom wiedzy?}
 
+% Analiza 10. Czy osoby korzystające z profesjonalnych źródeł informacji mają wyższy poziom wiedzy?
+% 
+% Zmienne
+%     • Indeks wiedzy: 0–6 pkt.
+%     • Korzystanie z profesjonalnych źródeł informacji: tak / nie.
+%
+% Kodowanie
+% Profesjonalne źródła:
+%     • lekarz,
+%     • dietetyk,
+%     • farmaceuta.
+% Nieprofesjonalne źródła:
+%     • Internet,
+%     • media społecznościowe,
+%     • reklamy,
+%     • znajomi/rodzina.
+%
+% Test statystyczny
+%     • test U Manna–Whitneya.
+% Dodatkowo
+% Można sprawdzić zależność między kategorią wiedzy a korzystaniem ze źródeł profesjonalnych:
+%     • kategoria wiedzy: niska / umiarkowana / wysoka,
+%     • źródła profesjonalne: tak / nie.
+% Test:
+%     • chi-kwadrat lub Fisher.
+
+\begin{table}[h!]
+    \centering
+    \caption{Źródła a poziom wiedzy.}
+    \label{tab:zrodla-a-wiedza}
+    \begin{tabular}{|l|l|l|}
+        \hline
+        \textbf{Grupa} & \textbf{Średnia $\pm$ SD} & \textbf{Mediana} & Q1 & Q2 & p \\
+        \hline
+        \hline
+        Profesjonalne & 3.91 $\pm$ 1.18 & 4 & 3 & 5 & 3.05e-31 \\
+        \hline
+        Nieprofesjonalne & 3.41 $\pm$ 1.65 & 4 & 2 & 5 & - \\
+        \hline
+    \end{tabular}
+\end{table}
+
+
 \subsubsection{Zależność między indeksem wiedzy a indeksem prawidłowych praktyk}
+
+% Analiza 11. Zależność między indeksem wiedzy a indeksem prawidłowych praktyk
+% To najważniejsza analiza dla hipotezy pracy.
+%
+% Zmienne
+%     • Indeks wiedzy: 0–6 pkt.
+%     • Indeks prawidłowych praktyk: 0–4 pkt. 
+%
+% Test statystyczny
+%     • korelacja rang Spearmana.
+%
+% Tabela
+% Zależność & rho Spearmana & p
+% Indeks wiedzy vs indeks praktyk
+% 
+% Interpretacja
+% Jeśli korelacja jest dodatnia i istotna statystycznie, można napisać:
+% „Wykazano dodatnią zależność między poziomem wiedzy a prawidłowością praktyk suplementacyjnych. Oznacza to, że osoby uzyskujące wyższy wynik w indeksie wiedzy częściej deklarowały bezpieczniejsze praktyki suplementacyjne.”
+% To powinna być główna analiza w pracy.
+
+\begin{table}[h!]
+    \centering
+    \caption{Wiedza a przekraczanie zalecanych dawek.}
+    \label{tab:wiedza-dekl-rzecz}
+    \begin{tabular}{|l|l|l|}
+        \hline
+        \textbf{Zależność} & \textbf{rho Spearmann'a} & \textbf{p} \\
+        \hline
+        \hline
+        Indeks wiedzy vs indeks praktyk & 0.15 & 0.11 \\
+        \hline
+    \end{tabular}
+\end{table}
 
 
 \subsection{Preferowane formy edukacji}
 
+% Należy przedstawić, w jakiej formie studenci najchętniej zdobywaliby wiedzę o suplementach.
+% 
+% Tabela 14. Preferowane formy zdobywania wiedzy
+% Forma edukacji n %
+% 
+% Wykres
+% Poziomy wykres słupkowy.
+
 \subsection{Najbardziej wiarygodne źródła informacji}
 
+% Tabela 15. Najbardziej wiarygodne źródło informacji
+% Źródło n %
+% 
+% Wykres
+% Wykres słupkowy.
+
 \subsection{Zbiorcza tabela analiz statystycznych}
+
+% Na końcu rozdziału warto umieścić jedną tabelę zbiorczą.
+% Tabela 16. Wyniki analiz zależności
+% Analiza Zmienne Test Wynik testu p
 
