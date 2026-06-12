@@ -1,4 +1,8 @@
 *.pdf
+*.odt
+*.docx
+*.lof
+*.lot
 *.swp
 *.aux
 *.bbl
@@ -21,3 +25,4 @@
 *.synctex.gz
 *.code-workspace
 example-*
+*-SAVE-ERROR
