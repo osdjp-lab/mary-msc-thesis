@@ -8,6 +8,12 @@ build:
 	latexmk -pdf -pdflatex="pdflatex -file-line-error -interaction=errorstopmode" -verbose -use-make $(PROJECT).tex
 	latexmk -pdf -pdflatex="pdflatex -file-line-error -interaction=errorstopmode" -verbose -use-make ankieta.tex
 
+odt:
+	pandoc thesis.tex --from=latex --to=odt --output=thesis.odt --citeproc --bibliography=8-bibliografia.bib
+
+docx:
+	pandoc thesis.tex --from=latex --to=docx --output=thesis.docx --citeproc --bibliography=8-bibliografia.bib
+
 clean:
 	latexmk -CA
 	rm -f $(PROJECT).bbl $(PROJECT).run.xml $(PROJECT).acn $(PROJECT).acr $(PROJECT).alg $(PROJECT).glg $(PROJECT).glo $(PROJECT).gls $(PROJECT).ist

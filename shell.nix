@@ -23,5 +23,6 @@ pkgs.mkShell {
 
     # csvkit utilities
     pkgs.csvkit
+    pkgs.pandoc
   ];
 }
