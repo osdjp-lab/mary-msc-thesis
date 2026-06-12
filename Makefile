@@ -12,7 +12,7 @@ odt:
 	pandoc thesis.tex --from=latex --to=odt --output=thesis.odt --citeproc --bibliography=8-bibliografia.bib
 
 docx:
-	pandoc thesis.tex --from=latex --to=docx --output=thesis.docx --citeproc --bibliography=8-bibliografia.bib
+	pandoc thesis.tex --from=latex --to=docx --output=thesis.docx --citeproc --bibliography=8-bibliografia.bib --csl=vancouver.csl
 
 clean:
 	latexmk -CA
