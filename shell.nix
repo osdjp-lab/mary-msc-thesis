@@ -24,5 +24,6 @@ pkgs.mkShell {
     # csvkit utilities
     pkgs.csvkit
     pkgs.pandoc
+    # pkgs.tectonic
   ];
 }
