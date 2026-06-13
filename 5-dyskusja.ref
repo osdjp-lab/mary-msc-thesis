@@ -1,0 +1,157 @@
+% On the basis of the following two chunks (Literatura and Uzyskane wyniki) please update the dyskusja chunk of the masters degree section:
+
+% To inaczej analiza uzyskanych wyników badań własnych w odniesieniu do wyników publikowanych w recenzowanych czasopismach naukowych przez innych autorów. W dyskusji wyników należy uwzględnić zarówno pozytywne jak i krytyczne spojrzenie badawcze. Dyskusja służy rozwiązaniu określonego problemu oraz odniesienie wyników własnych do wyników innych Autorów, opublikowanych w recenzowanych czasopismach naukowych.
+
+% Literatura
+
+% \subsection{Suplementacja a płeć}
+% 
+% Płeć biologiczna jest jednym z silniejszych predyktorów stosowania suplementów diety. W niemal wszystkich badaniach przekrojowych kobiety sięgają po suplementy częściej niż mężczyźni - i to niezależnie od kraju, kierunku studiów czy statusu socjoekonomicznego. W polskim badaniu Sicińskiej i wsp. (2022) iloraz szans dla stosowania suplementów przez mężczyzn względem kobiet wyniósł 0,62, co oznacza, że mężczyźni sięgali po suplementy o ok. 38\% rzadziej \cite{sicinska2022dietary}. Podobne zależności stwierdzono w Serbii i Chorwacji \cite{vidovic2022dietary,vzevzelj2018prevalence}.
+% 
+% Różnice te wynikają prawdopodobnie z kilku czynników. Po pierwsze, kobiety wykazują generalnie wyższe zainteresowanie zdrowiem i profilaktyką. Po drugie, suplementy przeznaczone dla kobiet - preparaty na włosy, skórę i paznokcie, żelazo, kwas foliowy, preparaty PMS - są intensywniej promowane marketingowo. Po trzecie, kobiety częściej zgłaszają niedobory żywieniowe wynikające z diet restrykcyjnych lub obfitych miesiączek. Mężczyźni z kolei częściej sięgają po suplementy sportowe - proteiny, kreatynę, BCAA - i są mniej skłonni do suplementacji multiwitaminami czy preparatami mikroelementów \cite{vidovic2022dietary,ficarra2022use}.
+% 
+% Ta różnica w strukturze stosowanych preparatów ma znaczenie kliniczne. Suplementy sportowe - szczególnie te kupowane przez kanały online lub reklamowane przez influencerów - są kategorią obarconą wyższym ryzykiem fałszowania i zawierania substancji niedozwolonych lub niebezpiecznych, co szczególnie dotyczy preparatów „pre-workout" i środków odchudzających dla mężczyzn \cite{lin2023hidden}.
+% 
+% \subsection{Studenci a suplementacja}
+% 
+% Dane z różnych krajów wskazują, że suplementacja jest wśród studentów zjawiskiem powszechnym, choć jej skala zależy od kontekstu kulturowego i środowiska akademickiego. W Chorwacji suplementy stosowało 30,5\% studentów, najczęściej preparaty witaminowo-mineralne. Co istotne, głównym źródłem informacji był Internet, natomiast konsultacje ze specjalistami należały do rzadkości \cite{croatia-knowledge-and-use}. W Jordanii odsetek studentów stosujących suplementy był znacznie wyższy i wynosił 60,9\%. Dominowały preparaty jednoskładnikowe, a poziom wiedzy dotyczącej zasad bezpiecznej suplementacji oceniono jako niski \cite{knowledge-and-use}. Wyniki te sugerują, że popularność suplementów nie zawsze idzie w parze z odpowiednią świadomością żywieniową, co może sprzyjać nieprawidłowym praktykom. Podobne tendencje zaobserwowano w Serbii, gdzie 55,7\% studentów deklarowało stosowanie suplementów, głównie witamin i składników mineralnych. Co ciekawe, wyższy odsetek użytkowników odnotowano wśród studentów kierunków medycznych, co może wskazywać na większą dostępność informacji, ale niekoniecznie na bardziej krytyczne podejście \cite{serbian-undergraduate}. W Polsce suplementy stosowało 41\% studentów Uniwersytetu Warszawskiego, a ich użycie było związane m.in. z płcią, aktywnością fizyczną i stylem życia \cite{diet-lifestyle}. Wyniki te wpisują się w ogólny trend rosnącej popularności suplementacji wśród młodych dorosłych.
+% 
+% \subsubsection{Częstość stosowania suplementów diety}
+% 
+% Badania wykazały, że stosowanie suplementów diety jest powszechne wśród studentów. W USA 66\% ankietowanych studentów przyznaje się do przyjmowania suplementów przynajmniej raz w tygodniu, a 12\% korzysta z pięciu lub więcej różnych preparatów w tym samym okresie, przy czym najchętniej wybierane są suplementy multiwitaminowe i multimineralne (42\%), witamina C (18\%), białka/aminokwasy (17\%) oraz wapń (13\%) \cite{lieberman2015patterns}. Wśród saudyjskich studentek 76,6\% zadeklarowało używanie przynajmniej jednego suplementu w ciągu ostatnich dwunastu miesięcy, przy czym częstotliwość spożycia była zróżnicowana od stosowania \enquote{w razie potrzeby} po codzienne przyjmowanie \cite{alfawaz2017prevalence}. Badanie przeprowadzone wśród 1306 studentów kierunków żywieniowych wykazało, że 56\% z nich używało suplementów, najczęściej suplementy multiwitaminowych oraz witaminy C (każdy z 28\% przypadków); spośród użytkowników 49\% przyjmowało suplementy codziennie, a 23\% co tydzień lub co miesiąc \cite{wiltgren2015micronutrient}.
+% 
+% \subsubsection{Najczęściej stosowane suplementy diety}
+% 
+% Najczęściej wybierane są preparaty witaminowe i mineralne - zarówno jedno-, jak i wieloskładnikowe \cite{kobayashi2017prevalence}. Dotyczy to również studentów kierunków medycznych i farmaceutycznych, którzy, mimo większego dostępu do wiedzy, nie różnią się znacząco od pozostałych studentów pod względem częstości suplementacji \cite{serbian-undergraduate}.
+% W wielu badaniach podkreśla się, że decyzje o suplementacji wynikają częściej z przekonań o ogólnym „wzmacniającym" działaniu suplementów niż z rzeczywistych potrzeb żywieniowych. Może to wskazywać na pewną lukę między wiedzą teoretyczną a praktyką \cite{knowledge-and-use,serbian-undergraduate}.
+% 
+% W badaniu \cite{kobayashi2017prevalence} Wśród mężczyzn drugą najpopularniejszą grupą okazały się suplementy białkowe, natomiast wśród kobiet - preparaty wspomagające odchudzanie. Podobny trend zobserwowano w USA, gdzie najczęściej spożywanymi suplementami co najmniej raz w tygodniu były suplementy multiwitaminowe i multimineralne (42\%), następnie witaminy (29\%) oraz białka lub aminokwasy (17\%) \cite{lieberman2015patterns}. Wśród wymienionych witamin najpopularniejsze były witamina C (18\%) i wapń (13\%).  
+% 
+% W grupie „inne” najczęściej wymieniano kofeinę (16\%), olej rybny (8\%), echinaceę (5\%) oraz suplementy do budowy masy mięśniowej/ kreatynę (5\%) \cite{lieberman2015patterns}. Badania w Zjednoczonych Emiratach Arabskich potwierdziły, że mężczyźni preferują suplementy białkowe (29,4\%), podczas gdy kobiety najchętniej sięgają po multiwitaminy i minerały \cite{radwan2019prevalence}.  
+% 
+% W regionie śródziemnomorskim najważniejszymi suplementami okazały się multiwitaminy/minerały (56,8\%), a następnie niezbędne kwasy tłuszczowe (16,8\%) i przeciwutleniacze (10,1\%) \cite{radwan2019prevalence}. Takie wyniki wskazują na spójność preferencji suplementacyjnych studentów w różnych częściach świata, przy jednoczesnym zachowaniu różnic płciowych w wyborze konkretnych preparatów.
+% 
+% \subsubsection{Powody stosowania suplementów diety}
+% 
+% Najczęściej deklarowane powody suplementacji obejmują poprawę zdrowia, zapobieganie niedoborom, wzmocnienie odporności, zwiększenie energii oraz poprawę wyglądu skóry, włosów i paznokci \cite{knowledge-and-use,pharmacist-knowledge-and-use}. W badaniu przeprowadzonym w Bejrucie aż 68\% studentów stosowało suplementy, kierując się głównie poprawą samopoczucia i odporności \cite{pharmacist-knowledge-and-use}. Motywacje te mają więc w dużej mierze charakter subiektywny i nie zawsze wynikają z obiektywnej oceny stanu zdrowia.
+% 
+% Sundgot‑Borgen i współpracownicy wykazali, że studenci najczęściej przyjmują suplementy w celu utrzymania lub polepszenia ogólnego stanu zdrowia, zwiększenia wydolności psychicznej i fizycznej oraz przyrostu masy mięśniowej, przy czym powody te są podobne dla obu płci \cite{sundgot2022explanations}. Analiza pod kątem różnic płciowych wskazuje, że mężczyźni częściej wymieniają cele związane z poprawą wydajności fizycznej lub psychicznej, przyrostem masy mięśniowej, zwiększeniem masy ciała oraz poprawą wyglądu w porównaniu z kobietami \cite{sundgot2022explanations}.  
+% 
+% Badanie Steele i Senekal podkreśla, że studenci używający suplementów regularnie wskazują \enquote{zdrowie fizyczne}, \enquote{powody dietetyczne} oraz \enquote{kondycję ciała i energię} jako główne motywacje, co może odzwierciedlać strategie reklamowe producentów \cite{steele2005dietary}. Natomiast użytkownicy sporadyczni najczęściej przyznają się do przyjmowania suplementów w sytuacjach stresowych lub wtedy, gdy czują się zmęczeni albo chorzy \cite{steele2005dietary}.  
+% 
+% Lawand i współpracownicy opisali, że studenci Amerykańskiego Uniwersytetu w Bejrucie najważniejszymi powodami regularnego stosowania suplementów były zwiększenie energii i witalności, a także chęć poprawy wydajności umysłowej – wśród uczestników 22 osób wskazało poprawę koncentracji jako kluczowy cel \cite{lawand2023assessment}. Dodatkowo, równie istotne były motywacje estetyczne – 22 respondentów przyjmowało suplementy w celu polepszenia kondycji włosów, skóry i ogólnego wyglądu, co świadczy o rosnącym znaczeniu aspektów kosmetycznych w wyborze preparatów \cite{lawand2023assessment}.  
+% 
+% Podsumowując, powody stosowania suplementów dietetycznych przez studentów są wielowymiarowe: obejmują zarówno potrzeby zdrowotne i wydolnościowe, jak i psychologiczne, społeczne oraz estetyczne, przy czym niekiedy motywacje te wynikają z postrzeganej niewystarczalności diety i wygody przyjmowania gotowych preparatów \cite{steele2005dietary,sundgot2022explanations,lawand2023assessment}.
+% 
+% \subsubsection{Źródła informacji o suplementach diety}
+% 
+% Najczęściej wskazywanym źródłem informacji pozostaje Internet – w tym media społecznościowe, blogi i reklamy – z udziałem 38,3\%–40,0\% respondentów, zależnie od badania \cite{kobayashi2017prevalence,chiba2020educational}. Kolejne miejsca zajmują sklepy (33,6\%–27,1\%) oraz telewizja (31,4\%). Znaczący udział w pozyskiwaniu wiedzy mają także członkowie rodziny (25,3\%–35,3\%) i przyjaciele (12,0\%–49\%) \cite{kobayashi2017prevalence,chiba2020educational,freeman2015dietary}.  
+% 
+% Badania wykazują istotne różnice płciowe – mężczyźni częściej korzystają z Internetu, natomiast kobiety częściej opierają się na informacjach uzyskiwanych od rodziny oraz w sklepach \cite{kobayashi2017prevalence,freeman2015dietary}. Mimo wysokiego udziału mediów cyfrowych, znaczna część studentów odwołuje się do źródeł o niskiej wiarygodności, co może sprzyjać utrwalaniu błędnych przekonań dotyczących suplementacji \cite{freeman2015dietary}. Konsultacje z lekarzami, dietetykami czy farmaceutami pozostają zdecydowanie rzadsze, co podkreśla potrzebę edukacyjnych interwencji zwiększających krytyczną ocenę dostępnych informacji \cite{croatia-knowledge-and-use,diet-lifestyle,chiba2020educational}.`
+% 
+% \subsubsection{Poziom wiedzy na temat suplementów diety}
+% 
+% Mimo powszechnego stosowania suplementów poziom wiedzy studentów często okazuje się niewystarczający. Respondenci miewają trudności z odróżnieniem suplementów od leków, oceną bezpieczeństwa stosowania czy potencjalnych interakcji \cite{knowledge-and-use,serbian-undergraduate}. Wśród studentów farmacji ponad połowa stosowała suplementy, jednak ich wiedza dotycząca dawkowania i działań niepożądanych była niepełna \cite{pharmacist-knowledge-and-use}. Podobne wnioski uzyskano w badaniu studentów Uniwersytetu Medycznego we Wrocławiu, którzy wskazywali na potrzebę dalszej edukacji w tym zakresie \cite{diet-lifestyle}.  
+% 
+% Chiba i współpracownicy wykazali, że przed interwencją wykładową studenci mieli poważne luki w wiedzy, w szczególności wierząc, że „suplementy diety są bezpieczne, ponieważ są jedynie produktami spożywczymi” oraz że naturalne składniki automatycznie gwarantują bezpieczeństwo \cite{chiba2020educational}. Interwencja edukacyjna znacząco podniosła poziom znajomości regulacji, skuteczności i bezpieczeństwa suplementów, lecz początkowy stan wiedzy był niski nawet wśród studentów farmacji \cite{chiba2020educational}.  
+% 
+% W badaniu prowadzonym w Jordanii wykazano ogólnie słabą znajomość zaleceń oraz negatywne nastawienie wobec suplementów, a także wysokie ryzyko niebezpiecznych praktyk wśród użytkowników \cite{elsahoryi2023prevalence}. Autorzy podkreślają konieczność wprowadzenia programów edukacyjnych, które zwiększyłyby świadomość i promowały bezpieczne stosowanie suplementów.  
+% 
+% Homan (2018) zauważył, że zarówno użytkownicy, jak i nie‑użytkownicy poprawnie odpowiedzieli na mniej niż połowę pytań dotyczących wiedzy o suplementach, w tym zagadnień związanych z regulacją produktów, ich udowodnioną skutecznością oraz bezpieczeństwem \cite{homan2018dietary}. Wyniki te potwierdzają, że niska świadomość dotyczy podstawowych aspektów prawnych i klinicznych, co może prowadzić do nieodpowiedzialnego używania suplementów.  
+% 
+% Podsumowując, liczne badania wskazują na powszechny niedobór wiedzy o suplementach diety wśród studentów, niezależnie od kierunku studiów, oraz na potrzebę systematycznych działań edukacyjnych, które wyeliminują mity i zapewnią bezpieczne praktyki suplementacyjne \cite{knowledge-and-use,pharmacist-knowledge-and-use,elsahoryi2023prevalence,chiba2020educational,homan2018dietary}.
+
+
+% Uzyskane wyniki
+
+% \subsection{Charakterystyka badanej grupy}
+% 
+% W badanej grupie zdecydowaną większość stanowiły kobiety (84,1\%), podczas gdy mężczyźni stanowili 15,9\% respondentów, co przedstawiono w tab. \ref{tab:plec-badanych}. Analiza wieku wskazuje, że najliczniejszą grupę stanowili respondenci powyżej 25. roku życia (55,1\%), natomiast najmniej liczna była grupa poniżej 20 lat (9,3\%), co zobrazowano w tab. \ref{tab:wiek}. Pod względem roku studiów największy odsetek stanowili studenci IV roku (37,4\%), a najmniejszy studenci I i II roku (po 10,3\%), co znajduje odzwierciedlenie w tab. \ref{tab:rok-studiow}. Wśród kierunków studiów dominowała psychologia (47,2\%) oraz dietetyka (25\%), natomiast pozostałe kierunki były reprezentowane przez niewielkie grupy, co przedstawiono w tab. \ref{tab:kierunki-studiow}. W zakresie aktywności fizycznej największa część respondentów deklarowała jej podejmowanie rzadziej niż raz w tygodniu (33,6\%), natomiast najmniej osób nie podejmowało jej wcale (3,7\%), co zilustrowano w tab. \ref{tab:aktywnosc fizyczna}.
+% 
+% \subsection{Częstość stosowania suplementów}
+% 
+% Zdecydowana większość respondentów deklarowała aktualne stosowanie suplementów (90,7\%), podczas gdy jedynie 9,3\% badanych ich nie stosowało, co przedstawiono w tab. \ref{tab:akt-stos-supl}. Wśród osób suplementujących najczęściej wskazywano codzienne stosowanie (64,95\%), rzadziej kilka razy w tygodniu (21,65\%), natomiast sporadyczne lub miesięczne stosowanie było relatywnie rzadkie, co zobrazowano w tab. \ref{tab:cze-stos-supl}. Analiza czasu stosowania suplementów wskazuje, że największa grupa badanych stosuje je dłużej niż 3 lata (38,15\%), natomiast najmniej osób deklaruje okres krótszy niż 3 miesiące (15,46\%), co przedstawiono w tab. \ref{tab:czas-stos-supl}.
+% 
+% \subsection{Rodzaje stosowanych suplementów}
+% 
+% Wśród stosowanych suplementów najczęściej wybierana była witamina D (81,4\%), następnie kwasy omega-3 (60,8\%) oraz magnez (49,4\%). Stosunkowo popularne były również probiotyki (41,2\%) oraz inne, indywidualnie wskazywane preparaty (40,2\%), natomiast rzadziej wybierano multiwitaminy (32,9\%), witaminę C (31,9\%) oraz białko (24,7\%). Najmniejszy odsetek respondentów deklarował stosowanie kreatyny (15,4\%) oraz adaptogenów (11,3\%). Rozkład odpowiedzi przedstawiono w tab. \ref{tab:rodz-stos-supl}.
+% 
+% \subsection{Powody suplementacji}
+% 
+% Najczęściej wskazywanymi powodami suplementacji była poprawa zdrowia (70,1\%), wzmocnienie odporności (68,04\%) oraz zapobieganie niedoborom (67,01\%). Ponad połowa badanych deklarowała również chęć poprawy samopoczucia (51,55\%) oraz zwiększenia poziomu energii (50,52\%), natomiast nieco rzadziej wskazywano poprawę wyglądu (47,42\%) i koncentracji (45,36\%). Inne powody suplementacji były wskazywane sporadycznie (4,12\%). Szczegółowy rozkład odpowiedzi przedstawiono w tab. \ref{tab:powody-supl}.
+% 
+% \subsection{Źródła wiedzy}
+% 
+% Najczęstszym źródłem informacji o suplementach był internet (69,07\%). Istotne znaczenie miały również konsultacje z lekarzem (40,21\%) oraz dietetykiem (38,14\%), a także media społecznościowe (31,96\%) i znajomi lub rodzina (29,9\%). Rzadziej wskazywano farmaceutę (27,84\%), natomiast reklamy oraz inne źródła odgrywały marginalną rolę (po 10,31\%). Szczegółowy rozkład odpowiedzi przedstawiono w tab. \ref{tab:zrodla-info}.
+% 
+% \subsection{Praktyki suplementacyjne}
+% 
+% W zakresie praktyk suplementacyjnych ponad połowa respondentów deklarowała, że nigdy nie przekracza zalecanych dawek (54,64\%), jednak istotna część robiła to sporadycznie (26,80\%) lub często (12,37\%), a niewielki odsetek nie zapoznaje się z zaleceniami dotyczącymi dawkowania (6,19\%). Większość badanych zwraca również uwagę na powielanie składników w suplementach - 59,79\% zawsze analizuje ich składy, a 17,53\% robi to czasami, podczas gdy 13,40\% nie sprawdza tego wcale. W odniesieniu do wykonywania badań krwi przed suplementacją odpowiedzi były zróżnicowane - 35,05\% badanych wykonuje je tylko w niektórych przypadkach, 34,00\% zawsze konsultuje suplementację z wynikami badań, natomiast 23,71\% nie wykonuje ich w ogóle, a 16,50\% opiera się na własnych obserwacjach. W przypadku konsultacji ze specjalistą najwięcej osób deklarowało brak takiej praktyki (47,42\%), natomiast pozostali badani najczęściej korzystali z porad dietetyka (24,74\%), rzadziej farmaceuty (15,46\%) lub lekarza (6,19\%), co szczegółowo przedstawiono w tab. \ref{tab:merged}.
+% 
+% \subsection{Indeks prawidłowych praktyk suplementacyjnych}
+% 
+% Rozkład wartości indeksu prawidłowych praktyk suplementacyjnych wskazuje, że najwięcej respondentów uzyskało 1 punkt (31,96\%) oraz 2 punkty (30,93\%), natomiast najmniej osób osiągnęło skrajne wartości - 0 punktów (9,27\%) i 4 punkty (8,25\%), co przedstawiono w tab. \ref{tab:indeks-praktyk}. Po pogrupowaniu wyników największa część badanych charakteryzowała się niską prawidłowością praktyk (41,24\%), natomiast umiarkowaną i wysoką prawidłowość odnotowano odpowiednio u 30,93\% i 27,84\% respondentów, co zobrazowano w tab. \ref{tab:kategorie-praktyk}. Średnia wartość indeksu wynosiła 1,86 (\glsxtrshort{sd} = 1,12), mediana 2, a zakres wyników mieścił się od 0 do 4, przy czym kwartyle wynosiły odpowiednio Q1 = 1 oraz Q3 = 3, co szczegółowo przedstawiono w tab. \ref{tab:stat-indeksu-praktyk}.
+% 
+% \subsection{Samoocena wiedzy o suplementach}
+% 
+% Analiza samooceny wiedzy respondentów wskazuje na umiarkowany poziom deklarowanej znajomości zagadnień związanych z suplementacją. Najwyżej oceniono ogólną wiedzę (średnia 3,47; mediana 4), nieco niżej wiedzę dotyczącą bezpieczeństwa suplementacji (średnia 3,41; mediana 4), natomiast najniżej wiedzę o interakcjach suplementów z lekami (średnia 3,27; mediana 3). Rozkład wyników dla wszystkich zmiennych mieścił się w pełnym zakresie skali (1-5), przy kwartylach najczęściej od 3 do 4, z wyjątkiem wiedzy o interakcjach, gdzie dolny kwartyl wynosił 2. Wyniki te, wraz ze zróżnicowaniem odpowiedzi (\glsxtrshort{sd} od 1,02 do 1,24), przedstawiono w tab. \ref{tab:stat-samooceny}.
+% 
+% \subsection{Obiektywny poziom wiedzy - indeks wiedzy}
+% 
+% W tabeli \ref{tab:poprawnosc-odp-wiedza} wykazano poprawność odpowiedzi na sześć pytań testowych dotyczących suplementów diety - od definicji suplementu po możliwość interakcji z lekami; najwyższy odsetek poprawnych odpowiedzi uzyskano w pytaniu o interakcje (91,75\% respondentów, n = 89), a najniższy w pytaniu o konieczność badań klinicznych (50,12\% - n = 49). Rozkład wyników w indeksie wiedzy (tabela \ref{tab:indeks-wiedzy}) pokazuje, że najliczniej (38\%) uzyskało 5 punktów, a żaden uczestnik nie uzyskał maksymalnego wyniku 6; najniższe częstotliwości odnotowano przy 0 i 1 punkcie (odpowiednio 2,06\% i 6,19\%). Na podstawie uzyskanych wyników wprowadzono trzy kategorie poziomu wiedzy (tabela \ref{tab:kategorie-wiedzy}): niski (0‑2 pkt, n = 20, 20,62\%), umiarkowany (3‑4 pkt, n = 39, 40,21\%) i wysoki (5‑6 pkt, n = 38, 39,18\%). Statystyki opisowe indeksu (tabela \ref{tab:stat-indeksu-wiedzy}) wskazują średnią 3,76 $\pm$ 1,36, medianę równą 4, kwartyle Q1 = 3 i Q3 = 5 oraz pełny zakres od 0 do 6, co sugeruje umiarkowaną zmienność i tendencję respondentów do osiągania wyniku w przedziale średnim‑wysokim.
+% 
+% \subsection{Analiza zależności}
+% 
+% \subsubsection{Czy stosowanie suplementów zależy od płci?}
+% 
+% W tabeli \ref{tab:supl-plec} zestawiono liczbę i odsetek respondentów stosujących suplementy diety w podziale na płeć. Wszystkie badane osoby płci męskiej (100,0\%) deklarowały stosowanie suplementów diety. Wśród kobiet odsetek osób stosujących suplementy wyniósł 88,9\% (80/90), natomiast 11,1\% (10/90) deklarowało brak suplementacji. Ze względu na małą liczebność zastosowano dokładny test Fishera. Test Fishera dał wartość p = 0,36. Interpretację wyniku należy prowadzić ostrożnie ze względu na niewielką liczebność grupy mężczyzn. Przy przyjętym poziomie istotności $\alpha = 0,05$ nie odrzucamy hipotezy zerowej o braku zależności między płcią a stosowaniem suplementów. W analizowanej próbie nie wykazano statystycznie istotnej różnicy w odsetku osób przyjmujących suplementy diety w zależności od płci.
+% 
+% \subsubsection{Czy stosowanie suplementów zależy od wieku?}
+% 
+% W tabeli \ref{tab:supl-wiek} przedstawiono częstość stosowania suplementów diety w poszczególnych grupach wiekowych. Najliczniejszą grupę osób deklarujących suplementację stanowili respondenci w wieku powyżej 25 lat. We wszystkich analizowanych kategoriach wiekowych większość badanych deklarowała stosowanie suplementów diety. Do oceny zależności pomiędzy wiekiem a stosowaniem suplementów diety zastosowano dokładny test Fishera-Freemana-Haltona. Nie wykazano istotnej statystycznie zależności pomiędzy analizowanymi zmiennymi (p = 0,54). Oznacza to, że częstość stosowania suplementów diety była porównywalna we wszystkich grupach wiekowych objętych badaniem.
+% 
+% \subsubsection{Czy stosowanie suplementów zależy od aktywności fizycznej?}
+% 
+% W tabeli \ref{tab:supl-akt} przedstawiono częstość stosowania suplementów diety w zależności od poziomu aktywności fizycznej respondentów. We wszystkich analizowanych kategoriach aktywności fizycznej większość badanych deklarowała stosowanie suplementów diety. Do oceny zależności pomiędzy poziomem aktywności fizycznej a stosowaniem suplementów diety zastosowano dokładny test Fishera-Freemana-Haltona. Nie wykazano istotnej statystycznie zależności pomiędzy analizowanymi zmiennymi (p = 0,17). Oznacza to, że częstość stosowania suplementów diety była porównywalna niezależnie od deklarowanego poziomu aktywności fizycznej respondentów.
+% 
+% \subsubsection{Czy poziom wiedzy różni się między osobami stosującymi i niestosującymi suplementy?}
+% 
+% W tabeli \ref{tab:wiedza-a-supl} porównano poziom wiedzy (indeks 0‑6 pkt.) między osobami przyjmującymi suplementy a tymi, które ich nie stosują. Średnia wartość indeksu w grupie suplementującej wyniosła 4,4 $\pm$ 1,6 pkt. (mediana: 5; Q1‑Q3: 3‑6), natomiast w nielicznej grupie nieprzyjmującej suplementów średnia wyniosła 3,6 $\pm$ 1,7 pkt. (mediana: 3,5; Q1‑Q3: 2,25‑4,75). Do oceny różnic wykorzystano test U Manna-Whitneya (ze względu na punktowy i porządkowy charakter skali), który wykazał brak istotności statystycznej (p=0,14). W konsekwencji nie można jednoznacznie stwierdzić, aby poziom wiedzy różnił się w sposób istotny w zależności od stosowania suplementów diety w badanej próbie, na co wpływ mogła mieć także duża dysproporcja w liczebności obu grup.
+% 
+% \subsubsection{Czy poziom wiedzy wiąże się z konsultowaniem suplementacji ze specjalistą?}
+% 
+% W tabeli \ref{tab:wiedza-a-konsultacja} zestawiono poziom wiedzy (indeks 0‑6 pkt.) w podziale na osoby, które konsultują suplementację ze specjalistą, oraz te, które tego nie robią. Średnia wartość indeksu w grupie konsultującej wyniosła 4,4 $\pm$ 1,6 pkt., mediana 5 oraz kwartyle 3‑6; w grupie niekonsultującej średnia wyniosła 4,2 $\pm$ 1,6 pkt., mediana 4, kwartyle 3‑6. Test U Manna‑Whitneya wykazał brak istotnej różnicy (p = 0,57), co pozwala stwierdzić, że poziom wiedzy nie różni się istotnie między osobami konsultującymi suplementację a tymi, które tego nie robią.
+% 
+% \subsubsection{Czy poziom wiedzy wiąże się z wykonywaniem badań krwi przed suplementacją?}
+% 
+% W tabeli \ref{tab:wiedza-a-badania} zestawiono poziom wiedzy (indeks 0‑6 pkt.) w podziale na osoby wykonujące badania krwi przed rozpoczęciem suplementacji oraz te, które tego nie robią. Średnia wartość indeksu w grupie wykonującej badania wyniosła 4,5 $\pm$ 1,6 pkt., mediana 5 oraz kwartyle 4‑6; w grupie nie wykonującej badań średnia wyniosła 4,0 $\pm$ 1,7 pkt., mediana 4, kwartyle 3‑6. Test U Manna‑Whitneya wykazał brak istotnej różnicy (p = 0,19).
+% 
+% \subsubsection{Czy poziom wiedzy wiąże się ze sprawdzaniem powielania składników?}
+% 
+% W tabeli \ref{tab:wiedza-a-sklad} zestawiono wartości poziomu wiedzy (indeks 0‑6 pkt.) w podziale na osoby, które sprawdzają powielanie składników suplementów, oraz te, które tego nie robią. Średnia wartość indeksu w grupie sprawdzającej wyniosła 4,9 $\pm$ 1,4 pkt., mediana 5 oraz kwartyle 4‑6; w grupie niesprawdzającej średnia wyniosła 3,6 $\pm$ 1,7 pkt., mediana 3,5, kwartyle 2‑5. Test U Manna‑Whitneya wykazał skrajnie istotną różnicę (p = 0,0001), co potwierdza, że wyższy poziom wiedzy znacząco wiąże się ze sprawdzaniem powielania składników w suplementach. W konsekwencji osoby bardziej świadome częściej kontrolują, czy w przyjmowanych preparatach nie dochodzi do niepożądanego nakładania się składników.
+% 
+% \subsubsection{Czy poziom wiedzy wiąże się z przekraczaniem zalecanych dawek?}
+% 
+% Wyniki analizy przedstawione w tabeli \ref{tab:wiedza-a-dawki} wskazują, że osoby przekraczające zalecane dawki suplementów charakteryzują się niższym średnim indeksem wiedzy (Średnia = 4,0 $\pm$ 1,8) niż osoby nieprzekraczające dawek (Średnia = 4,7 $\pm$ 1,4). Różnica ta jest nieistotna statystycznie (p = 0,052) na podstawie testu U Manna‑Whitneya, co sugeruje, że wyższy poziom wiedzy nie chroni przed przekraczaniem zalecanych dawek.
+% 
+% \subsubsection{Zależność między wiedzą deklarowaną a rzeczywistą}
+% 
+% W tabeli \ref{tab:wiedza-dekl-rzecz} przedstawiono wyniki korelacji rang Spearmana pomiędzy samooceną wiedzy a rzeczywistym indeksem wiedzy (0‑6 pkt.). Wszystkie trzy wskaźniki wykazują dodatnie i statystycznie istotne zależności: ogólna wiedza ($\rho$ = 0,47, $p < 0,001$), wiedza o bezpieczeństwie ($\rho$ = 0,40, $p < 0,001$) oraz wiedza o interakcjach ($\rho$ = 0,54, $p < 0,001$). Uzyskane wartości wskazują na umiarkowane dodatnie zależności, co oznacza, że osoby wyżej oceniające swoją wiedzę zazwyczaj osiągały również wyższe wyniki w obiektywnej ocenie wiedzy. Najsilniejszą zależność zaobserwowano w przypadku wiedzy dotyczącej interakcji suplementów, jednak we wszystkich analizowanych obszarach samoocena wiedzy była dodatnio związana z rzeczywistym poziomem wiedzy respondentów.
+% 
+% \subsubsection{Czy osoby korzystające z profesjonalnych źródeł informacji mają wyższy poziom wiedzy?}
+% 
+% W tabeli \ref{tab:zrodla-a-wiedza} wykazano, że osoby korzystające z profesjonalnych źródeł informacji (lekarz, dietetyk, farmaceuta) osiągają wyższy średni indeks wiedzy (4,4 $\pm$ 1,6) niż uczestnicy czerpiący informacje ze źródeł nieprofesjonalnych (4,0 $\pm$ 1,8). Różnica między grupami jest statystycznie nieistotna (p = 0,29) na podstawie testu U Manna‑Whitneya, co pozwala stwierdzić, że dostęp do fachowych źródeł nie wiąże się z istotnie lepszym poziomem wiedzy o suplementacji.
+% 
+% \subsubsection{Zależność między indeksem wiedzy a indeksem prawidłowych praktyk}
+% 
+% W tabeli \ref{tab:wiedza-praktyki} przedstawiono wynik korelacji rang Spearmana pomiędzy indeksem wiedzy (0‑6 pkt.) a indeksem prawidłowych praktyk suplementacyjnych (0‑4 pkt.). Otrzymany współczynnik rho wynosi 0,15, a wartość p = 0,11, co nie osiąga ustalonego poziomu istotności ($p < 0,05$). Oznacza to, że nie wykazano statystycznie istotnej dodatniej zależności między poziomem wiedzy a prawidłowością praktyk suplementacyjnych; nie można więc jednoznacznie stwierdzić, że osoby z wyższym wynikiem w indeksie wiedzy częściej deklarują bezpieczniejsze praktyki.
+% 
+% \subsection{Preferowane formy edukacji}
+% 
+% W tabeli \ref{tab:formy} zestawiono preferencje studentów co do formy edukacji o suplementach. Najbardziej pożądane są krótkie filmy edukacyjne (n = 53; 54,64\% respondentów). Następnie znaczną popularność cieszą się artykuły popularnonaukowe (46,39\%) oraz warsztaty organizowane na uczelni (40,21\%). Formy graficzne i indywidualne konsultacje (infografiki, konsultacje z farmaceutą, posty na Instagramie/TikToku) otrzymały po 32,99\% głosów. Podcasty wykazały nieco mniejsze zainteresowanie (29,9\%), a \enquote{Inne odpowiedzi} stanowią jedynie 5,15\% grupy, co potwierdza koncentrację preferencji wokół kilku głównych kanałów edukacyjnych.
+% 
+% \subsection{Najbardziej wiarygodne źródła informacji}
+% 
+% W tabeli \ref{tab:wiarygodne-zrodla} zestawiono, które źródła informacji o suplementach studenci uznają za najbardziej wiarygodne. Najwyższą liczbę i odsetek respondentów (n = 67, 69,07\%) wskazało lekarza jako najbardziej wiarygodne źródło. Drugie miejsce zajęły naukowe portale internetowe (n = 39, 40,21\%) oraz instytucje zdrowia publicznego (n = 37, 38,14\%). Dietetyk (31,96\%) i farmaceuta (29,90\%) również były wymieniane jako godne zaufania, choć z mniejszą częstotliwością. Źródła o charakterze bardziej niezależnym oznaczone skrótami PROF (10,31\%), FUNK (10,31\%) i ZBR (10,31\%) otrzymały jedynie niewielkie poparcie, co wskazuje, że studenci preferują tradycyjne, profesjonalne kanały (lekarz, portal naukowy, instytucje publiczne) w ocenie wiarygodności informacji o suplementacji.
+
+
