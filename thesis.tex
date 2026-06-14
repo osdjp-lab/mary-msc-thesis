@@ -132,12 +132,15 @@
 
 \clearpage
 
+\phantomsection
 \addcontentsline{toc}{section}{Spis tabel}
 \listoftables
 
 \clearpage
 
-\addcontentsline{toc}{section}{Spis rysunków}
+\phantomsection
+\addcontentsline{toc}{section}{Spis rycin}
+\renewcommand{\listfigurename}{Spis rycin}
 \listoffigures
 
 \clearpage
@@ -146,3 +149,4 @@
 \printbibliography[heading=bibintoc, title={Bibliografia}]
 
 \end{document}
+
