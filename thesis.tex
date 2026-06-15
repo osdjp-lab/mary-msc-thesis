@@ -35,6 +35,10 @@
 \usepackage[nogroupskip, acronym, toc]{glossaries}
 \usepackage[automake]{glossaries-extra}
 
+\usepackage[title,toc]{appendix}
+\renewcommand{\appendixtocname}{Aneksy} % Name in the Table of Contents
+\renewcommand{\appendixname}{Aneks}     % Prefix for references (e.g., Aneks A)
+
 \usepackage{booktabs}   % for nicer rules
 \usepackage{tabularx}   % for automatic column width handling
 \usepackage{array}      % for \newcolumntype
@@ -147,6 +151,10 @@
 
 \emergencystretch=1em
 \printbibliography[heading=bibintoc, title={Bibliografia}]
+
+\clearpage
+
+\include{aneksy}
 
 \end{document}
 
